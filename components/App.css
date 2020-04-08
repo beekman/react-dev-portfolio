@@ -1,0 +1,31 @@
+.Header {
+    margin: 0;
+    padding: 0 .5rem;
+}
+
+.App {
+    margin: 0;
+    padding: 0.25rem 1rem;
+
+    .Resume {
+        .WorkHistory {
+
+            list-style-type: none;
+
+            .Job{
+                .title{
+
+                }
+                .employer {
+                    font-weight: bold;
+                }
+                .startDate {
+                }
+                .endDate{
+
+                }
+            }
+        }
+
+    }
+}
