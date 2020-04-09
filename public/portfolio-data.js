@@ -67,7 +67,7 @@ export default {
       'name': 'Git'
     },
     {
-      'name': 'ZSH and Bash'
+      'name': 'ZSH'
     },
     {
       'name': 'Apache'

@@ -9,7 +9,7 @@ export default class Resume extends Component {
     return (
       <>
         <Contact contact={data.contact} />
-        <About />
+        <About about={data.about}/>
         <Skills skills={data.skills} />
       </>
     );
