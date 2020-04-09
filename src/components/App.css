@@ -1,0 +1,17 @@
+.Header {
+    margin: 0;
+    padding: 0 .5rem;
+}
+
+.App {
+    margin: 0;
+    padding: 0.25rem 1rem;
+
+    .Portfolio {
+        .section {
+          min-height: 100vh;
+          height: auto;
+        }
+
+    }
+}
