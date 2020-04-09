@@ -1,6 +1,6 @@
 export default {
   'about': {
-    'title': 'Who is Ben Beekman?'
+    'title': 'Who is Ben Beekman?',
     'summary': 'Hi, I\'m Ben. I am a Full Stack JavaScript Developer with an extensive background in front end web development, SEO and education. Past work has had strong UI/UX integration with substantial growth in clients’ traffic. I value code that solves human-centric problems and making a deep impact for the companies and teams I work for.',
   },
   'contact': {
@@ -74,6 +74,15 @@ export default {
     },
     {
       'name': 'Adobe CC 2020 Design Suite (Photoshop, Illustrator, Acrobat, InDesign)'
+    },
+    {
+      'name': 'HTML'
+    },
+    {
+      'name': 'CSS'
+    },
+    {
+      'name': 'SASS'
     }
   ]
 };
