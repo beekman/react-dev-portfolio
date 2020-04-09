@@ -12,6 +12,13 @@
           min-height: 100vh;
           height: auto;
         }
-
+        .About, .Contact {
+          background-color: black;
+          color: white;
+        }
+        .Skills{
+          background-color: white;
+          color: black;
+        }
     }
 }
