@@ -12,7 +12,7 @@ const Skills = ({ skills }) => {
 
   return (
     <div className={styles.SkillList}>
-      <h3>Work History</h3>
+      <h3>Skills</h3>
       <ul>
         { SkillList }
       </ul>

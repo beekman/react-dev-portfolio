@@ -8,9 +8,9 @@ export default class Resume extends Component {
   render() {
     return (
       <>
-        <Contact contact={data.contact} />
-        <About about={data.about}/>
+        <About about={data.about} />
         <Skills skills={data.skills} />
+        <Contact contact={data.contact} />
       </>
     );
   }
