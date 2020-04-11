@@ -4,7 +4,7 @@ import styles from './App.css';
 const Header = ({ header }) => {
   return (
     <header className={ styles.Header }>
-      <h1>Ben Beekman</h1>
+      <h1>Ben Beekman, Software Developer and so much more</h1>
     </header>
   );
 };

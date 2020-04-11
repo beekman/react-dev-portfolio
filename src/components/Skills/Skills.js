@@ -5,8 +5,8 @@ import Skill from './Skill';
 
 const Skills = ({ skills }) => {
   const SkillList = skills.map((skill, i) => {
-    return <li key={ i }>
-      <Skill skill={ skill } />
+    return <li key={i}>
+      <Skill skill={skill} />
     </li >;
   });
 
@@ -14,7 +14,7 @@ const Skills = ({ skills }) => {
     <div className={styles.SkillList}>
       <h3>Skills</h3>
       <ul>
-        { SkillList }
+        {SkillList}
       </ul>
     </div>
   );
