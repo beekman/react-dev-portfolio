@@ -25,64 +25,64 @@ export default {
   },
   'skills': [
     {
-      'name': 'JavaScript'
+      'name': 'JavaScript',
+      'logo': '../public/assets/javascript-logo.png'
     },
     {
-      'name': 'React'
+      'name': 'React',
+      'logo': '../public/assets/react-logo.png'
     },
     {
-      'name': 'Redux'
+      'name': 'Redux',
+      'logo': '../public/assets/redux-logo-only.png'
     },
     {
-      'name': 'Node'
+      'name': 'Node',
+      'logo': '../public/assets/node-logo-only.png'
     },
     {
-      'name': 'Express'
+      'name': 'Express',
+      'logo': '../public/assets/Expressjs.png'
     },
     {
-      'name': 'MongoDB'
+      'name': 'MongoDB',
+      'logo': '../public/assets/mongo.png'
     },
     {
-      'name': 'PostgreSQL'
+      'name': 'PostgreSQL',
+      'logo': '../public/assets/postgresql-logo-computer-software-database-png-favpng-VzwjvpxaDys6FnN0apYZJbGV7.jpg'
     },
     {
       'name': 'Mongoose'
     },
     {
-      'name': 'TDD/Jest'
+      'name': 'Jest',
+      'logo': '../public/assets/jest.png'
     },
     {
-      'name': 'Python'
+      'name': 'Python',
+      'logo': '../public/assets/python.png'
     },
     {
-      'name': 'PHP'
+      'name': 'PHP',
+      'logo': '../public/assets/php.png'
     },
     {
-      'name': 'SEO'
+      'name': 'Git',
+      'logo': '../public/assets/github-120px.png'
     },
     {
-      'name': 'Mobile-first Development'
+      'name': 'SASS',
+      'logo': '../public/assets/sass-logo.png'
     },
     {
-      'name': 'Git'
+      'name': 'HTML',
+      'logo': '../public/assets/html5-logo.png'
     },
     {
-      'name': 'ZSH'
+      'name': 'CSS',
+      'logo':'../public/assets/CSS3_logo_and_wordmark.svg'
     },
-    {
-      'name': 'Apache'
-    },
-    {
-      'name': 'Adobe CC 2020 Design Suite (Photoshop, Illustrator, Acrobat, InDesign)'
-    },
-    {
-      'name': 'HTML'
-    },
-    {
-      'name': 'CSS'
-    },
-    {
-      'name': 'SASS'
-    }
+
   ]
 };

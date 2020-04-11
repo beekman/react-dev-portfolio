@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 
 export function reducer(currentSrc, action) {
   if(action.type === 'main image loaded') {
