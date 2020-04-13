@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import styles from '../App.css';
+import About from '../About/About';
 
 const Contact = ({ contact }) => {
 
