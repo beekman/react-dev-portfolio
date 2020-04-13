@@ -31,7 +31,7 @@ export default {
     },
     {
       'name': 'React',
-      'logo': '../public/assets/react-logo.png'
+      'logo': '../public/assets/React-icon-200px.png'
     },
     {
       'name': 'Redux',
@@ -47,14 +47,15 @@ export default {
     },
     {
       'name': 'MongoDB',
-      'logo': '../public/assets/mongo.png'
+      'logo': '../public/assets/mongodb-logo.png'
     },
     {
       'name': 'PostgreSQL',
-      'logo': '../public/assets/postgresql-logo-computer-software-database-png-favpng-VzwjvpxaDys6FnN0apYZJbGV7.jpg'
+      'logo': '../public/assets/Postgresql_elephant-200px.png'
     },
     {
-      'name': 'Mongoose'
+      'name': 'Mongoose',
+      'logo': '../public/assets/mongoose.png'
     },
     {
       'name': 'Jest',
@@ -82,7 +83,7 @@ export default {
     },
     {
       'name': 'CSS',
-      'logo':'../public/assets/CSS3_logo_and_wordmark.svg'
+      'logo': '../public/assets/CSS3_logo_and_wordmark.svg'
     },
 
   ]
