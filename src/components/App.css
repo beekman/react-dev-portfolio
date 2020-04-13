@@ -1,59 +1,58 @@
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'Cormorant Garamond', serif;
-}
+.App {
+  margin: 0;
+  padding: 0.25rem 1rem;
 
-body, p {
-  font-family: 'Proza Libre', sans-serif;
-}
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Cormorant Garamond', serif;
+  }
 
-.Header {
+  body, p {
+    font-family: 'Proza Libre', sans-serif;
+  }
+
+  .section {
+    min-height: 100vh;
+    height: auto;
+  }
+
+  .Header {
     margin: 0;
     padding: 0 .5rem;
-}
+  }
 
-.App {
-    margin: 0;
-    padding: 0.25rem 1rem;
-        .section {
-          min-height: 100vh;
-          height: auto;
+  .About, .Contact {
+    background-color: black;
+    color: white;
+    min-height: 100vh;
+    height: auto;
+  }
+
+  .Skills {
+    background-color: white;
+    color: black;
+
+    ul{
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      list-style-type: none;
+
+      li {
+        display:flex;
+        text-align: center;
+        flex-direction: column;
+        padding: 0 10px 0 0;
+
+        .logo {
+          width: 100%;
+          height: 100%;
+
+          img{
+            height: 50px;
+            width: auto;
+          }
         }
-        .About, .Contact {
-          background-color: black;
-          color: white;
-          min-height: 100vh;
-          height: auto;
-        }
-        .Skills {
-          background-color: white;
-          color: black;
-
-          ul{
-            display: flex;
-            flex-direction: row;
-            flex-wrap: wrap;
-            list-style-type: none;
-
-           li {
-             display:flex;
-             text-align: center;
-             flex-direction: column;
-             padding: 0 10px 0 0;
-            .logo {
-              width: 100%;
-              height: 100%;
-            }
-             img{
-              height: 50px;
-              width: auto;
-            }
-           }
-
-
-        }
-
       }
-
-
-
+    }
+  }
 }
