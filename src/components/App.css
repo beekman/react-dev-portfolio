@@ -14,8 +14,6 @@ body, p {
 .App {
     margin: 0;
     padding: 0.25rem 1rem;
-
-    .Portfolio {
         .section {
           min-height: 100vh;
           height: auto;
@@ -23,10 +21,25 @@ body, p {
         .About, .Contact {
           background-color: black;
           color: white;
+          min-height: 100vh;
+          height: auto;
         }
-        .Skills{
+        .Skills {
           background-color: white;
           color: black;
+
+          ul{
+            display: flex;
+            flex-direction: row;
+            list-style-type: none;
+          .logo img{
+            height: 50px;
+            width: auto;
+          }
         }
-    }
+
+      }
+
+
+
 }
