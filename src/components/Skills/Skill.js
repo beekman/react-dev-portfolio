@@ -5,8 +5,9 @@ import ProgressiveImageLoader from '../commons/progressiveImageLoader';
 
 const Skill = ({ skill }) => {
   return (
-    <><img src={skill.logo} className={styles.logo} />
+    <><div className={styles.logo} ><img src={skill.logo} /></div>
       {skill.name}
+
     </>
   );
 };
