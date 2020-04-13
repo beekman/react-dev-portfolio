@@ -31,7 +31,16 @@ body, p {
           ul{
             display: flex;
             flex-direction: row;
+            flex-wrap: wrap;
             list-style-type: none;
+
+           li {
+             display:flex;
+             text-align: center;
+             flex-direction: column;
+             padding: 0 10px 0 0;
+           }
+
           .logo img{
             height: 50px;
             width: auto;
