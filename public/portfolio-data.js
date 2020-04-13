@@ -43,7 +43,7 @@ export default {
     },
     {
       'name': 'Express',
-      'logo': '../public/assets/Expressjs.png'
+      'logo': '../public/assets/express-logo-60px.png'
     },
     {
       'name': 'MongoDB',
@@ -55,7 +55,7 @@ export default {
     },
     {
       'name': 'Mongoose',
-      'logo': '../public/assets/mongoose.png'
+      'logo': '../public/assets/mongoose-logo-60px.png'
     },
     {
       'name': 'Jest',
