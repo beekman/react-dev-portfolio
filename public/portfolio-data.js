@@ -59,11 +59,11 @@ export default {
     },
     {
       'name': 'Jest',
-      'logo': '../public/assets/jest.png'
+      'logo': '../public/assets/jest-logo.png'
     },
     {
       'name': 'Python',
-      'logo': '../public/assets/python.png'
+      'logo': '../public/assets/python-logo.png'
     },
     {
       'name': 'PHP',
@@ -71,7 +71,7 @@ export default {
     },
     {
       'name': 'Git',
-      'logo': '../public/assets/github-120px.png'
+      'logo': '../public/assets/github-logo.png'
     },
     {
       'name': 'SASS',
@@ -79,11 +79,11 @@ export default {
     },
     {
       'name': 'HTML',
-      'logo': '../public/assets/html5-logo.png'
+      'logo': '../public/assets/html-logo.png'
     },
     {
       'name': 'CSS',
-      'logo': '../public/assets/CSS3_logo_and_wordmark.svg'
+      'logo': '../public/assets/css-logo.png'
     },
 
   ]

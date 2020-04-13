@@ -1,13 +1,11 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import styles from '../App';
-import ProgressiveImageLoader from '../commons/progressiveImageLoader';
 
 const Skill = ({ skill }) => {
   return (
-    <><div className={styles.logo} ><img src={skill.logo} /></div>
+    <>
+      <div><img src={skill.logo} alt={skill.name} title={skill.name} /></div>
       {skill.name}
-
     </>
   );
 };
