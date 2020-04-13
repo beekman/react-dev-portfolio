@@ -7,13 +7,12 @@ const Contact = ({ contact }) => {
   return (
     <div className={styles.Contact}>
       <h2>Contact Details</h2>
-      <p className="address">
-        <span>{contact.name}</span><br />
-        <div>{contact.city}, {contact.state} {contact.zip}
-        </div>
-        <div>{contact.phone}</div>
-        <span>{contact.email}</span>
-      </p>
+      <div className="address">
+        <p>{contact.name}<br />
+          {contact.city}, {contact.state}<br />
+          {contact.phone}<br />
+          {contact.email}</p>
+      </div>
     </div>
   );
 };
@@ -21,10 +20,10 @@ const Contact = ({ contact }) => {
 Contact.propTypes = {
   contact: PropTypes.shape({
     name: PropTypes.string.isRequired,
-    street: PropTypes.string.isRequired,
+    street: PropTypes.string,
     city: PropTypes.string.isRequired,
     state: PropTypes.string.isRequired,
-    zip: PropTypes.string.isRequired,
+    zip: PropTypes.string,
     phone: PropTypes.string.isRequired,
     email: PropTypes.string.isRequired
   })
