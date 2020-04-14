@@ -30,6 +30,17 @@ body {
     padding: 0 0.5rem;
   }
 
+  .About {
+    display: grid;
+    grid-template-columns: 2fr 2fr 3fr;
+    padding: 2rem;
+
+    img {
+      height: auto;
+      max-width: 100%;
+    }
+  }
+
   .Skills {
     background-color: white;
     color: black;

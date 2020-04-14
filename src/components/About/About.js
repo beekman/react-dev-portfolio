@@ -10,7 +10,7 @@ const About = ({ about }) => {
         <p>{about.summary}</p>
       </section>
       <section>
-        {about.pitch}
+        <p>{about.pitch}</p>
       </section>
       <section>
         <img src={about.photo} />
