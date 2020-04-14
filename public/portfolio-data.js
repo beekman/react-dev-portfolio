@@ -16,7 +16,7 @@ export default {
       {
         'name': 'linkedin',
         'url': 'https://www.linkedin.com/in/beekman/',
-        'className': 'fa fa-linkedin'
+        'className': 'fab fa-linkedin'
       },
       {
         'name': 'github',
@@ -28,19 +28,19 @@ export default {
   'skills': [
     {
       'name': 'JavaScript',
-      'logo': '../public/assets/javascript-logo.png'
+      'logo': '../public/assets/js-logo-60px.png'
     },
     {
       'name': 'React',
-      'logo': '../public/assets/React-icon-200px.png'
+      'logo': '../public/assets/react-logo-60px.png'
     },
     {
       'name': 'Redux',
-      'logo': '../public/assets/redux-logo-only.png'
+      'logo': '../public/assets/redux-logo-60px.png'
     },
     {
       'name': 'Node',
-      'logo': '../public/assets/node-logo-only.png'
+      'logo': '../public/assets/node-logo-tall-60px.png'
     },
     {
       'name': 'Express',
@@ -48,11 +48,11 @@ export default {
     },
     {
       'name': 'MongoDB',
-      'logo': '../public/assets/mongodb-logo.png'
+      'logo': '../public/assets/mongodb-logo-60px.png'
     },
     {
       'name': 'PostgreSQL',
-      'logo': '../public/assets/Postgresql_elephant-200px.png'
+      'logo': '../public/assets/Postgresql-logo-60px.png'
     },
     {
       'name': 'Mongoose',
@@ -60,31 +60,31 @@ export default {
     },
     {
       'name': 'Jest',
-      'logo': '../public/assets/jest-logo.png'
-    },
-    {
-      'name': 'Python',
-      'logo': '../public/assets/python-logo.png'
-    },
-    {
-      'name': 'PHP',
-      'logo': '../public/assets/php.png'
+      'logo': '../public/assets/jest-logo-60px.png'
     },
     {
       'name': 'Git',
-      'logo': '../public/assets/github-logo.png'
+      'logo': '../public/assets/github-logo-60px.png'
+    },
+    {
+      'name': 'Python',
+      'logo': '../public/assets/python-logo-60px.png'
+    },
+    {
+      'name': 'PHP',
+      'logo': '../public/assets/php-logo-60px.png'
     },
     {
       'name': 'SASS',
-      'logo': '../public/assets/sass-logo.png'
+      'logo': '../public/assets/sass-logo-60px.png'
     },
     {
       'name': 'HTML',
-      'logo': '../public/assets/html-logo.png'
+      'logo': '../public/assets/html-logo-60px.png'
     },
     {
       'name': 'CSS',
-      'logo': '../public/assets/css-logo.png'
+      'logo': '../public/assets/css-logo-60px.png'
     },
 
   ]
