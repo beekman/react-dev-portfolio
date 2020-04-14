@@ -12,6 +12,9 @@ const About = ({ about }) => {
       <section>
         {about.pitch}
       </section>
+      <section>
+        <img src={about.photo} />
+      </section>
     </div>
   );
 };
@@ -20,7 +23,8 @@ About.propTypes = {
   about: PropTypes.shape({
     title: PropTypes.string.isRequired,
     summary: PropTypes.string.isRequired,
-    pitch: PropTypes.string.isRequired
+    pitch: PropTypes.string.isRequired,
+    photo: PropTypes.string.isRequired,
   })
 };
 

@@ -3,7 +3,7 @@ export default {
     'title': 'Ben Beekman, software developer',
     'summary': 'Hi, I\'m Ben. I am a full-stack developer with a degree in multimedia design and an extensive background in front-end development, SEO and education. I value code that solves human-centric problems and making a meaningful impact for the companies and teams I work for.',
     'pitch': 'My tech stack centers around React, Redux, Node, MongoDB, and PostgreSQL. Over the past two years, I\'ve fallen in love with programming and drilled deeply into full-stack JavaScript development. In the past 6 months, I worked on small teams that created a progressive web app that helps you improve personal communication, an IoT plant sensor application, and a Tinder-style newsreader. I also have a decade of front-end and UX/UI experience developing WordPress themes and websites, which made me an expert at solving problems for clients.',
-    'photo': ''
+    'photo': '../public/assets/ben-beekman-profile-800.jpg'
   },
   'contact': {
     'name': 'Ben Beekman',
