@@ -1,6 +1,12 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+
 .App {
   margin: 0;
-  padding: 0.25rem 1rem;
+  padding: 0;
 
   h1, h2, h3, h4, h5, h6 {
     font-family: 'Cormorant Garamond', serif;
@@ -13,11 +19,7 @@
   .section {
     min-height: 100vh;
     height: auto;
-  }
-
-  .Header {
-    margin: 0;
-    padding: 0 .5rem;
+    padding: 0 0.5rem;
   }
 
   .About, .Contact {
@@ -25,11 +27,13 @@
     color: white;
     min-height: 100vh;
     height: auto;
+    padding: 0 0.5rem;
   }
 
   .Skills {
     background-color: white;
     color: black;
+    padding: 0 0.5rem;
 
     ul{
       display: flex;
