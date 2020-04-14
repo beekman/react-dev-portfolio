@@ -19,16 +19,19 @@ const Skills = ({ skills }) => {
 
   return (
     <div className={styles.Skills}>
-      <p>{skills.techCopy}</p>
+      <h1>{skills.heading}</h1>
+      <section>
+        <p>{skills.techCopy}</p>
 
-      <h2>{skills.techHeading}</h2>
-      <ul>
-        {SkillList}
-      </ul>
-      <h2>I am currently learning these technologies:</h2>
-      <ul>
-        {LearningList}
-      </ul>
+        <h2>{skills.techHeading}</h2>
+        <ul>
+          {SkillList}
+        </ul>
+        <h2>I am currently learning these technologies:</h2>
+        <ul>
+          {LearningList}
+        </ul>
+      </section>
     </div>
   );
 };

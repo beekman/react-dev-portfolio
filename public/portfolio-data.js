@@ -26,8 +26,9 @@ export default {
     ]
   },
   'skills': {
+    'heading': 'About Ben',
     'techHeading': 'I currently use these technologies:',
-    'techCopy': 'Most of my recent development work is written in JavaScript, but I have gained a lot of perspective from working with other languages. Working with Python and PHP has made me a better, more well-rounded developer, one more likely to pick the right tool for the job.',
+    'techCopy': `As a software developer, I create creative digital solutions using a modern technology stack and a decade of experience with front-end and UI/UX development. My programming language of choice is JavaScript, but I have gained a lot of perspective from working with other languages. Working with Python and PHP has made me a better, more well-rounded developer with the perspective to pick the right tool for the job.</p>`,
     'tech': [
       {
         'name': 'JavaScript',

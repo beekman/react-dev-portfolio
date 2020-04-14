@@ -5,17 +5,19 @@ import styles from '../App.css';
 const About = ({ about }) => {
   return (
     <div className={styles.About}>
-      <section>
-        <h2>{about.title}</h2>
-        <p>{about.summary}</p>
-      </section>
-      <section>
-        <p>{about.pitch}</p>
-      </section>
-      <section>
-        <img src={about.photo} />
-      </section>
+      <h1>{about.title}</h1>
+      <div>
+        <section>
+          <p>{about.summary}</p>
+        </section>
+        <section>
+          <p>{about.pitch}</p>
+        </section>
+        <section>
+          <img src={about.photo} />
+        </section>
     </div>
+  </div>
   );
 };
 
