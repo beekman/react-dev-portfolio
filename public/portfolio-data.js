@@ -25,6 +25,7 @@ export default {
       }
     ]
   },
+  'skills-heading': 'I currently use these technologies:',
   'skills': [
     {
       'name': 'JavaScript',
@@ -87,5 +88,11 @@ export default {
       'logo': '../public/assets/css-logo-60px.png'
     },
 
+  ],
+  'learning': [
+    {
+      'name': 'TypeScript',
+      'logo': '../public/assets/typescript.svg'
+    },
   ]
 };

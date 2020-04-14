@@ -10,7 +10,7 @@ export default class Resume extends Component {
     return (
       <div className={styles.Portfolio}>
         <About about={data.about} />
-        <Skills skills={data.skills} />
+        <Skills skills={data.skills} learnings={data.learning} />
         <Contact contact={data.contact} />
       </div>
     );
