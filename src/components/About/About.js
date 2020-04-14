@@ -9,7 +9,9 @@ const About = ({ about }) => {
         <h2>{about.title}</h2>
         <p>{about.summary}</p>
       </section>
-
+      <section>
+        {about.pitch}
+      </section>
     </div>
   );
 };
@@ -17,7 +19,8 @@ const About = ({ about }) => {
 About.propTypes = {
   about: PropTypes.shape({
     title: PropTypes.string.isRequired,
-    summary: PropTypes.string.isRequired
+    summary: PropTypes.string.isRequired,
+    pitch: PropTypes.string.isRequired
   })
 };
 

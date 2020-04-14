@@ -3,14 +3,15 @@ import PropTypes from 'prop-types';
 import styles from '../App.css';
 import Skill from './Skill';
 
-const Skills = ({ skills, learnings }) => {
-  const SkillList = skills.map((skill, i) => {
+const Skills = ({ skills }) => {
+
+  const SkillList = skills.tech.map((skill, i) => {
     return <li key={i} className={styles.Skill}>
       <Skill skill={skill} />
     </li >;
   });
 
-  const LearningList = learnings.map((learning, i) => {
+  const LearningList = skills.learning.map((learning, i) => {
     return <li key={i} className={styles.Skill}>
       <Skill skill={learning} />
     </li >;
@@ -18,8 +19,9 @@ const Skills = ({ skills, learnings }) => {
 
   return (
     <div className={styles.Skills}>
-      <p>Most of my recent development work is  written in JavaScript, but I have also worked with several other langueages. I believe that my experience with Python and PHP makes me a better, more well-rounded developer.</p>
-      <h2>I currently use these technologies:</h2>
+      <p>{skills.techCopy}</p>
+
+      <h2>{skills.techHeading}</h2>
       <ul>
         {SkillList}
       </ul>
