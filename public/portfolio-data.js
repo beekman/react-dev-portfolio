@@ -101,10 +101,11 @@ export default {
   },
   'projects': {
     'summary': 'Over the past 6 months, I worked on small teams that created a progressive web app that helps you improve personal communication, an IoT plant sensor application, and a Tinder-style newsreader. I also have a decade of front-end and UX/UI experience developing WordPress themes and websites, which made me an expert at solving problems for clients.',
-    'projects': [
+    'feature': [
       {
         'title': 'kit: Keep In Touch',
-        'description': 'A progressive web app for setting, tracking, and meeting communication goals. Users can input contact details, set flexible communication schedules for those contacts, schedule push notification reminders, and view their communication logs. Contact list is sorted and styled based on urgency and proximity to scheduled "hard" and "soft" deadlines.'
+        'description': 'A progressive web app for setting, tracking, and meeting communication goals. Users can input contact details, set flexible communication schedules for those contacts, schedule push notification reminders, and view their communication logs. Contact list is sorted and styled based on urgency and proximity to scheduled "hard" and "soft" deadlines.',
+        'image': '../public/assets/portfolio/kit.png',
       },
     ]
   }
