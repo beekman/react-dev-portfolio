@@ -71,6 +71,14 @@ export default {
         'logo': '../public/assets/github-logo-60px.png'
       },
       {
+        'name': 'Netlify',
+        'logo': '../public/assets/netlify-logo-60px.png'
+      },
+      {
+        'name': 'Heroku',
+        'logo': '../public/assets/heroku-logo-60px.png'
+      },
+      {
         'name': 'Python',
         'logo': '../public/assets/python-logo-60px.png'
       },
@@ -92,15 +100,25 @@ export default {
       },
 
     ],
+    'learningCopy': '<p>I\'m passionate about learning, and I\'m constantly adding new tools to my arsenal. These are technologies I\'m in the process of adding to my tech stack.',
     'learning': [
       {
         'name': 'TypeScript',
-        'logo': '../public/assets/typescript.svg'
+        'logo': '../public/assets/typescript-logo-60px.png'
       },
+      {
+        'name': 'GraphQL',
+        'logo': '../public/assets/typescript-logo-60px.png'
+      },
+      {
+        'name': 'SocketIO',
+        'logo': '../public/assets/socket-logo-60px.png'
+      }
     ]
   },
   'projects': {
     'summary': 'Over the past 6 months, I worked on small teams that created a progressive web app that helps you improve personal communication, an IoT plant sensor application, and a Tinder-style newsreader. I also have a decade of front-end and UX/UI experience developing WordPress themes and websites, which made me an expert at solving problems for clients.',
+    'history': 'I\'ve long been fascinated by the ways digital technology can engage and empower people. Since earning my U of O degree in Multimedia Design, I\'ve spent more than a decade in Portland helping people harness the power of that technology. I\'ve taught classes for young people, tutored older people, consulted for small businesses, co-authored technology textbooks, served as both design and IT department for a small media company, and—mostly—designed and developed web sites for businesses, nonprofits, and individuals.',
     'feature': [
       {
         'title': 'kit: Keep In Touch',
