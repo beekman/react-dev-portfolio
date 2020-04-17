@@ -4,9 +4,10 @@ import PropTypes from 'prop-types';
 const Project = ({ feature }) => {
   return (
     <>
+      <div>
+        {feature.title}
+        <p>{feature.description}</p></div>
       <div><img src={feature.image} alt={feature.title} title={feature.title} /></div>
-      {feature.title}
-      <p>{feature.description}</p>
     </>
   );
 };

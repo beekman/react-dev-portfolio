@@ -9,22 +9,19 @@ const About = ({ about }) => {
 
 
     <div className={styles.About}>
-      <div>
-        <ScrollAnimation animateIn="fadeIn">
-          <h1>{about.title}</h1>
-        </ScrollAnimation>
+      <header>
+        <h1>{about.title}</h1>
+      </header>
+
+      <main>
         <section>
           <p>{about.summary}</p>
-        </section>
-
-        <section>
           <p>{about.pitch}</p>
         </section>
-      </div>
-      <section>
-        <img src={about.photo} />
-      </section>
-
+        <section>
+          <img src={about.photo} />
+        </section>
+      </main>
     </div>
   );
 };

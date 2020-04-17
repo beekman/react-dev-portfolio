@@ -43,7 +43,7 @@ const Skills = ({ skills }) => {
 Skills.propTypes = {
   skills: PropTypes.object,
   tech: PropTypes.array,
-  learnings: PropTypes.array
+  learning: PropTypes.array
 };
 
 export default Skills;

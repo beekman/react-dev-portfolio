@@ -4,6 +4,10 @@ body {
   background-color: black;
 }
 
+p{
+  font-size: 1.2rem;
+}
+
 .App {
   margin: 0;
   padding: 0;
@@ -12,8 +16,15 @@ body {
     font-family: 'Cormorant Garamond', serif;
   }
 
+  h1{
+    font-size: 3.6rem;
+    margin: auto;
+    text-align: center;
+  }
+
   body, p {
     font-family: 'Proza Libre', sans-serif;
+    font-size: 1.5rem;
   }
 
   .section {
@@ -22,7 +33,21 @@ body {
     padding: 0 0.5rem;
   }
 
-  .About, .Contact {
+  .Projects {
+    color: white;
+    section{
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+      padding: 2rem;
+      div{
+        img {
+          max-width: 100%;
+        }
+      }
+    }
+  }
+
+  .About, .Projects {
     background-color: black;
     color: white;
     min-height: 100vh;
@@ -30,14 +55,47 @@ body {
     padding: 0 0.5rem;
   }
 
-  .About {
+  .Contact{
+    background-color: white;
+    color: black;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
+    min-height: 100vh;
     align-items: center;
+  }
+
+  .About {
     padding: 2rem;
     min-height: 100vh;
+    margin: auto;
+    header{
+      margin: auto;
+      h1 {
+        margin: auto;
+        text-align: center;
+      }
+    }
 
+
+    main{
+      flex-direction: row;
+      display: flex;
+
+    } section{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 2rem;
+
+    }
+    main{
+      section{
+        width: 47%;
+        margin: 0 3%;
+      }
+    }
     img {
       height: auto;
       max-width: 100%;

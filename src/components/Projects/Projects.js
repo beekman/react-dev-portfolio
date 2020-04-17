@@ -3,21 +3,23 @@ import PropTypes from 'prop-types';
 import styles from '../App.css';
 import Project from './Project';
 
+
+
 const Projects = ({ projects }) => {
 
-  const ProjectList = projects.tech.map((project, i) => {
-    return <section key={i} className={styles.Project}>
-      <Project project={project} />
+  const ProjectList = projects.feature.map((feature, i) => {
+    return <section key={i} className={styles.Skill}>
+      <Project feature={feature} className={styles.Project} />
     </section >;
   });
 
   return (
     <div className={styles.Projects}>
-      <section>
+      <header>
         <h1>Projects</h1>
         <p>{projects.summary}</p>
         <p>{projects.history}</p>
-      </section>
+      </header>
       {ProjectList}
     </div>
   );
@@ -31,5 +33,4 @@ Projects.propTypes = {
     })
   })
 };
-
 export default Projects;
