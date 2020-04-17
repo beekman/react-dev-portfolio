@@ -31,9 +31,12 @@ body {
   }
 
   .About {
-    display: grid;
-    grid-template-columns: 2fr 2fr 3fr;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     padding: 2rem;
+    min-height: 100vh;
 
     img {
       height: auto;
@@ -44,7 +47,11 @@ body {
   .Skills {
     background-color: white;
     color: black;
-    padding: 0 0.5rem;
+    padding: 0 1rem;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 
     ul{
       display: flex;

@@ -2,7 +2,8 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import styles from '../App.css';
 import Skill from './Skill';
-
+import 'animate.css/animate.min.css';
+import ScrollAnimation from 'react-animate-on-scroll';
 const Skills = ({ skills }) => {
 
   const SkillList = skills.tech.map((skill, i) => {
@@ -24,20 +25,24 @@ const Skills = ({ skills }) => {
         <p>{skills.techCopy}</p>
 
         <h2>{skills.techHeading}</h2>
-        <ul>
-          {SkillList}
-        </ul>
+        <ScrollAnimation animateIn='bounceInRight'
+          animateOut='bounceOutLeft'>
+          <ul>
+            {SkillList}
+          </ul>
+        </ScrollAnimation>
         <h2>I am currently learning these technologies:</h2>
         <ul>
           {LearningList}
         </ul>
       </section>
-    </div>
+    </div >
   );
 };
 
 Skills.propTypes = {
-  skills: PropTypes.array,
+  skills: PropTypes.object,
+  tech: PropTypes.array,
   learnings: PropTypes.array
 };
 

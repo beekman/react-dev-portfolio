@@ -28,7 +28,7 @@ export default {
   'skills': {
     'heading': 'About Ben',
     'techHeading': 'I currently use these technologies:',
-    'techCopy': 'I create creative digital solutions with a modern tech stack and over a decade of experience with front-end development. My programming language of choice is JavaScript, but it\'s not the only one I\'ve worked with. My work with Python and PHP has made me a more well rounded and flexible developer.</p>',
+    'techCopy': 'I create creative digital solutions with a modern tech stack and over a decade of experience with front-end development. My programming language of choice is JavaScript, but it\'s not the only one I\'ve worked with. My work with Python and PHP has made me a more well rounded and flexible developer.',
     'tech': [
       {
         'name': 'JavaScript',
@@ -108,7 +108,7 @@ export default {
       },
       {
         'name': 'GraphQL',
-        'logo': '../public/assets/typescript-logo-60px.png'
+        'logo': '../public/assets/graphql-logo-60px.png'
       },
       {
         'name': 'SocketIO',
