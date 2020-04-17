@@ -124,6 +124,8 @@ export default {
         'title': 'kit: Keep In Touch',
         'description': 'A progressive web app for setting, tracking, and meeting communication goals. Users can input contact details, set flexible communication schedules for those contacts, schedule push notification reminders, and view their communication logs. Contact list is sorted and formatted based on urgency and status of scheduled "hard" and "soft" deadlines.',
         'image': '../public/assets/portfolio/kit.png',
+        'demo': 'https://friendlier-staging.netlify.app/login',
+        'github': 'https://github.com/band-m/friendlier-fe',
         'tech': [
           {
             'name': 'JavaScript',
@@ -175,6 +177,8 @@ export default {
         'title': 'FrontPage',
         'description': 'A Tinder-style newsreader that allows you to swipe right on the news that interests you.',
         'image': '../public/assets/portfolio/frontpage.png',
+        'demo': 'https://friendlier-staging.netlify.app/login',
+        'github': 'https://github.com/band-m/friendlier-fe',
         'tech': [
           {
             'name': 'JavaScript',
@@ -200,8 +204,10 @@ export default {
       },
       {
         'title': 'Qwixx',
-        'description': '',
+        'description': 'A mobile-responsive JavaScript implementation of the popular Qwixx dice game that speeds gameplay and doesn\'t waste scorecards. Developed with face-to-face simultaneous multiplayer play in mind, each player should run a copy on their own device so they can score on the rolls of other players as well as their own.',
         'image': '../public/assets/portfolio/qwixx.png',
+        'demo': 'https://i-16.github.io/qwixx/',
+        'github': 'https://github.com/I-16/qwixx',
         'tech': [
           {
             'name': 'JavaScript',

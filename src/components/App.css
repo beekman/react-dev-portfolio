@@ -10,6 +10,11 @@ body {
   margin: 0;
   padding: 0;
 
+  a {
+    text-decoration: none;
+    color: orangered;
+  }
+
   h1, h2, h3, h4, h5, h6 {
     font-family: 'Cormorant Garamond', serif;
   }
@@ -33,23 +38,6 @@ body {
     height: auto;
     padding: 0 0.5rem;
   }
-
-  .Projects {
-    color: white;
-    padding: 0 2rem
-    section{
-      display: grid;
-      grid-template-columns: 1fr 2fr;
-
-      div{
-        padding: 2rem;
-        img {
-          max-width: 100%;
-        }
-      }
-    }
-  }
-
   .About, .Projects {
     background-color: black;
     color: white;
@@ -57,6 +45,38 @@ body {
     height: auto;
     padding: 0 0.5rem;
   }
+
+  .Projects {
+    color: white;
+    padding: 2rem 2rem;
+
+    .Project {
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+      padding: 0;
+
+      div{
+        padding: 2rem;
+        justify-content: space-around;
+        align-items: center;
+
+        div {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            width: 70%;
+            align-items: center;
+        }
+
+        img {
+          max-width: 100%;
+        }
+
+      }
+    }
+  }
+
+
 
   .Contact{
     background-color: white;
@@ -72,14 +92,15 @@ body {
     padding: 2rem;
     min-height: 100vh;
     margin: auto;
+
     header{
       margin: auto;
+
       h1 {
         margin: auto;
         text-align: center;
       }
     }
-
 
     main{
       flex-direction: row;
@@ -91,14 +112,15 @@ body {
       justify-content: center;
       align-items: center;
       padding: 2rem;
-
     }
+
     main{
       section{
-        width: 47%;
-        margin: 0 3%;
+        width: 45%;
+        margin: 0 5%;
       }
     }
+
     img {
       height: auto;
       max-width: 100%;

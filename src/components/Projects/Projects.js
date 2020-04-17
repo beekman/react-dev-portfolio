@@ -8,7 +8,7 @@ import Project from './Project';
 const Projects = ({ projects }) => {
 
   const ProjectList = projects.feature.map((feature, i) => {
-    return <section key={i} className={styles.Skill}>
+    return <section key={i} className={styles.Project}>
       <Project feature={feature} className={styles.Project} />
     </section >;
   });
