@@ -5,7 +5,7 @@ const Project = ({ feature }) => {
   return (
     <>
       <div>
-        {feature.title}
+        <h2>{feature.title}</h2>
         <p>{feature.description}</p></div>
       <div><img src={feature.image} alt={feature.title} title={feature.title} /></div>
     </>

@@ -4,6 +4,6 @@ exports[`App component renders App 1`] = `
 <main
   className="App"
 >
-  <Resume />
+  <Portfolio />
 </main>
 `;

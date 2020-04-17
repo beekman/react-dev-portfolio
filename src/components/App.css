@@ -2,10 +2,8 @@ body {
   margin: 0;
   padding: 0;
   background-color: black;
-}
-
-p{
-  font-size: 1.2rem;
+  font-family: 'Proza Libre', sans-serif;
+  font-size: 1.1rem;
 }
 
 .App {
@@ -22,9 +20,12 @@ p{
     text-align: center;
   }
 
-  body, p {
+  h2 {
+    font-size: 2.6rem;
+  }
+
+  p {
     font-family: 'Proza Libre', sans-serif;
-    font-size: 1.5rem;
   }
 
   .section {
@@ -35,11 +36,13 @@ p{
 
   .Projects {
     color: white;
+    padding: 0 2rem
     section{
       display: grid;
       grid-template-columns: 1fr 2fr;
-      padding: 2rem;
+
       div{
+        padding: 2rem;
         img {
           max-width: 100%;
         }
