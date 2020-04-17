@@ -5,8 +5,8 @@ import styles from '../App.css';
 const About = ({ about }) => {
   return (
     <div className={styles.About}>
-      <h1>{about.title}</h1>
       <div>
+        <h1>{about.title}</h1>
         <section>
           <p>{about.summary}</p>
         </section>
@@ -16,8 +16,8 @@ const About = ({ about }) => {
         <section>
           <img src={about.photo} />
         </section>
+      </div>
     </div>
-  </div>
   );
 };
 

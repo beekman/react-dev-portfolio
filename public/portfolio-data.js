@@ -100,7 +100,7 @@ export default {
       },
 
     ],
-    'learningCopy': '<p>I\'m passionate about learning, and I\'m constantly adding new tools to my arsenal. These are technologies I\'m in the process of adding to my tech stack.',
+    'learningCopy': '<p>I\'m passionate about learning, and I\'m constantly adding new tools to my arsenal. Here are a few technologies that I\'m learning currently.',
     'learning': [
       {
         'name': 'TypeScript',
@@ -122,8 +122,100 @@ export default {
     'feature': [
       {
         'title': 'kit: Keep In Touch',
-        'description': 'A progressive web app for setting, tracking, and meeting communication goals. Users can input contact details, set flexible communication schedules for those contacts, schedule push notification reminders, and view their communication logs. Contact list is sorted and styled based on urgency and proximity to scheduled "hard" and "soft" deadlines.',
+        'description': 'A progressive web app for setting, tracking, and meeting communication goals. Users can input contact details, set flexible communication schedules for those contacts, schedule push notification reminders, and view their communication logs. Contact list is sorted and formatted based on urgency and status of scheduled "hard" and "soft" deadlines.',
         'image': '../public/assets/portfolio/kit.png',
+        'tech': [
+          {
+            'name': 'JavaScript',
+            'logo': '../public/assets/js-logo-60px.jpeg'
+          },
+          {
+            'name': 'React',
+            'logo': '../public/assets/react-logo-60px.png'
+          },
+          {
+            'name': 'Redux',
+            'logo': '../public/assets/redux-logo-60px.png'
+          },
+          {
+            'name': 'Node',
+            'logo': '../public/assets/node-logo-tall-60px.png'
+          },
+          {
+            'name': 'Express',
+            'logo': '../public/assets/express-logo-60px.png'
+          },
+          {
+            'name': 'MongoDB',
+            'logo': '../public/assets/mongodb-logo-60px.png'
+          },
+          {
+            'name': 'Jest',
+            'logo': '../public/assets/jest-logo-60px.png'
+          },
+          {
+            'name': 'Netlify',
+            'logo': '../public/assets/netlify-logo-60px.png'
+          },
+          {
+            'name': 'Heroku',
+            'logo': '../public/assets/heroku-logo-60px.png'
+          },
+          {
+            'name': 'HTML',
+            'logo': '../public/assets/html-logo-60px.png'
+          },
+          {
+            'name': 'CSS',
+            'logo': '../public/assets/css-logo-60px.png'
+          },
+        ],
+      },
+      {
+        'title': 'FrontPage',
+        'description': 'A Tinder-style newsreader that allows you to swipe right on the news that interests you.',
+        'image': '../public/assets/portfolio/frontpage.png',
+        'tech': [
+          {
+            'name': 'JavaScript',
+            'logo': '../public/assets/js-logo-60px.jpeg'
+          },
+          {
+            'name': 'Node',
+            'logo': '../public/assets/node-logo-tall-60px.png'
+          },
+          {
+            'name': 'MongoDB',
+            'logo': '../public/assets/mongodb-logo-60px.png'
+          },
+          {
+            'name': 'HTML',
+            'logo': '../public/assets/html-logo-60px.png'
+          },
+          {
+            'name': 'CSS',
+            'logo': '../public/assets/css-logo-60px.png'
+          },
+        ],
+      },
+      {
+        'title': 'Qwixx',
+        'description': '',
+        'image': '../public/assets/portfolio/qwixx.png',
+        'tech': [
+          {
+            'name': 'JavaScript',
+            'logo': '../public/assets/js-logo-60px.jpeg'
+          },
+          {
+            'name': 'HTML',
+            'logo': '../public/assets/html-logo-60px.png'
+          },
+          {
+            'name': 'CSS',
+            'logo': '../public/assets/css-logo-60px.png'
+          },
+        ],
       },
     ]
   }
