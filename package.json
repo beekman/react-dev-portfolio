@@ -29,7 +29,8 @@
     "animate.css": "3.7.2",
     "react": "16.13.1",
     "react-animate-on-scroll": "2.1.5",
-    "react-dom": "16.13.1"
+    "react-dom": "16.13.1",
+    "react-typist": "2.0.5"
   },
   "devDependencies": {
     "@babel/core": "7.9.0",

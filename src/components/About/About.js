@@ -3,6 +3,8 @@ import PropTypes from 'prop-types';
 import styles from '../App.css';
 import ScrollAnimation from 'react-animate-on-scroll';
 import 'animate.css/animate.min.css';
+import React, { Component } from 'react';
+import Typist from 'react-typist';
 
 const About = ({ about }) => {
   return (
@@ -15,8 +17,10 @@ const About = ({ about }) => {
 
       <main>
         <section>
-          <p>{about.summary}</p>
-          <p>{about.pitch}</p>
+          <Typist>
+            <p>{about.summary}</p>
+            <p>{about.pitch}</p>
+          </Typist>
         </section>
         <section>
           <img src={about.photo} />
