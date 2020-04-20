@@ -3,8 +3,6 @@ import PropTypes from 'prop-types';
 import styles from '../App.css';
 import Project from './Project';
 
-
-
 const Projects = ({ projects }) => {
 
   const ProjectList = projects.feature.map((feature, i) => {

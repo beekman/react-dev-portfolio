@@ -2,7 +2,6 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import styles from '../App.css';
 import Skill from './Skill';
-import 'animate.css/animate.min.css';
 import ScrollAnimation from 'react-animate-on-scroll';
 const Skills = ({ skills }) => {
 
@@ -32,9 +31,12 @@ const Skills = ({ skills }) => {
           </ul>
         </ScrollAnimation>
         <h2>I am currently learning these technologies:</h2>
-        <ul>
-          {LearningList}
-        </ul>
+
+        <ScrollAnimation animateIn='bounceInRight' animateOut='bounceOutLeft'>
+          <ul>
+            {LearningList}
+          </ul>
+        </ScrollAnimation>
       </section>
     </div >
   );
