@@ -1,12 +1,21 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import styles from '../App';
+
+
 const Project = ({ feature }) => {
+  
+  const TechList = feature.tech.map((feature, i) => {
+    return <li key={i} className={styles.Project}>
+      <Project feature={feature} className={styles.Project} />
+    </li >;
+  });
   return (
     <>
       <div>
         <h2>{feature.title}</h2>
         <p>{feature.description}</p>
+        <div></div>
         <div className={styles.links}>
           <a href={feature.github}>Github</a>
           <a href={feature.demo}>Live Demo</a>

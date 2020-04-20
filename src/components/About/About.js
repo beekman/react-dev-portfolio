@@ -1,9 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import styles from '../App.css';
-import ScrollAnimation from 'react-animate-on-scroll';
 import 'animate.css/animate.min.css';
-import React, { Component } from 'react';
 import Typist from 'react-typist';
 
 const About = ({ about }) => {
@@ -12,15 +10,17 @@ const About = ({ about }) => {
 
     <div className={styles.About}>
       <header>
-        <h1>{about.title}</h1>
+        <h1>
+          <Typist>
+            {about.title}
+          </Typist>
+        </h1>
       </header>
 
       <main>
         <section>
-          <Typist>
-            <p>{about.summary}</p>
-            <p>{about.pitch}</p>
-          </Typist>
+          <p>{about.summary}</p>
+          <p>{about.pitch}</p>
         </section>
         <section>
           <img src={about.photo} />

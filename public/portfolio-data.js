@@ -1,6 +1,6 @@
 export default {
   'about': {
-    'title': 'Ben Beekman, software developer',
+    'title': 'import SoftwareDeveloper from \'benbeekman.dev\';',
     'summary': 'Hi, I\'m Ben. I am a full-stack developer with a degree in multimedia design and an extensive background in front-end development, SEO and education. I value clean code that solves human-centric problems and making a meaningful impact for the companies and teams I work for.',
     'pitch': 'My tech stack centers around React, Redux, Node, MongoDB, and PostgreSQL. Over the past two years, I\'ve fallen in love with programming and drilled deeply into full-stack JavaScript development.',
     'photo': '../public/assets/ben-beekman-profile-800.jpg'
