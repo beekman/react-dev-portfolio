@@ -4,12 +4,12 @@ import styles from '../App';
 
 
 const Project = ({ feature }) => {
-  
+
   const TechList = feature.tech.map((feature, i) => {
     return <li key={i} className={styles.Project}>
-      <Project feature={feature} className={styles.Project} />
     </li >;
   });
+  
   return (
     <>
       <div>
@@ -35,10 +35,10 @@ Project.propTypes = {
     image: PropTypes.string,
     github: PropTypes.string,
     demo: PropTypes.string,
-    tech: PropTypes.shape({
+    tech: PropTypes.shape([{
       name: PropTypes.string.isRequired,
       logo: PropTypes.string,
-    }).isRequired,
+    }]).isRequired,
   }),
 };
 

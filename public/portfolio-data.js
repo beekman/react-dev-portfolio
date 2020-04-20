@@ -32,15 +32,15 @@ export default {
     'tech': [
       {
         'name': 'JavaScript',
-        'logo': '../public/assets/js-logo-60px.jpeg'
+        'logo': '../public/assets/tech/thumbs/js-logo-60px.jpeg'
       },
       {
         'name': 'React',
-        'logo': '../public/assets/react-logo-60px.png'
+        'logo': '../public/assets/tech/thumbs/react-logo-60px.png'
       },
       {
         'name': 'Redux',
-        'logo': '../public/assets/redux-logo-60px.png'
+        'logo': '../public/assets/tech/thumbs/redux-logo-60px.png'
       },
       {
         'name': 'Node',
@@ -52,51 +52,51 @@ export default {
       },
       {
         'name': 'MongoDB',
-        'logo': '../public/assets/mongodb-logo-60px.png'
+        'logo': '../public/assets/tech/thumbs/mongodb-logo-60px.png'
       },
       {
         'name': 'PostgreSQL',
-        'logo': '../public/assets/Postgresql-logo-60px.png'
+        'logo': '../public/assets/tech/thumbs/Postgresql-logo-60px.png'
       },
       {
         'name': 'Mongoose',
-        'logo': '../public/assets/mongoose-logo-60px.png'
+        'logo': '../public/assets/tech/thumbs/mongoose-logo-60px.png'
       },
       {
         'name': 'Jest',
-        'logo': '../public/assets/jest-logo-60px.png'
+        'logo': '../public/assets/tech/thumbs/jest-logo-60px.png'
       },
       {
         'name': 'Git',
-        'logo': '../public/assets/github-logo-60px.png'
+        'logo': '../public/assets/tech/thumbs/github-logo-60px.png'
       },
       {
         'name': 'Netlify',
-        'logo': '../public/assets/netlify-logo-60px.png'
+        'logo': '../public/assets/tech/thumbs/netlify-logo-60px.png'
       },
       {
         'name': 'Heroku',
-        'logo': '../public/assets/heroku-logo-60px.png'
+        'logo': '../public/assets/tech/thumbs/heroku-logo-60px.png'
       },
       {
         'name': 'Python',
-        'logo': '../public/assets/python-logo-60px.png'
+        'logo': '../public/assets/tech/thumbs/python-logo-60px.png'
       },
       {
         'name': 'PHP',
-        'logo': '../public/assets/php-logo-60px.png'
+        'logo': '../public/assets/tech/thumbs/php-logo-60px.png'
       },
       {
         'name': 'SASS',
-        'logo': '../public/assets/sass-logo-60px.png'
+        'logo': '../public/assets/tech/thumbs/sass-logo-60px.png'
       },
       {
         'name': 'HTML',
-        'logo': '../public/assets/html-logo-60px.png'
+        'logo': '../public/assets/tech/thumbs/html-logo-60px.png'
       },
       {
         'name': 'CSS',
-        'logo': '../public/assets/css-logo-60px.png'
+        'logo': '../public/assets/tech/thumbs/css-logo-60px.png'
       },
 
     ],
@@ -104,15 +104,15 @@ export default {
     'learning': [
       {
         'name': 'TypeScript',
-        'logo': '../public/assets/typescript-logo-60px.png'
+        'logo': '../public/assets/tech/thumbs/typescript-logo-60px.png'
       },
       {
         'name': 'GraphQL',
-        'logo': '../public/assets/graphql-logo-60px.png'
+        'logo': '../public/assets/tech/thumbs/graphql-logo-60px.png'
       },
       {
         'name': 'SocketIO',
-        'logo': '../public/assets/socket-logo-60px.png'
+        'logo': '../public/assets/tech/thumbs/socket-logo-60px.png'
       }
     ]
   },
@@ -129,47 +129,47 @@ export default {
         'tech': [
           {
             'name': 'JavaScript',
-            'logo': '../public/assets/js-logo-60px.jpeg'
+            'logo': '../public/assets/tech/thumbs/js-logo-60px.jpeg'
           },
           {
             'name': 'React',
-            'logo': '../public/assets/react-logo-60px.png'
+            'logo': '../public/assets/tech/thumbs/react-logo-60px.png'
           },
           {
             'name': 'Redux',
-            'logo': '../public/assets/redux-logo-60px.png'
+            'logo': '../public/assets/tech/thumbs/redux-logo-60px.png'
           },
           {
             'name': 'Node',
-            'logo': '../public/assets/node-logo-tall-60px.png'
+            'logo': '../public/assets/tech/thumbs/node-logo-tall-60px.png'
           },
           {
             'name': 'Express',
-            'logo': '../public/assets/express-logo-60px.png'
+            'logo': '../public/assets/tech/thumbs/express-logo-60px.png'
           },
           {
             'name': 'MongoDB',
-            'logo': '../public/assets/mongodb-logo-60px.png'
+            'logo': '../public/assets/tech/thumbs/mongodb-logo-60px.png'
           },
           {
             'name': 'Jest',
-            'logo': '../public/assets/jest-logo-60px.png'
+            'logo': '../public/assets/tech/thumbs/jest-logo-60px.png'
           },
           {
             'name': 'Netlify',
-            'logo': '../public/assets/netlify-logo-60px.png'
+            'logo': '../public/assets/tech/thumbs/netlify-logo-60px.png'
           },
           {
             'name': 'Heroku',
-            'logo': '../public/assets/heroku-logo-60px.png'
+            'logo': '../public/assets/tech/thumbs/heroku-logo-60px.png'
           },
           {
             'name': 'HTML',
-            'logo': '../public/assets/html-logo-60px.png'
+            'logo': '../public/assets/tech/thumbs/html-logo-60px.png'
           },
           {
             'name': 'CSS',
-            'logo': '../public/assets/css-logo-60px.png'
+            'logo': '../public/assets/tech/thumbs/css-logo-60px.png'
           },
         ],
       },
@@ -182,23 +182,23 @@ export default {
         'tech': [
           {
             'name': 'JavaScript',
-            'logo': '../public/assets/js-logo-60px.jpeg'
+            'logo': '../public/assets/tech/thumbs/js-logo-60px.jpeg'
           },
           {
             'name': 'Node',
-            'logo': '../public/assets/node-logo-tall-60px.png'
+            'logo': '../public/assets/tech/thumbs/node-logo-tall-60px.png'
           },
           {
             'name': 'MongoDB',
-            'logo': '../public/assets/mongodb-logo-60px.png'
+            'logo': '../public/assets/tech/thumbs/mongodb-logo-60px.png'
           },
           {
             'name': 'HTML',
-            'logo': '../public/assets/html-logo-60px.png'
+            'logo': '../public/assets/tech/thumbs/html-logo-60px.png'
           },
           {
             'name': 'CSS',
-            'logo': '../public/assets/css-logo-60px.png'
+            'logo': '../public/assets/tech/thumbs/css-logo-60px.png'
           },
         ],
       },
@@ -211,15 +211,15 @@ export default {
         'tech': [
           {
             'name': 'JavaScript',
-            'logo': '../public/assets/js-logo-60px.jpeg'
+            'logo': '../public/assets/tech/thumbs/js-logo-60px.jpeg'
           },
           {
             'name': 'HTML',
-            'logo': '../public/assets/html-logo-60px.png'
+            'logo': '../public/assets/tech/thumbs/html-logo-60px.png'
           },
           {
             'name': 'CSS',
-            'logo': '../public/assets/css-logo-60px.png'
+            'logo': '../public/assets/tech/thumbs/css-logo-60px.png'
           },
         ],
       },
