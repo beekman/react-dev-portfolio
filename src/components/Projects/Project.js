@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import styles from '../App';
-
+import ScrollAnimation from 'react-animate-on-scroll';
 
 const Project = ({ feature }) => {
 
@@ -9,7 +9,7 @@ const Project = ({ feature }) => {
     return <li key={i} className={styles.Project}>
     </li >;
   });
-  
+
   return (
     <>
       <div>
@@ -22,7 +22,9 @@ const Project = ({ feature }) => {
         </div>
       </div>
       <div>
-        <img src={feature.image} alt={feature.title} title={feature.title} />
+        <ScrollAnimation animateIn="fadeInUp">
+          <img src={feature.image} alt={feature.title} title={feature.title} />
+        </ScrollAnimation>
       </div>
     </>
   );

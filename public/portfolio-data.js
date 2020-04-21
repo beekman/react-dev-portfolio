@@ -12,18 +12,10 @@ export default {
     'phone': '503-708-0478',
     'city': 'Portland',
     'state': 'OR',
-    'social': [
-      {
-        'name': 'linkedin',
-        'url': 'https://www.linkedin.com/in/beekman/',
-        'className': 'fab fa-linkedin'
-      },
-      {
-        'name': 'github',
-        'url': 'https://github.com/beekman',
-        'className': 'fa fa-github'
-      }
-    ]
+    'linkedinURL': 'https://www.linkedin.com/in/beekman/',
+    'linkedinClassName': 'fab fa-linkedin',
+    'githubURL': 'https://github.com/beekman',
+    'githubClassName': 'fa fa-github'
   },
   'skills': {
     'heading': 'About Ben',

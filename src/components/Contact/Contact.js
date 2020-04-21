@@ -13,6 +13,8 @@ const Contact = ({ contact }) => {
           {contact.phone}<br />
           {contact.email}</p>
       </div>
+      {contact.linkedinURL}
+      {contact.githubURL}
     </div>
   );
 };
@@ -25,7 +27,11 @@ Contact.propTypes = {
     state: PropTypes.string.isRequired,
     zip: PropTypes.string,
     phone: PropTypes.string.isRequired,
-    email: PropTypes.string.isRequired
+    email: PropTypes.string.isRequired,
+    linkedinURL: PropTypes.string.isRequired,
+    linkedinClassName: PropTypes.string,
+    githubURL: PropTypes.string.isRequired,
+    githubClassName: PropTypes.string
   })
 };
 
