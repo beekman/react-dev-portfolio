@@ -1,21 +1,22 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import styles from '../App.css';
-
+import { FaGithub } from 'react-icons/fa';
+import { FaLinkedin } from 'react-icons/fa';
 const Contact = ({ contact }) => {
 
   return (
     <div className={styles.Contact}>
-      <h2>{contact.heading}</h2>
+      <h1>{contact.heading}</h1>
       <div className="address">
         <p>{contact.name}<br />
           {contact.city}, {contact.state}<br />
           {contact.phone}<br />
           {contact.email}</p>
       </div>
-      <aside><a href={contact.linkedinURL}>LinkedIn profile</a>
-        <a href={contact.githubURL}>Github profile</a>
-      </aside>
+      <section className={styles.social}><a href={contact.linkedinURL}><FaLinkedin /></a>
+        <a href={contact.githubURL}><FaGithub /></a>
+      </section>
     </div >
   );
 };
