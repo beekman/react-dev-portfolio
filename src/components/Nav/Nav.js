@@ -17,8 +17,8 @@ export default function Nav() {
               spy={true}
               smooth={true}
               duration={600}
-              className={styles.Link}
-              activeClass={styles.Active}>About
+              className={styles.link}
+              activeClass={styles.active}>About
             </Link>
           </li>
           <li>
