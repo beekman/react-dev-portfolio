@@ -10,38 +10,22 @@ body {
   margin: 0;
   padding: 0;
 
-  nav ul{
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    list-style-type: none;
-    justify-content: center;
+  a {
+    text-decoration: none;
+    color: limegreen;
 
-    li {padding: 0 1rem;}
-    a {
-      text-decoration: none;
-      color: orangered;
+    .Active {
+      color: white;
+    }
 
-      .Active {
-        color: white;
-      }
-
-      :active, :hover {
-        color: yellow;
-        cursor: pointer;
-      }
+    :active, :hover {
+      color: yellow;
+      cursor: pointer;
     }
   }
 
   h1, h2, h3, h4, h5, h6 {
     font-family: 'Fira Code', serif;
-  }
-
-  h1{
-    font-size: 3.6rem;
-    margin: auto;
-    text-align: center;
-    color: #39ff14;
   }
 
   h2 {

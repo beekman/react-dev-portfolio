@@ -6,10 +6,11 @@ export default {
     'photo': '../public/assets/ben-beekman-profile-800.jpg'
   },
   'contact': {
+    'heading': 'Connect with Ben',
     'name': 'Ben Beekman',
     'occupation': 'Software Developer',
     'email': 'ben@benbeekman.com',
-    'phone': '503-708-0478',
+    'phone': '(503)708-0478',
     'city': 'Portland',
     'state': 'OR',
     'linkedinURL': 'https://www.linkedin.com/in/beekman/',

@@ -6,21 +6,23 @@ const Contact = ({ contact }) => {
 
   return (
     <div className={styles.Contact}>
-      <h2>Contact Details</h2>
+      <h2>{contact.heading}</h2>
       <div className="address">
         <p>{contact.name}<br />
           {contact.city}, {contact.state}<br />
           {contact.phone}<br />
           {contact.email}</p>
       </div>
-      {contact.linkedinURL}
-      {contact.githubURL}
-    </div>
+      <aside><a href={contact.linkedinURL}>LinkedIn profile</a>
+        <a href={contact.githubURL}>Github profile</a>
+      </aside>
+    </div >
   );
 };
 
 Contact.propTypes = {
   contact: PropTypes.shape({
+    heading: PropTypes.string,
     name: PropTypes.string.isRequired,
     street: PropTypes.string,
     city: PropTypes.string.isRequired,
