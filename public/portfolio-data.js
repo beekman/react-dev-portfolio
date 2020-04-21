@@ -1,8 +1,8 @@
 export default {
   'about': {
     'title': 'import SoftwareDeveloper from \'benbeekman.dev\';',
-    'summary': 'Hi, I\'m Ben. I am a full-stack developer with a degree in multimedia design and an extensive background in front-end development, SEO and education. I value clean code that solves human-centric problems and making a meaningful impact for the companies and teams I work for.',
-    'pitch': 'My tech stack centers around React, Redux, Node, MongoDB, and PostgreSQL. Over the past two years, I\'ve fallen in love with programming and drilled deeply into full-stack JavaScript development.',
+    'summary': 'Hi, I\'m Ben. I am a full-stack developer with an extensive background in front-end development, SEO and education. I value clean code that solves human-centric problems and making a meaningful impact for the companies and teams I work for.',
+    'pitch': 'I have a degree in multimedia design and over a decade of professional experience with web development and design. Over the past two years, I\'ve fallen in love with programming and drilled deeply into full-stack JavaScript development.'
     'photo': '../public/assets/ben-beekman-profile-800.jpg'
   },
   'contact': {
@@ -20,8 +20,8 @@ export default {
   },
   'skills': {
     'heading': 'About Ben',
-    'techHeading': 'I currently use these technologies:',
-    'techCopy': 'I create creative digital solutions with a modern tech stack and over a decade of experience with front-end development. My programming language of choice is JavaScript, but it\'s not the only one I\'ve worked with. My work with Python and PHP has made me a more well rounded and flexible developer.',
+    'techHeading': 'I use these:',
+    'techCopy': 'I create creative digital solutions with a modern tech stack and over a decade of experience with front-end development. My programming language of choice is JavaScript, but it\'s not the only one I\'ve worked with professionally. My work with Python and PHP makes me a more well rounded and flexible developer.',
     'tech': [
       {
         'name': 'JavaScript',
@@ -91,9 +91,8 @@ export default {
         'name': 'CSS',
         'logo': '../public/assets/tech/thumbs/css-logo-60px.png'
       },
-
     ],
-    'learningCopy': '<p>I\'m passionate about learning, and I\'m constantly adding new tools to my arsenal. Here are a few technologies that I\'m learning currently.',
+    'learningCopy': 'I\'m passionate about learning, and I\'m constantly adding new tools to my arsenal. Here are a few technologies that I\'m learning currently.',
     'learning': [
       {
         'name': 'TypeScript',

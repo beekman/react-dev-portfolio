@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './Nav';
+import styles from './Nav.css';
 import { Link } from 'react-scroll';
 export default function Nav() {
   return (
@@ -18,7 +18,8 @@ export default function Nav() {
               smooth={true}
               duration={600}
               className={styles.link}
-              activeClass={styles.active}>About
+              activeClass={styles.active}>
+              About
             </Link>
           </li>
           <li>
@@ -28,8 +29,8 @@ export default function Nav() {
               hashSpy={true}
               smooth={true}
               duration={600}
-              className={styles.Link}
-              activeClass={styles.Active}>
+              className={styles.link}
+              activeClass={styles.active}>
               Skills
             </Link>
           </li>
@@ -40,8 +41,8 @@ export default function Nav() {
               hashSpy={true}
               smooth={true}
               duration={600}
-              className={styles.Link}
-              activeClass={styles.Active}>
+              className={styles.link}
+              activeClass={styles.active}>
               Projects
             </Link>
           </li>
@@ -51,10 +52,10 @@ export default function Nav() {
               spy={true}
               hashSpy={true}
               smooth={true}
-              duration={600}
-              className={styles.Link}
-              activeClass={styles.Active}>
-              Contact
+              duration={400}
+              className={styles.link}
+              activeClass={styles.active}>
+              Connect
             </Link>
           </li>
         </ul>

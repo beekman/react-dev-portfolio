@@ -3,21 +3,25 @@ import PropTypes from 'prop-types';
 import styles from '../App.css';
 import { FaGithub } from 'react-icons/fa';
 import { FaLinkedin } from 'react-icons/fa';
+import { Element, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll';
+
 const Contact = ({ contact }) => {
 
   return (
-    <div className={styles.Contact}>
-      <h1>{contact.heading}</h1>
-      <div className="address">
-        <p>{contact.name}<br />
-          {contact.city}, {contact.state}<br />
-          {contact.phone}<br />
-          {contact.email}</p>
-      </div>
-      <section className={styles.social}><a href={contact.linkedinURL}><FaLinkedin /></a>
-        <a href={contact.githubURL}><FaGithub /></a>
-      </section>
-    </div >
+    <Element name="Contact" className="Contact">
+      <div className={styles.Contact}>
+        <h1>{contact.heading}</h1>
+        <div className="address">
+          <p>{contact.name}<br />
+            {contact.city}, {contact.state}<br />
+            {contact.phone}<br />
+            {contact.email}</p>
+        </div>
+        <section className={styles.social}><a href={contact.linkedinURL}><FaLinkedin /></a>
+          <a href={contact.githubURL}><FaGithub /></a>
+        </section>
+      </div >
+    </Element>
   );
 };
 

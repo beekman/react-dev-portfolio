@@ -20,7 +20,7 @@ body {
     transition-duration: 1s;
     transition-property: color;
 
-    .active {
+    .Active {
       color: offwhite;
     }
 
@@ -39,26 +39,27 @@ body {
 
     h1 {
       font-family: 'Play', sans-serif;
-      line-height: 1em;
+      line-height: 1rem;
       color: white;
       padding-left: 1rem;
       transition-property: color;
 
-      > strong {
-      font-size: 2rem;
-      font-weight: bold;
-      font-style: normal;
-      position: relative;
-      display: inline-block;
-      transition-timing-function: ease;
-      transition-duration: 2s;
-      transition-property: color;
-      text-transform: lowercase;
-      color: #37e8fd;
-      }
+      strong {
+        font-size: 2rem;
+        font-weight: bold;
+        font-style: normal;
+        position: relative;
+        display: inline-block;
+        transition-timing-function: ease;
+        transition-duration: 1.25s;
+        transition-property: color;
+        text-transform: lowercase;
+        color: #37e8fd;
 
-      > strong:hover {
-        color: #d7ffff;
+        &:hover {
+          color: #d7ffff;
+        }
+
       }
 
       > b {
@@ -67,15 +68,15 @@ body {
       position: relative;
       z-index: 10;
       transition-timing-function: ease;
-      transition-duration: 1.7s;
+      transition-duration: 1.2s;
       transition-property: color;
       color: yellow;
 
-        &:hover {
-          color: #d7ffff;
-        }
-     }
+      &:hover {
+        color: #d7ffff;
+      }
     }
+  }
 
     nav{
       ul{
@@ -87,8 +88,6 @@ body {
 
         li {
           padding: 0 1rem;
-
-
         }
       }
     }
@@ -118,6 +117,10 @@ body {
   .Projects {
     color: white;
     padding: 2rem 2rem;
+    header{
+      display: block;
+    }
+
 
     .Project {
       display: grid;
