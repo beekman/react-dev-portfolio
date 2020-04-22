@@ -22,7 +22,9 @@ import python from '../../assets/tech/thumbs/python-logo-60px.png';
 import ts from '../../assets/tech/thumbs/typescript-logo-60px.png';
 import sass from '../../assets/tech/thumbs/sass-logo-60px.png';
 import socket from '../../assets/tech/thumbs/socket-logo-60px.png';
-
+import kit from '../../assets/portfolio/kit.png';
+import qwixx from '../../assets/portfolio/qwixx.png';
+import frontpage from '../../assets/portfolio/frontpage.png';
 
 
 const Project = ({ feature }) => {
@@ -58,6 +60,12 @@ const Project = ({ feature }) => {
     </li >;
   });
 
+  const screenObj = {
+    'kit: Keep In Touch': kit,
+    'FrontPage': frontpage,
+    'Qwixx': qwixx
+  };
+  
   return (
     <>
       <div className={styles.feature}>
@@ -71,7 +79,7 @@ const Project = ({ feature }) => {
         </div>
         <div>
           <ScrollAnimation animateIn="fadeInUp">
-            <img src={feature.image} alt={feature.title} title={feature.title} />
+            <img src={screenObj[feature.title]} alt={feature.title} title={feature.title} />
           </ScrollAnimation>
         </div>
 
