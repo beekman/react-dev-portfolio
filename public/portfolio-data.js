@@ -133,7 +133,7 @@ export default {
           },
           {
             'name': 'Node',
-            'logo': '../public/assets/tech/thumbs/node-logo-tall-60px.png'
+            'logo': '../public/assets/tech/thumbs/node-logo-60px.png'
           },
           {
             'name': 'Express',

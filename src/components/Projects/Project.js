@@ -27,11 +27,13 @@ const Project = ({ feature }) => {
             <img src={feature.image} alt={feature.title} title={feature.title} />
           </ScrollAnimation>
         </div>
-      </div>
 
-      <div className={styles.tech}>
-        {TechList}
       </div>
+      <section><span className={styles.usedTechHeading}>Tech stack:</span>
+        <div className={styles.tech}>
+          {TechList}
+        </div>
+      </section>
 
     </>
   );
