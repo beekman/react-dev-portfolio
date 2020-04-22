@@ -24,11 +24,37 @@ import sass from '../../assets/tech/thumbs/sass-logo-60px.png';
 import socket from '../../assets/tech/thumbs/socket-logo-60px.png';
 
 
+
 const Project = ({ feature }) => {
 
+
+
   const TechList = feature.tech.map((tech, i) => {
+    const iconObj = {
+      'React': react,
+      'JavaScript': js,
+      'PostgreSQL': postgres,
+      'Redux': redux,
+      'Node': node,
+      'Netlify': netlify,
+      'MongoDB': mongodb,
+      'Express': express,
+      'Mongoose': mongoose,
+      'Heroku': heroku,
+      'CSS': css,
+      'HTML': html,
+      'GitHub': github,
+      'GraphQL': graphql,
+      'Jest': jest,
+      'PHP': php,
+      'Python': python,
+      'TypeScript': ts,
+      'SASS': sass,
+      'SocketIO': socket
+    };
+
     return <li key={i} className={styles.Tech}>
-      <img src={tech.logo} alt={tech.name} title={tech.name} />
+      <img src={iconObj[tech.name]} alt={tech.name} title={tech.name} />
     </li >;
   });
 
