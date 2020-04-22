@@ -11,11 +11,10 @@ const Contact = ({ contact }) => {
     <Element name="Contact" className="Contact">
       <div className={styles.Contact}>
         <h1>{contact.heading}</h1>
-        <div className="address">
-          <p>{contact.name}<br />
-            {contact.city}, {contact.state}<br />
-            {contact.phone}<br />
-            {contact.email}</p>
+        <div className={styles.address}>
+          {contact.city}, {contact.state}<br />
+          {contact.phone}<br />
+          <a href='!mailto:{contact.email}'>{contact.email}</a>
         </div>
         <section className={styles.social}><a href={contact.linkedinURL}><FaLinkedin /></a>
           <a href={contact.githubURL}><FaGithub /></a>
