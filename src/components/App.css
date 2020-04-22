@@ -1,5 +1,5 @@
 @value colors: './colors.css';
-@value lightblue, yellow, white from colors;
+@value lightblue, yellow, offwhite, white from colors;
 
 body {
   margin: 0;
@@ -13,6 +13,10 @@ body {
   margin: 0;
   padding: 0;
 
+  > div > header{
+    display:flex;
+  }
+
   a {
     text-decoration: none;
     color: lightblue;
@@ -20,7 +24,7 @@ body {
     transition-duration: 1s;
     transition-property: color;
 
-    .Active {
+    .active {
       color: offwhite;
     }
 
@@ -32,65 +36,6 @@ body {
 
   h1, h2, h3, h4, h5, h6 {
     font-family: 'Fira Code', serif;
-  }
-
-  header {
-    display: flex;
-
-    h1 {
-      font-family: 'Play', sans-serif;
-      line-height: 1rem;
-      color: white;
-      padding-left: 1rem;
-      transition-property: color;
-
-      strong {
-        font-size: 2rem;
-        font-weight: bold;
-        font-style: normal;
-        position: relative;
-        display: inline-block;
-        transition-timing-function: ease;
-        transition-duration: 1.25s;
-        transition-property: color;
-        text-transform: lowercase;
-        color: #37e8fd;
-
-        &:hover {
-          color: #d7ffff;
-        }
-
-      }
-
-      > b {
-      font-size: 2rem;
-      font-weight: 700;
-      position: relative;
-      z-index: 10;
-      transition-timing-function: ease;
-      transition-duration: 1.2s;
-      transition-property: color;
-      color: yellow;
-
-      &:hover {
-        color: #d7ffff;
-      }
-    }
-  }
-
-    nav{
-      ul{
-        display: flex;
-        flex-wrap: wrap;
-        width: 100%;
-        list-style-type: none;
-        justify-content: center;
-
-        li {
-          padding: 0 1rem;
-        }
-      }
-    }
   }
 
   h2 {
@@ -168,46 +113,6 @@ body {
       }
     }
   }
-
-  .About {
-    padding: 2rem;
-    min-height: 100vh;
-    margin: auto;
-
-    header{
-      margin: auto;
-
-      h1 {
-        margin: auto;
-        text-align: center;
-      }
-    }
-
-    main{
-      flex-direction: row;
-      display: flex;
-
-    } section{
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      padding: 2rem;
-    }
-
-    main{
-      section{
-        width: 45%;
-        margin: 0 5%;
-      }
-    }
-
-    img {
-      height: auto;
-      max-width: 100%;
-    }
-  }
-
   .Skills {
     background-color: white;
     color: black;

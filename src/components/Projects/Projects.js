@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import styles from '../App.css';
 import Project from './Project';
-import { Element, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll';
+import { Element } from 'react-scroll';
 
 const Projects = ({ projects }) => {
 
@@ -13,15 +13,13 @@ const Projects = ({ projects }) => {
   });
 
   return (
-    <Element name="Projects" className="Projects">
-      <div className={styles.Projects}>
-        <header>
-          <h1>Projects</h1>
-          <p>{projects.summary}</p>
-          <p>{projects.history}</p>
-        </header>
-        {ProjectList}
-      </div>
+    <Element name="Projects" className={styles.Projects}>
+      <header>
+        <h1>Projects</h1>
+        <p>{projects.summary}</p>
+        <p>{projects.history}</p>
+      </header>
+      {ProjectList}
     </Element>
   );
 };

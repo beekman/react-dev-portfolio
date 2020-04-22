@@ -3,7 +3,7 @@ import styles from './Nav.css';
 import { Link } from 'react-scroll';
 export default function Nav() {
   return (
-    <header>
+    <header className={styles.Header}>
       <h1 className={styles.Logo}>
         <strong>Ben</strong>
         <b>Beekman</b>

@@ -1,0 +1,41 @@
+.About {
+  background-color: black;
+  color: white;
+  min-height: 100vh;
+  height: auto;
+  padding: 4rem 0.5rem;
+  min-height: 100vh;
+  margin: auto;
+
+  header{
+    margin: auto;
+
+    h1 {
+      margin: auto;
+      text-align: center;
+    }
+  }
+
+  main{
+    flex-direction: row;
+    display: flex;
+
+  } section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+  }
+
+  main{
+    section{
+      width: 45%;
+      margin: 0 5%;
+      img {
+        height: auto;
+        max-width: 100%;
+      }
+    }
+  }
+}

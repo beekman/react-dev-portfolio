@@ -27,8 +27,8 @@ const Skills = ({ skills }) => {
           <p>{skills.techCopy}</p>
 
           <h2>{skills.techHeading}</h2>
-          <ScrollAnimation animateIn='fadeInUp'
-            animateOut='fadeOutDown'>
+          <ScrollAnimation animateIn='fadeIn'
+            animateOut='fadeOut'>
             <ul>
               {SkillList}
             </ul>
@@ -36,7 +36,7 @@ const Skills = ({ skills }) => {
 
           <h2>I&apos;m learning these:</h2>
 
-          <ScrollAnimation animateIn='fadeInUp' animateOut='fadeOutDown'>
+          <ScrollAnimation animateIn='fadeIn' animateOut='fadeIn'>
             <ul>
               {LearningList}
             </ul>

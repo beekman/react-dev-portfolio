@@ -1,64 +1,75 @@
+@value colors: '../colors.css';
+@value lightblue, yellow, offwhite, white from colors;
 
-.Logo {
-  font-family: 'Play', sans-serif;
-  line-height: 1em;
-  color: white;
+.Header{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  position: fixed;
 
-  strong {
-  font-size: 2rem;
-  font-weight: bold;
-  font-style: normal;
-  position: relative;
-  display: inline-block;
-  transition-timing-function: ease;
-  transition-duration: 1s;
-  transition-property: color;
-  text-transform: lowercase;
-  color: #37e8fd;
+  .Logo {
+    font-family: 'Play', sans-serif;
+    line-height: 1em;
+    color: white;
+    margin: 0;
+    padding: 0.5rem 0.75rem;
+
+    strong {
+    font-size: 2rem;
+    font-weight: bold;
+    font-style: normal;
+    position: relative;
+    display: inline-block;
+    transition-timing-function: ease;
+    transition-duration: 1s;
+    transition-property: color;
+    text-transform: lowercase;
+    color: #37e8fd;
+    }
+
+    strong:hover {
+      color: #d7ffff;
+    }
+
+    b {
+    font-size: 2rem;
+    font-weight: 700;
+    position: relative;
+    z-index: 10;
+    transition-timing-function: ease;
+    transition-duration: .7s;
+    transition-property: color;
+    color: #bafd31;
+    }
+
+    > b:hover {
+      color: #d7ffff;
+    }
   }
 
-  strong:hover {
-    color: #d7ffff;
-  }
+  .Nav{
+    ul{
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+      list-style-type: none;
+      justify-content: center;
 
-  b {
-  font-size: 2rem;
-  font-weight: 700;
-  position: relative;
-  z-index: 10;
-  transition-timing-function: ease;
-  transition-duration: .7s;
-  transition-property: color;
-  color: #bafd31;
-  }
+      li {
+        padding: 0 1rem;
 
-  > b:hover {
-    color: #d7ffff;
-  }
-}
+        a {
+          text-decoration: none;
+          color: lightblue;
 
-.Nav{
-  ul{
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    list-style-type: none;
-    justify-content: center;
+          .Active {
+            color: white;
+          }
 
-    li {
-      padding: 0 1rem;
-
-      a {
-        text-decoration: none;
-        color: limegreen;
-
-        .Active {
-          color: white;
-        }
-
-        :active, :hover {
-          color: yellow;
-          cursor: pointer;
+          &:active, &:hover {
+            color: yellow;
+            cursor: pointer;
+          }
         }
       }
     }

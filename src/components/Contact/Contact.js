@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import styles from '../App.css';
 import { FaGithub } from 'react-icons/fa';
 import { FaLinkedin } from 'react-icons/fa';
-import { Element, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll';
+import { Element } from 'react-scroll';
 
 const Contact = ({ contact }) => {
 

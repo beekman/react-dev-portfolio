@@ -2,7 +2,7 @@ export default {
   'about': {
     'title': 'import SoftwareDeveloper from \'benbeekman.dev\';',
     'summary': 'Hi, I\'m Ben. I am a full-stack developer with an extensive background in front-end development, SEO and education. I value clean code that solves human-centric problems and making a meaningful impact for the companies and teams I work for.',
-    'pitch': 'I have a degree in multimedia design and over a decade of professional experience with web development and design. Over the past two years, I\'ve fallen in love with programming and drilled deeply into full-stack JavaScript development.'
+    'pitch': 'I have a degree in multimedia design and over a decade of professional experience with web development and design. Over the past two years, I\'ve fallen in love with programming and drilled deeply into full-stack JavaScript development.',
     'photo': '../public/assets/ben-beekman-profile-800.jpg'
   },
   'contact': {
