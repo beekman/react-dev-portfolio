@@ -4,6 +4,7 @@ import styles from './About.css';
 import 'animate.css/animate.min.css';
 import Typist from 'react-typist';
 import { Element } from 'react-scroll';
+import photo from '../../assets/ben-beekman-profile-800.jpg';
 
 const About = ({ about }) => {
   return (
@@ -23,7 +24,7 @@ const About = ({ about }) => {
           <p>{about.pitch}</p>
         </section>
         <section>
-          <img src={about.photo} />
+          <img src={photo} />
         </section>
       </main>
     </Element>
