@@ -1,31 +1,38 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import styles from '../App';
+import styles from './Projects.css';
 import ScrollAnimation from 'react-animate-on-scroll';
 
 const Project = ({ feature }) => {
 
-  const TechList = feature.tech.map((feature, i) => {
-    return <li key={i} className={styles.Project}>
+  const TechList = feature.tech.map((tech, i) => {
+    return <li key={i} className={styles.Tech}>
+      <img src={tech.logo} alt={tech.name} title={tech.name} />
     </li >;
   });
 
   return (
     <>
-      <div>
-        <h2>{feature.title}</h2>
-        <p>{feature.description}</p>
-        <div></div>
-        <div className={styles.links}>
-          <a href={feature.github}>Github</a>
-          <a href={feature.demo}>Live Demo</a>
+      <div className={styles.feature}>
+        <div><h2>{feature.title}</h2>
+          <p>{feature.description}</p>
+
+          <div className={styles.links}>
+            <a href={feature.github}>Github</a>
+            <a href={feature.demo}>Live Demo</a>
+          </div>
+        </div>
+        <div>
+          <ScrollAnimation animateIn="fadeInUp">
+            <img src={feature.image} alt={feature.title} title={feature.title} />
+          </ScrollAnimation>
         </div>
       </div>
-      <div>
-        <ScrollAnimation animateIn="fadeInUp">
-          <img src={feature.image} alt={feature.title} title={feature.title} />
-        </ScrollAnimation>
+
+      <div className={styles.tech}>
+        {TechList}
       </div>
+
     </>
   );
 };

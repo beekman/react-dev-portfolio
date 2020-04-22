@@ -6,6 +6,8 @@
   flex-wrap: wrap;
   align-items: flex-start;
   position: fixed;
+  background-color: RGBA(0,0,0,0.4);
+  width: 100%;
 
   .Logo {
     font-family: 'Play', sans-serif;
@@ -62,7 +64,7 @@
           text-decoration: none;
           color: lightblue;
 
-          .Active {
+          .active {
             color: white;
           }
 

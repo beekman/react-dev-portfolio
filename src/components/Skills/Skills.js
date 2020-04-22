@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import styles from '../App.css';
+import styles from './Skills.css';
 import Skill from './Skill';
 import ScrollAnimation from 'react-animate-on-scroll';
 import { Element, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll';

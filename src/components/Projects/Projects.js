@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import styles from '../App.css';
+import styles from './Projects.css';
 import Project from './Project';
 import { Element } from 'react-scroll';
 

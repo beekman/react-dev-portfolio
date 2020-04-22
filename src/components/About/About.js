@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import styles from './About';
+import styles from './About.css';
 import 'animate.css/animate.min.css';
 import Typist from 'react-typist';
 import { Element } from 'react-scroll';

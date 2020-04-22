@@ -1,3 +1,6 @@
+@value colors: '../colors.css';
+@value lightblue, yellow, offwhite, white from colors;
+
 .About {
   background-color: black;
   color: white;
