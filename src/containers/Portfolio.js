@@ -4,7 +4,7 @@ import About from '../components/About/About';
 import Skills from '../components/Skills/Skills';
 import Projects from '../components/Projects/Projects';
 import Contact from '../components/Contact/Contact';
-import data from '../../public/portfolio-data.js';
+import data from '../portfolio-data.js';
 export default class Portfolio extends Component {
 
   render() {
