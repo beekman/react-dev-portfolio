@@ -1,0 +1,69 @@
+.Projects {
+  background-color: black;
+  color: white;
+  min-height: 100vh;
+  height: auto;
+  padding: 0 0.5rem;
+}
+
+.Projects {
+  color: white;
+  padding: 2rem 2rem;
+  header{
+    display: block;
+  }
+
+
+  .Project {
+    padding: 2rem 0;
+    margin: 0.5rem 0;
+    background-color: #232323;
+    border-radius: 0.75rem;
+    .feature {
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+      padding: 0;
+      width: 100%;
+
+      div{
+        padding: 2rem;
+        justify-content: space-around;
+        align-items: center;
+
+        div {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+
+        img {
+          max-width: 100%;
+        }
+      }
+    }
+    section{
+      display: flex;
+      margin: 0 2rem;
+      justify-content: center;
+
+      .tech {
+        padding: 0.75rem;
+        color: black;
+        background-color: white;
+        display: flex;
+        list-style-type: none;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 0 1rem;
+        border-radius: 0.75rem;
+
+        img {
+          max-height: 30px;
+          width: auto;
+          padding: 0 0.5rem;
+        }
+     }
+   }
+  }
+}

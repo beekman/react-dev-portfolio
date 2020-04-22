@@ -1,0 +1,33 @@
+.Skills {
+  background-color: white;
+  color: black;
+  padding: 0 1rem;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style-type: none;
+
+    li {
+      display:flex;
+      text-align: center;
+      flex-direction: column;
+      padding: 10px;
+
+      div {
+        width: 100%;
+        height: 100%;
+
+        img{
+          height: 50px;
+          width: auto;
+        }
+      }
+    }
+  }
+}
