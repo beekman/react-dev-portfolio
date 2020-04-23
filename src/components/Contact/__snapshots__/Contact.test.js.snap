@@ -1,0 +1,85 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Contact component matches snapshot 1`] = `
+<Element
+  className="Contact"
+  name="Contact"
+>
+  <div
+    className="Contact"
+  >
+    <h1>
+      Let's Connect
+    </h1>
+    <p>
+      I am currently available for full-time and contract opportunities.
+    </p>
+    <Typist
+      avgTypingDelay={70}
+      className=""
+      cursor={
+        Object {
+          "show": false,
+        }
+      }
+      delayGenerator={[Function]}
+      onCharacterTyped={[Function]}
+      onLineTyped={[Function]}
+      onTypingDone={[Function]}
+      startDelay={0}
+      stdTypingDelay={25}
+    >
+      <h2
+        className="tagline"
+      >
+        import SoftwareDeveloper from 'benbeekman.dev';
+      </h2>
+    </Typist>
+    <div
+      className="address"
+    >
+      Portland
+      , 
+      OR
+      <br />
+      <a
+        href="!tel:5417405681"
+      >
+        <FaPhone />
+        (503)708-0478
+      </a>
+      <br />
+      <a
+        href="!mailto:{contact.email}"
+      >
+        <AiOutlineMail />
+        ben@benbeekman.com
+      </a>
+    </div>
+    <section
+      className="social"
+    >
+      <a
+        href="https://www.linkedin.com/in/beekman/"
+      >
+        <FaLinkedin />
+        /in/beekman
+      </a>
+      <br />
+      <a
+        href="https://github.com/beekman"
+      >
+        <FaGithub />
+        /beekman
+      </a>
+    </section>
+  </div>
+  <a
+    href="https://www.canva.com/design/DADxzQOaReM/zmkBwZHsYHDKVeaHyVzBoA/view?utm_content=DADxzQOaReM&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton"
+    rel="noopener noreferrer"
+    target="_blank"
+  >
+    View my resume
+  </a>
+</Element>
+`;

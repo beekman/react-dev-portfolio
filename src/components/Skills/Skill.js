@@ -5,7 +5,7 @@ import js from '../../assets/tech/thumbs/javascript-logo-60px.png';
 import postgres from '../../assets/tech/thumbs/Postgresql-logo-60px.png';
 import redux from '../../assets/tech/thumbs/redux-logo-60px.png';
 import node from '../../assets/tech/thumbs/node-logo-60px.png';
-import mongodb from '../../assets/tech/thumbs/mongodb-logo-60px.png';
+import mongodb from '../../assets/tech/thumbs/mongo-logo-60px.png';
 import express from '../../assets/tech/thumbs/express-logo-60px.png';
 import mongoose from '../../assets/tech/thumbs/mongoose-logo-60px.png';
 import netlify from '../../assets/tech/thumbs/netlify-logo-60px.png';

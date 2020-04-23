@@ -1,0 +1,76 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`About component matches snapshot 1`] = `
+<Element
+  className="About"
+  name="About"
+>
+  <header>
+    <h1>
+      <Typist
+        avgTypingDelay={70}
+        className=""
+        cursor={
+          Object {
+            "hideWhenDone": true,
+          }
+        }
+        delayGenerator={[Function]}
+        onCharacterTyped={[Function]}
+        onLineTyped={[Function]}
+        onTypingDone={[Function]}
+        startDelay={0}
+        stdTypingDelay={25}
+      >
+        Hi, I'm Ben. I'm a Creative Software Developer
+        <Backspace
+          count={18}
+          delay={750}
+        />
+        <Delay
+          ms={800}
+        />
+        Front End Developer
+        <Backspace
+          count={19}
+          delay={750}
+        />
+        <Delay
+          ms={850}
+        />
+        Back End Engineer
+        <Backspace
+          count={17}
+          delay={500}
+        />
+        <Delay
+          ms={1150}
+        />
+        Full Stack Developer
+        <Backspace
+          count={35}
+          delay={500}
+        />
+        It's complicated.
+      </Typist>
+    </h1>
+  </header>
+  <main>
+    <section>
+      <p>
+        Hi, I'm Ben. I'm a full-stack developer with a background as an entrepreneur in front-end web development, SEO and education. I value clean code that solves human-centric problems and making a meaningful impact for the companies and teams I work for.
+      </p>
+      <p>
+        I have over a decade of professional experience with web development and design and a degree in multimedia design. Over the past two years, I've fallen in love with programming and drilled deeply into full-stack JavaScript development.  My programming language of choice is JavaScript, but it's not the only one I've worked with professionally. My work with Python and PHP makes me a more well rounded and flexible developer.
+      </p>
+    </section>
+    <figure
+      classNamd="profile"
+    >
+      <img
+        src="/path/image"
+      />
+    </figure>
+  </main>
+</Element>
+`;
