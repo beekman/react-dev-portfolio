@@ -1,0 +1,79 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Nav component matches snapshot 1`] = `
+<header
+  className="Header"
+>
+  <h1
+    className="Logo"
+  >
+    <strong>
+      Ben
+    </strong>
+    <b>
+      Beekman
+    </b>
+  </h1>
+  <nav
+    className="Nav"
+  >
+    <ul>
+      <li>
+        <Link
+          activeClass="active"
+          className="link"
+          duration={600}
+          offset={0}
+          smooth={true}
+          spy={true}
+          to="About"
+        >
+          About
+        </Link>
+      </li>
+      <li>
+        <Link
+          activeClass="active"
+          className="link"
+          duration={600}
+          hashSpy={true}
+          offset={0}
+          smooth={true}
+          spy={true}
+          to="Skills"
+        >
+          Skills
+        </Link>
+      </li>
+      <li>
+        <Link
+          activeClass="active"
+          className="link"
+          duration={600}
+          hashSpy={true}
+          offset={0}
+          smooth={true}
+          spy={true}
+          to="Projects"
+        >
+          Projects
+        </Link>
+      </li>
+      <li>
+        <Link
+          activeClass="active"
+          className="link"
+          duration={400}
+          hashSpy={true}
+          offset={0}
+          smooth={true}
+          spy={true}
+          to="Contact"
+        >
+          Connect
+        </Link>
+      </li>
+    </ul>
+  </nav>
+</header>
+`;
