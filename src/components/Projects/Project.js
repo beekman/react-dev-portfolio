@@ -25,7 +25,7 @@ import socket from '../../assets/tech/thumbs/socket-logo-60px.png';
 import kit from '../../assets/portfolio/kit.png';
 import qwixx from '../../assets/portfolio/qwixx.png';
 import frontpage from '../../assets/portfolio/frontpage.png';
-
+import plantParenthood from '../../assets/portfolio/frontpage.png';
 
 const Project = ({ feature }) => {
 
@@ -62,10 +62,11 @@ const Project = ({ feature }) => {
 
   const screenObj = {
     'kit: Keep In Touch': kit,
+    'Plant Parenthood': plantParenthood,
     'FrontPage': frontpage,
     'Qwixx': qwixx
   };
-  
+
   return (
     <>
       <div className={styles.feature}>
@@ -73,8 +74,8 @@ const Project = ({ feature }) => {
           <p>{feature.description}</p>
 
           <div className={styles.links}>
-            <a href={feature.github}>Github</a>
-            <a href={feature.demo}>Live Demo</a>
+            <a href={feature.github} target='_blank' rel='noopener noreferrer'>Github Repo</a>
+            <a href={feature.demo} target='_blank' rel='noopener noreferrer'>Live Demo</a>
           </div>
         </div>
         <div>
