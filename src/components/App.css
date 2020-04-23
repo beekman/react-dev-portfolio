@@ -1,10 +1,10 @@
 @value colors: './colors.css';
-@value lightblue, yellow, offwhite, white from colors;
+@value lightblue, yellow, offwhite, white, darkgray from colors;
 
 body {
   margin: 0;
   padding: 0;
-  background-color: black;
+  background-color: darkgray;
   font-family: 'Poppins', sans-serif;
   font-size: 1.1rem;
 }

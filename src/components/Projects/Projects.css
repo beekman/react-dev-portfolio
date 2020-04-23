@@ -1,19 +1,17 @@
+@value colors: '../colors.css';
+@value lightblue, yellow, offwhite, white, darkgray from colors;
+
 .Projects {
   background-color: black;
   color: white;
   min-height: 100vh;
   height: auto;
-  padding: 0 0.5rem;
-}
-
-.Projects {
-  color: white;
+  color: offwhite;
   padding: 2rem 2rem;
+
   header{
     display: block;
   }
-
-
   .Project {
     padding: 2rem 0;
     margin: 0.5rem 0;
@@ -49,17 +47,18 @@
 
       .tech {
         padding: 0.75rem;
-        color: black;
-        background-color: white;
+        color: white;
+        background-color: offwhite;
         display: flex;
         list-style-type: none;
         flex-wrap: wrap;
         justify-content: center;
+        align-items: center;
         margin: 0 1rem;
         border-radius: 0.75rem;
 
         img {
-          max-height: 30px;
+          max-height: 60px;
           width: auto;
           padding: 0 0.5rem;
         }

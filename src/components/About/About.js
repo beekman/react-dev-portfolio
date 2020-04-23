@@ -1,7 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import styles from './About.css';
-import 'animate.css/animate.min.css';
 import Typist from 'react-typist';
 import { Element } from 'react-scroll';
 import photo from '../../assets/ben-beekman-profile-800.jpg';
@@ -12,8 +11,9 @@ const About = ({ about }) => {
     <Element name="About" className={styles.About}>
       <header>
         <h1>
-          <Typist>
-            {about.title}
+          <Typist cursor={{ hideWhenDone: true }}>
+            Creative Software Developer
+            <Typist.Backspace count={18} delay={750} /><Typist.Delay ms={1250} />Front End Developer<Typist.Backspace count={19} delay={750} /><Typist.Delay ms={850} />Back End Engineer<Typist.Backspace count={17} delay={1000} /><Typist.Delay ms={1150} />Full Stack Developer
           </Typist>
         </h1>
       </header>
@@ -23,9 +23,9 @@ const About = ({ about }) => {
           <p>{about.summary}</p>
           <p>{about.pitch}</p>
         </section>
-        <section>
+        <figure classNamd={styles.profile}>
           <img src={photo} />
-        </section>
+        </figure>
       </main>
     </Element>
   );
@@ -35,8 +35,7 @@ About.propTypes = {
   about: PropTypes.shape({
     title: PropTypes.string.isRequired,
     summary: PropTypes.string.isRequired,
-    pitch: PropTypes.string.isRequired,
-    photo: PropTypes.string.isRequired,
+    pitch: PropTypes.string.isRequired
   })
 };
 

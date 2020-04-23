@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import styles from './Skills.css';
 import Skill from './Skill';
 import ScrollAnimation from 'react-animate-on-scroll';
-import { Element, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll';
+import { Element } from 'react-scroll';
 
 const Skills = ({ skills }) => {
 
@@ -42,6 +42,7 @@ const Skills = ({ skills }) => {
             </ul>
           </ScrollAnimation>
         </section>
+        <a href={skills.resumeLink} target='_blank' rel='noopener noreferrer'>Download my resume</a>
       </div >
     </Element>
   );

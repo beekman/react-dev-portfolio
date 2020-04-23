@@ -54,8 +54,7 @@ const Skill = ({ skill }) => {
 
 Skill.propTypes = {
   skill: PropTypes.shape({
-    name: PropTypes.string.isRequired,
-    logo: PropTypes.string
+    name: PropTypes.string.isRequired
   }).isRequired
 };
 
