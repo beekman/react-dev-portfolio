@@ -11,8 +11,9 @@ const About = ({ about }) => {
     <Element name="About" className={styles.About}>
       <header>
         <h1>
-          <Typist>
-            {about.title}
+          <Typist cursor={{ hideWhenDone: true }}>
+            Creative Software Developer
+            <Typist.Backspace count={18} delay={750} /><Typist.Delay ms={1250} />Front End Developer<Typist.Backspace count={19} delay={750} /><Typist.Delay ms={850} />Back End Engineer<Typist.Backspace count={17} delay={1000} /><Typist.Delay ms={1150} />Full Stack Developer
           </Typist>
         </h1>
       </header>
@@ -23,7 +24,7 @@ const About = ({ about }) => {
           <p>{about.pitch}</p>
         </section>
         <figure>
-          <img src={photo}/>
+          <img src={photo} />
         </figure>
       </main>
     </Element>

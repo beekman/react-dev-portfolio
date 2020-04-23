@@ -1,8 +1,9 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import styles from './Contact.css';
-import { FaGithub } from 'react-icons/fa';
-import { FaLinkedin } from 'react-icons/fa';
+import { FaGithub, FaLinkedin, FaPhone } from 'react-icons/fa';
+import { AiOutlineMail } from 'react-icons/ai';
+
 import { Element } from 'react-scroll';
 import Typist from 'react-typist';
 
@@ -13,17 +14,20 @@ const Contact = ({ contact }) => {
       <div className={styles.Contact}>
         <h1>{contact.heading}</h1>
         <p>I am currently available for full-time and contract opportunities.</p>
-        <Typist><h3 className={styles.tagline}>{contact.tagline}</h3></Typist>
+        <Typist cursor={{ show: false }}
+        ><h2 className={styles.tagline}>{contact.tagline}</h2></Typist>
         <div className={styles.address}>
           {contact.city}, {contact.state}<br />
-          {contact.phone}<br />
-          <a href='!mailto:{contact.email}'>{contact.email}</a>
+          <a href='!tel:5417405681'>
+            <FaPhone />{contact.phone}
+          </a><br />
+          <a href='!mailto:{contact.email}'><AiOutlineMail />{contact.email}</a>
         </div>
-        <section className={styles.social}><a href={contact.linkedinURL}><FaLinkedin />My LinkedIn profile</a>
-          <a href={contact.githubURL}><FaGithub />My GitHub profile</a>
+        <section className={styles.social}><a href={contact.linkedinURL}><FaLinkedin />/in/beekman</a><br />
+          <a href={contact.githubURL}><FaGithub />/beekman</a>
         </section>
       </div >
-      <a href={contact.resumeLink} target='_blank' rel='noopener noreferrer'>Download my resume</a>
+      <a href={contact.resumeLink} target='_blank' rel='noopener noreferrer'>View my resume</a>
     </Element>
   );
 };
