@@ -1,7 +1,7 @@
 export default {
   'about': {
     'title': 'Creative Software Developer',
-    'summary': 'Hi, I\'m Ben. I\'m a full-stack developer with an extensive background in front-end development, SEO and education. I value clean code that solves human-centric problems and making a meaningful impact for the companies and teams I work for.',
+    'summary': 'Hi, I\'m Ben. I\'m a full-stack developer with a background as an entrepreneur in front-end web development, SEO and education. I value clean code that solves human-centric problems and making a meaningful impact for the companies and teams I work for.',
     'pitch': 'I have over a decade of professional experience with web development and design and a degree in multimedia design. Over the past two years, I\'ve fallen in love with programming and drilled deeply into full-stack JavaScript development.  My programming language of choice is JavaScript, but it\'s not the only one I\'ve worked with professionally. My work with Python and PHP makes me a more well rounded and flexible developer.',
   },
   'contact': {
@@ -89,13 +89,12 @@ export default {
     'resumeLink': 'https://www.canva.com/design/DADxzQOaReM/zmkBwZHsYHDKVeaHyVzBoA/view?utm_content=DADxzQOaReM&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton',
   },
   'projects': {
-    'summary': 'Over the past 6 months, I worked on small teams that created a progressive web app that helps you improve personal communication, an IoT plant sensor application, and a Tinder-style newsreader. I also have a decade of front-end and UX/UI experience developing WordPress themes and websites, which made me an expert at solving problems for clients.',
+    'summary': 'While I\'ve taken on the majority of my client projects by myself, I thrive in collaborative coding environments. Within the past year, I\'ve worked on small teams that created a progressive web app that helps you improve personal communication, an IoT plant sensor application, and a Tinder-style newsreader. I also have a decade of front-end and UX/UI experience developing WordPress themes and websites, which made me an expert at solving problems for clients.',
     'history': 'I\'ve long been fascinated by the ways digital technology can engage and empower people. Since earning my U of O degree in Multimedia Design, I\'ve spent more than a decade in Portland helping people harness the power of that technology. I\'ve taught classes for young people, tutored older people, consulted for small businesses, co-authored technology textbooks, served as both design and IT department for a small media company, and—mostly—designed and developed web sites for businesses, nonprofits, and individuals.',
     'feature': [
       {
         'title': 'kit: Keep In Touch',
         'description': 'A progressive web app for setting, tracking, and meeting communication goals. Users can input contact details, set flexible communication schedules for those contacts, schedule push notification reminders, and view their communication logs. Contact list is sorted and formatted based on urgency and status of scheduled "hard" and "soft" deadlines.',
-        'image': './assets/portfolio/kit.png',
         'demo': 'https://friendlier-staging.netlify.app',
         'github': 'https://github.com/band-m/friendlier-fe',
         'tech': [
@@ -121,6 +120,9 @@ export default {
             'name': 'Jest',
           },
           {
+            'name': 'GitHub'
+          },
+          {
             'name': 'Netlify',
           },
           {
@@ -135,9 +137,46 @@ export default {
         ],
       },
       {
+        'title': 'Plant Parenthood',
+        'description': 'A secure server-side IoT plant sensor application that allows users to remotely gather and post data collected from a variety of sensors (light, temperature, humidity) via a Raspberry Pi. Two-factor authentication ensures the integrity of data. Data can be interpreted to make recommendations of common house plants that may thrive under matching environmental conditions.',
+        'demo': 'https://plantonomous.herokuapp.com',
+        'github': 'https://github.com/piParty/pi-party',
+        'tech': [
+          {
+            'name': 'JavaScript',
+          },
+          {
+            'name': 'Node',
+          },
+          {
+            'name': 'MongoDB',
+          },
+          {
+            'name': 'Express',
+          },
+          {
+            'name': 'Mongoose',
+          },
+          {
+            'name': 'GitHub'
+          },
+          {
+            'name': 'HTML',
+          },
+          {
+            'name': 'CSS',
+          },
+          {
+            'name': 'Python'
+          },
+          {
+            'name': 'Heroku'
+          }
+        ],
+      },
+      {
         'title': 'FrontPage',
         'description': 'A Tinder-style newsreader that allows you to swipe right on the news that interests you.',
-        'image': './assets/portfolio/frontpage.png',
         'demo': 'https://friendlier-staging.netlify.app/login',
         'github': 'https://github.com/band-m/friendlier-fe',
         'tech': [
@@ -148,7 +187,10 @@ export default {
             'name': 'Node',
           },
           {
-            'name': 'MongoDB',
+            'name': 'PostgreSQL',
+          },
+          {
+            'name': 'GitHub'
           },
           {
             'name': 'HTML',
@@ -174,7 +216,7 @@ export default {
             'name': 'CSS',
           },
           {
-            'name': 'Git'
+            'name': 'GitHub'
           }
         ],
       },

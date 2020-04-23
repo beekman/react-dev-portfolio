@@ -19,25 +19,21 @@
     }
   }
 
-  main{
-    flex-direction: row;
-    display: flex;
 
-  } section{
+  main{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+
+    section{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 2rem;
-  }
-
-  main{
-    section{
-      width: 45%;
-      margin: 0 5%;
+    }
+    figure {
       img {
-        height: auto;
-        max-width: 100%;
+        border-radius: 50%;
       }
     }
   }

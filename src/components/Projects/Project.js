@@ -25,7 +25,7 @@ import socket from '../../assets/tech/thumbs/socket-logo-60px.png';
 import kit from '../../assets/portfolio/kit.png';
 import qwixx from '../../assets/portfolio/qwixx.png';
 import frontpage from '../../assets/portfolio/frontpage.png';
-import plantParenthood from '../../assets/portfolio/frontpage.png';
+import plantParenthood from '../../assets/portfolio/plantParenthood.png';
 
 const Project = ({ feature }) => {
 
