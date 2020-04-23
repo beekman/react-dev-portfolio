@@ -2,6 +2,10 @@
 @value lightblue, yellow, offwhite, white from colors;
 
 .About {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
   background-color: black;
   color: white;
   min-height: 100vh;
@@ -10,19 +14,18 @@
   min-height: 100vh;
   margin: auto;
 
-  header{
-    margin: auto;
+  header {
 
     h1 {
       margin: auto;
       text-align: center;
+      font-size: 3rem;
     }
   }
 
-
   main{
     display: grid;
-    grid-template-columns: 3fr 1fr;
+    grid-template-columns: 3fr 2fr;
 
     section{
     display: flex;
@@ -31,9 +34,12 @@
     align-items: center;
     padding: 2rem;
     }
+
     figure {
+      padding: 2rem;
       img {
         border-radius: 50%;
+        max-width: 100%;
       }
     }
   }

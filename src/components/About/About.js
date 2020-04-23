@@ -12,9 +12,8 @@ const About = ({ about }) => {
       <header>
         <h1>
           <Typist cursor={{ hideWhenDone: true }}>
-            Creative Software Developer
-            <Typist.Backspace count={18} delay={750} /><Typist.Delay ms={1250} />Front End Developer<Typist.Backspace count={19} delay={750} /><Typist.Delay ms={850} />Back End Engineer<Typist.Backspace count={17} delay={1000} /><Typist.Delay ms={1150} />Full Stack Developer
-          </Typist>
+            Hi, I&apos;m Ben. I&apos;m a Creative Software Developer
+            <Typist.Backspace count={18} delay={750} /><Typist.Delay ms={800} />Front End Developer<Typist.Backspace count={19} delay={750} /><Typist.Delay ms={850} />Back End Engineer<Typist.Backspace count={17} delay={500} /><Typist.Delay ms={1150} />Full Stack Developer<Typist.Backspace count={35} delay={500} />It&apos;s complicated.</Typist>
         </h1>
       </header>
 

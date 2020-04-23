@@ -7,9 +7,9 @@ import js from '../../assets/tech/thumbs/javascript-logo-60px.png';
 import postgres from '../../assets/tech/thumbs/Postgresql-logo-60px.png';
 import redux from '../../assets/tech/thumbs/redux-logo-60px.png';
 import node from '../../assets/tech/thumbs/node-logo-60px.png';
-import mongodb from '../../assets/tech/thumbs/mongodb-logo-60px.png';
-import express from '../../assets/tech/thumbs/express-logo-60px.png';
-import mongoose from '../../assets/tech/thumbs/mongoose-logo-60px.png';
+import mongodb from '../../assets/tech/thumbs/mongo-logo-60px.png';
+import express from '../../assets/tech/thumbs/express-logo-60px-square.png';
+import mongoose from '../../assets/tech/thumbs/mongoose-logo-60px-square.png';
 import netlify from '../../assets/tech/thumbs/netlify-logo-60px.png';
 import heroku from '../../assets/tech/thumbs/heroku-logo-60px.png';
 import css from '../../assets/tech/thumbs/css-logo-60px.png';
@@ -82,15 +82,14 @@ const Project = ({ feature }) => {
           <ScrollAnimation animateIn="fadeInUp">
             <img src={screenObj[feature.title]} alt={feature.title} title={feature.title} />
           </ScrollAnimation>
+          <section className={styles.usedTech}><h2>Tech stack</h2>
+            <div className={styles.tech}>
+              {TechList}
+            </div>
+          </section>
         </div>
 
       </div>
-      <section><span className={styles.usedTechHeading}>Tech stack:</span>
-        <div className={styles.tech}>
-          {TechList}
-        </div>
-      </section>
-
     </>
   );
 };
