@@ -1,5 +1,5 @@
 @value colors: '../colors.css';
-@value lightblue, yellow, offwhite, white from colors;
+@value lightblue, yellow, offwhite, white, darkgray from colors;
 
 .Header{
   display: flex;
@@ -47,6 +47,10 @@
     > b:hover {
       color: #d7ffff;
     }
+    .dev {
+      font-size: 16px;
+      color: offwhite;
+    }
   }
 
   .Nav{
@@ -58,14 +62,16 @@
       justify-content: center;
 
       li {
-        padding: 0 1rem;
+
 
         a {
           text-decoration: none;
           color: lightblue;
+          padding: 0 1rem;
 
           &.active {
-            color: white;
+            color: darkgray;
+            background-color: offwhite;
           }
 
           &:active, &:hover {

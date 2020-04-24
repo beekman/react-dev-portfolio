@@ -5,7 +5,7 @@ export default {
     'pitch': 'I have over a decade of professional experience with web development and design and a degree in multimedia design. Over the past two years, I\'ve fallen in love with programming and drilled deeply into full-stack JavaScript development.  My programming language of choice is JavaScript, but it\'s not the only one I\'ve worked with professionally. My work with Python and PHP makes me a more well rounded and flexible developer.',
   },
   'contact': {
-    'heading': 'Let\'s Connect',
+    'heading': 'Let\'s Connect!',
     'tagline': 'import SoftwareDeveloper from \'benbeekman.dev\';',
     'name': 'Ben Beekman',
     'occupation': 'Software Developer',

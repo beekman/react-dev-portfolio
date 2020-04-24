@@ -7,7 +7,7 @@ export default function Nav() {
     <header className={styles.Header}>
       <h1 className={styles.Logo}>
         <strong>Ben</strong>
-        <b>Beekman</b>
+        <b>Beekman</b><span className={styles.dev}>.dev</span>
       </h1>
 
       <nav className={styles.Nav}>

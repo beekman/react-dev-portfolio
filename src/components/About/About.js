@@ -22,7 +22,7 @@ const About = ({ about }) => {
           <p>{about.summary}</p>
           <p>{about.pitch}</p>
         </section>
-        <figure classNamd={styles.profile}>
+        <figure className={styles.profile}>
           <img src={photo} />
         </figure>
       </main>

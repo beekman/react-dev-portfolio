@@ -28,9 +28,6 @@ import frontpage from '../../assets/portfolio/frontpage.png';
 import plantParenthood from '../../assets/portfolio/plantParenthood.png';
 
 const Project = ({ feature }) => {
-
-
-
   const TechList = feature.tech.map((tech, i) => {
     const iconObj = {
       'React': react,
@@ -98,12 +95,10 @@ Project.propTypes = {
   feature: PropTypes.shape({
     title: PropTypes.string.isRequired,
     description: PropTypes.string,
-    image: PropTypes.string,
     github: PropTypes.string,
     demo: PropTypes.string,
     tech: PropTypes.shape([{
-      name: PropTypes.string.isRequired,
-      logo: PropTypes.string,
+      name: PropTypes.string
     }]).isRequired,
   }),
 };
