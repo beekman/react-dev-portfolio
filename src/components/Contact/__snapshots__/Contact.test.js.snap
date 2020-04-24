@@ -24,7 +24,7 @@ exports[`Contact component matches snapshot 1`] = `
     <p
       className="hiringStatus"
     >
-      I am currently available for full-time and contract opportunities. Please reach out to me using any of the contact options below.
+      Please reach out to me using any of the contact options below.
     </p>
     <Typist
       avgTypingDelay={70}
