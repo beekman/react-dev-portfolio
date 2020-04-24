@@ -4,7 +4,6 @@ import styles from './Contact.css';
 import ScrollAnimation from 'react-animate-on-scroll';
 import { FaGithub, FaLinkedin, FaPhone } from 'react-icons/fa';
 import { AiOutlineMail } from 'react-icons/ai';
-
 import { Element } from 'react-scroll';
 import Typist from 'react-typist';
 
@@ -16,12 +15,11 @@ const Contact = ({ contact }) => {
         <ScrollAnimation animateIn="tada">
           <h1>{contact.heading}</h1>
         </ScrollAnimation>
-
-
-        <p>I am currently available for full-time and contract opportunities. Please reach out to me using any of the contact options below.</p>
+        <p className={styles.hiringStatus}>{contact.hiringStatus}</p>
         <Typist cursor={{ show: false }}
         ><h2 className={styles.tagline}>{contact.tagline}</h2></Typist>
         <section className={styles.social}>
+          {contact.name}<br />
           {contact.city}, {contact.state}<br />
           <a href='!tel:5417405681'>
             <FaPhone />{contact.phone}
@@ -49,7 +47,8 @@ Contact.propTypes = {
     linkedinURL: PropTypes.string.isRequired,
     githubURL: PropTypes.string.isRequired,
     tagline: PropTypes.string,
-    resumeLink: PropTypes.string
+    resumeLink: PropTypes.string,
+    hiringStatus: PropTypes.string,
   })
 };
 

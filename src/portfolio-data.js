@@ -1,12 +1,13 @@
 export default {
   'about': {
     'title': 'Creative Software Developer',
-    'summary': 'Hi, I\'m Ben. I\'m a full-stack developer with a background as an entrepreneur in front-end web development, SEO and education. I value clean code that solves human-centric problems and making a meaningful impact for the companies and teams I work for.',
-    'pitch': 'I have over a decade of professional experience with web development and design and a degree in multimedia design. Over the past two years, I\'ve fallen in love with programming and drilled deeply into full-stack JavaScript development.  My programming language of choice is JavaScript, but it\'s not the only one I\'ve worked with professionally. My work with Python and PHP makes me a more well rounded and flexible developer.',
+    'summary': 'Hi, I\'m Ben. I\'m a full-stack developer with a background as an entrepreneur in front-end web development, SEO and education. I\'m passionate about clean code that solves human-centric problems, learning and teaching new approaches and technologies, and making a meaningful impact for the companies and teams I work for.',
+    'pitch': 'I have over a decade of professional experience with web development and design and a degree in multimedia design. Over time, I fell in love with programming, and drilled deeply into full-stack JavaScript development. My programming language of choice is JavaScript, but it\'s not the only one I\'ve worked with professionally. My work with Python and PHP makes me a more well rounded and flexible developer.',
   },
   'contact': {
     'heading': 'Let\'s Connect!',
     'tagline': 'import SoftwareDeveloper from \'benbeekman.dev\';',
+    'hiringStatus': 'I am currently available for full-time and contract opportunities. Please reach out to me using any of the contact options below.',
     'name': 'Ben Beekman',
     'occupation': 'Software Developer',
     'email': 'ben@benbeekman.com',
@@ -35,13 +36,13 @@ export default {
         'name': 'Node',
       },
       {
-        'name': 'Express',
-      },
-      {
         'name': 'MongoDB',
       },
       {
         'name': 'PostgreSQL',
+      },
+      {
+        'name': 'Express',
       },
       {
         'name': 'Mongoose',
@@ -74,22 +75,20 @@ export default {
         'name': 'CSS',
       },
     ],
-    'learningCopy': 'I\'m passionate about learning, and I frequently add new tools to my utility belt. Here are a few technologies that I\'m getting to know right now.',
+    'learningCopy': 'I\'m passionate about learning, and I frequently add new tools to my utility belt. Here\'s what I\'m getting to know right now.',
     'learning': [
       {
         'name': 'TypeScript',
       },
       {
         'name': 'GraphQL',
-      },
-      {
-        'name': 'SocketIO',
       }
     ],
     'resumeLink': 'https://www.canva.com/design/DADxzQOaReM/zmkBwZHsYHDKVeaHyVzBoA/view?utm_content=DADxzQOaReM&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton',
   },
   'projects': {
-    'summary': 'While I\'ve taken on the majority of my client projects by myself, I thrive in collaborative coding environments. Within the past year, I\'ve worked on small teams that created a progressive web app that helps you improve personal communication, an IoT plant sensor application, and a Tinder-style newsreader. My work also draws on a decade of front-end and UX/UI experience developing WordPress themes and websites, which made me an expert at solving problems for clients.',
+    'summary': 'While I work well on my own, I thrive in collaborative coding environments. Within the past year, I\'ve worked on small teams that created a progressive web app that helps you improve personal communication, an IoT plant sensor application, and a Tinder-style newsreader. My work also draws on over a decade of front-end and UX/UI experience developing WordPress themes and websites and solving problems for clients.',
+    'design-portfolio-link': 'https://benbeekman.com/web',
     'history': 'I\'ve long been fascinated by the ways digital technology can engage and empower people. Since earning my U of O degree in Multimedia Design, I\'ve spent more than a decade in Portland helping people harness the power of that technology. I\'ve taught classes for young people, tutored older people, consulted for small businesses, co-authored technology textbooks, served as both design and IT department for a small media company, and mostly designed and developed web sites for businesses, nonprofits, and individuals.',
     'feature': [
       {

@@ -11,6 +11,10 @@
   align-items: center;
   font-size: 1.5rem;
 
+  .hiringStatus {
+    max-width: 60%;
+  }
+
   .tagline {
     color: yellow;
     background-color: darkgray;
