@@ -68,16 +68,18 @@
           text-decoration: none;
           color: lightblue;
           padding: 0 1rem;
-
-          &.active {
-            color: darkgray;
-            background-color: offwhite;
-          }
-
+          
           &:active, &:hover {
             color: yellow;
             cursor: pointer;
           }
+
+          &.active {
+            color: black;
+            background-color: offwhite;
+          }
+
+
         }
       }
     }

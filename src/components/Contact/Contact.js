@@ -26,10 +26,11 @@ const Contact = ({ contact }) => {
           </a><br />
           <a href='!mailto:{contact.email}'><AiOutlineMail />{contact.email}</a><br />
           <a href={contact.linkedinURL}><FaLinkedin />/in/beekman</a><br />
-          <a href={contact.githubURL}><FaGithub />/beekman</a>
+          <a href={contact.githubURL}><FaGithub />/beekman</a><br />
+          <a href={contact.resumeLink} target='_blank' rel='noopener noreferrer'>View my resume</a>
         </section>
       </div >
-      <a href={contact.resumeLink} target='_blank' rel='noopener noreferrer'>View my resume</a>
+
     </Element>
   );
 };

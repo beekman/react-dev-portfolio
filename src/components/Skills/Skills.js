@@ -23,8 +23,10 @@ const Skills = ({ skills }) => {
     <Element name="Skills" className="Skills">
       <div className={styles.Skills}>
         <h1>{skills.heading}</h1>
+
         <section>
-          <p>{skills.techCopy}</p>
+          <p>{skills.techCopy} <a href={skills.resumeLink} target='_blank' rel='noopener noreferrer'>View my resume.</a></p>
+
 
           <h2>{skills.techHeading}</h2>
           <ScrollAnimation animateIn='fadeIn'
@@ -42,7 +44,6 @@ const Skills = ({ skills }) => {
             </ul>
           </ScrollAnimation>
         </section>
-        <a href={skills.resumeLink} target='_blank' rel='noopener noreferrer'>Download my resume</a>
       </div >
     </Element>
   );

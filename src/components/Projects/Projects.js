@@ -16,8 +16,8 @@ const Projects = ({ projects }) => {
     <Element name="Projects" className={styles.Projects}>
       <header>
         <h1>Projects</h1>
-        <p>{projects.summary}</p>
         <p>{projects.history}</p>
+        <p>{projects.summary}</p>
       </header>
       {ProjectList}
     </Element>
