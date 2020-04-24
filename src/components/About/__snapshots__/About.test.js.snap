@@ -48,20 +48,20 @@ exports[`About component matches snapshot 1`] = `
         />
         Full Stack Developer
         <Backspace
-          count={35}
+          count={29}
           delay={500}
         />
-        It's complicated.
+        lot of things.
       </Typist>
     </h1>
   </header>
   <main>
     <section>
       <p>
-        Hi, I'm Ben. I'm a full-stack developer with a background as an entrepreneur in front-end web development, SEO and education. I value clean code that solves human-centric problems and making a meaningful impact for the companies and teams I work for.
+        Hi, I'm Ben. I'm a full-stack developer with a background as an entrepreneur in front-end web development, SEO and education. I'm passionate about clean code that solves human-centric problems, learning and teaching new approaches and technologies, and making a meaningful impact for the companies and teams I work for.
       </p>
       <p>
-        I have over a decade of professional experience with web development and design and a degree in multimedia design. Over the past two years, I've fallen in love with programming and drilled deeply into full-stack JavaScript development.  My programming language of choice is JavaScript, but it's not the only one I've worked with professionally. My work with Python and PHP makes me a more well rounded and flexible developer.
+        I have over a decade of professional experience with web development and design and a degree in multimedia design. Over time, I fell in love with programming, and drilled deeply into full-stack JavaScript development. My programming language of choice is JavaScript, but it's not the only one I've worked with professionally. My work with Python and PHP makes me a more well rounded and flexible developer.
       </p>
     </section>
     <figure

@@ -21,7 +21,9 @@ exports[`Contact component matches snapshot 1`] = `
         Let's Connect!
       </h1>
     </ScrollAnimation>
-    <p>
+    <p
+      className="hiringStatus"
+    >
       I am currently available for full-time and contract opportunities. Please reach out to me using any of the contact options below.
     </p>
     <Typist
@@ -48,6 +50,8 @@ exports[`Contact component matches snapshot 1`] = `
     <section
       className="social"
     >
+      Ben Beekman
+      <br />
       Portland
       , 
       OR
@@ -79,14 +83,15 @@ exports[`Contact component matches snapshot 1`] = `
         <FaGithub />
         /beekman
       </a>
+      <br />
+      <a
+        href="https://www.canva.com/design/DADxzQOaReM/zmkBwZHsYHDKVeaHyVzBoA/view?utm_content=DADxzQOaReM&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        View my resume
+      </a>
     </section>
   </div>
-  <a
-    href="https://www.canva.com/design/DADxzQOaReM/zmkBwZHsYHDKVeaHyVzBoA/view?utm_content=DADxzQOaReM&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton"
-    rel="noopener noreferrer"
-    target="_blank"
-  >
-    View my resume
-  </a>
 </Element>
 `;
