@@ -13,6 +13,11 @@ exports[`Nav component matches snapshot 1`] = `
     <b>
       Beekman
     </b>
+    <span
+      className="dev"
+    >
+      .dev
+    </span>
   </h1>
   <nav
     className="Nav"

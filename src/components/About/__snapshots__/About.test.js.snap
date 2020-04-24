@@ -65,7 +65,7 @@ exports[`About component matches snapshot 1`] = `
       </p>
     </section>
     <figure
-      classNamd="profile"
+      className="profile"
     >
       <img
         src="/path/image"

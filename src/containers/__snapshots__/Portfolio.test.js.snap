@@ -231,7 +231,7 @@ exports[`Portfolio component matches snapshot 1`] = `
         "city": "Portland",
         "email": "ben@benbeekman.com",
         "githubURL": "https://github.com/beekman",
-        "heading": "Let's Connect",
+        "heading": "Let's Connect!",
         "linkedinURL": "https://www.linkedin.com/in/beekman/",
         "name": "Ben Beekman",
         "occupation": "Software Developer",

@@ -8,11 +8,21 @@ exports[`Contact component matches snapshot 1`] = `
   <div
     className="Contact"
   >
-    <h1>
-      Let's Connect
-    </h1>
+    <ScrollAnimation
+      animateIn="tada"
+      animateOnce={false}
+      animatePreScroll={true}
+      delay={0}
+      duration={1}
+      initiallyVisible={false}
+      offset={150}
+    >
+      <h1>
+        Let's Connect!
+      </h1>
+    </ScrollAnimation>
     <p>
-      I am currently available for full-time and contract opportunities.
+      I am currently available for full-time and contract opportunities. Please reach out to me using any of the contact options below.
     </p>
     <Typist
       avgTypingDelay={70}
@@ -35,8 +45,8 @@ exports[`Contact component matches snapshot 1`] = `
         import SoftwareDeveloper from 'benbeekman.dev';
       </h2>
     </Typist>
-    <div
-      className="address"
+    <section
+      className="social"
     >
       Portland
       , 
@@ -55,10 +65,7 @@ exports[`Contact component matches snapshot 1`] = `
         <AiOutlineMail />
         ben@benbeekman.com
       </a>
-    </div>
-    <section
-      className="social"
-    >
+      <br />
       <a
         href="https://www.linkedin.com/in/beekman/"
       >
