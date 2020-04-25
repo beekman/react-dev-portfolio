@@ -26,6 +26,8 @@ import kit from '../../assets/portfolio/kit.png';
 import qwixx from '../../assets/portfolio/qwixx.png';
 import frontpage from '../../assets/portfolio/frontpage.png';
 import plantParenthood from '../../assets/portfolio/plantParenthood.png';
+import digitalPlanet from '../../assets/portfolio/digitalPlanet.png';
+import erskineSolarArt from '../../assets/portfolio/erskineSolarArt.png';
 
 const Project = ({ feature }) => {
   const TechList = feature.tech.map((tech, i) => {
@@ -61,7 +63,9 @@ const Project = ({ feature }) => {
     'kit: Keep In Touch': kit,
     'Plant Parenthood': plantParenthood,
     'FrontPage': frontpage,
-    'Qwixx': qwixx
+    'Qwixx': qwixx,
+    'Erskine Solar Art': erskineSolarArt,
+    'Digital Planet': digitalPlanet
   };
 
   return (

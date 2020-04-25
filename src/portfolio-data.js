@@ -1,13 +1,13 @@
 export default {
   'about': {
     'title': 'Creative Software Developer',
-    'summary': 'Hi, I\'m Ben. I\'m a full-stack developer with a background as an entrepreneur in front-end web development, SEO and education. I\'m passionate about clean code that solves human-centric problems, learning and teaching new approaches and technologies, and making a meaningful impact for the companies and teams I work for.',
-    'pitch': 'I have over a decade of professional experience with web development and design and a degree in multimedia design. Over time, I fell in love with programming, and drilled deeply into full-stack JavaScript development. My programming language of choice is JavaScript, but it\'s not the only one I\'ve worked with professionally. My work with Python and PHP makes me a more well rounded and flexible developer.',
+    'summary': 'I\'m a full-stack developer with an entrepreneurial background in front-end web development, SEO, and education. I\'m enthusiastic about creating code that solves human-centered problems and I love learning and teaching new techniques and technologies.',
+    'pitch': 'After earning my degree in multimedia design, I spent more than a decade designing and developing websites. During that time I drilled deeper and deeper into full-stack development. My language of choice is JavaScript, but my experience with Python and PHP makes me a more well rounded and flexible developer.',
   },
   'contact': {
     'heading': 'Let\'s Connect!',
     'tagline': 'import SoftwareDeveloper from \'benbeekman.dev\';',
-    'hiringStatus': 'I am currently available for full-time and contract opportunities. Please reach out to me using any of the contact options below.',
+    'hiringStatus': 'Please reach out to me using any of the contact options below.',
     'name': 'Ben Beekman',
     'occupation': 'Software Developer',
     'email': 'ben@benbeekman.com',
@@ -21,7 +21,7 @@ export default {
   'skills': {
     'heading': 'Tools of My Trade',
     'techHeading': 'I use these:',
-    'techCopy': 'I create creative digital solutions with a modern tech stack and over a decade of experience with UX/UI and front-end development.',
+    'techCopy': 'I create digital solutions with a modern tech stack, and I\'m always excited to add new tools to that stack.',
     'tech': [
       {
         'name': 'JavaScript',
@@ -75,7 +75,7 @@ export default {
         'name': 'CSS',
       },
     ],
-    'learningCopy': 'I\'m passionate about learning, and I frequently add new tools to my utility belt. Here\'s what I\'m getting to know right now.',
+    'learningCopy': 'I\'m new tools to my utility belt. Here\'s what I\'m getting to know right now.',
     'learning': [
       {
         'name': 'TypeScript',
@@ -87,9 +87,10 @@ export default {
     'resumeLink': 'https://www.canva.com/design/DADxzQOaReM/zmkBwZHsYHDKVeaHyVzBoA/view?utm_content=DADxzQOaReM&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton',
   },
   'projects': {
-    'summary': 'While I work well on my own, I thrive in collaborative coding environments. Within the past year, I\'ve worked on small teams that created a progressive web app that helps you improve personal communication, an IoT plant sensor application, and a Tinder-style newsreader. My work also draws on over a decade of front-end and UX/UI experience developing WordPress themes and websites and solving problems for clients.',
+    'history': 'I\'m fascinated by the ways digital technology can engage and empower people. Since earning my U of O degree in Multimedia Design, I\'ve spent more than a decade helping people harness the power of that technology. I\'ve taught classes for young people, tutored older people, consulted for small businesses, co-authored technology textbooks, served as both design and IT department for a small media company, and designed and developed web sites for businesses, nonprofits, and individuals.',
+    'summary': 'I work well on my own, but I thrive in collaborative coding environments. Here\'s a sampling of my team-based projects.',
     'design-portfolio-link': 'https://benbeekman.com/web',
-    'history': 'I\'ve long been fascinated by the ways digital technology can engage and empower people. Since earning my U of O degree in Multimedia Design, I\'ve spent more than a decade in Portland helping people harness the power of that technology. I\'ve taught classes for young people, tutored older people, consulted for small businesses, co-authored technology textbooks, served as both design and IT department for a small media company, and mostly designed and developed web sites for businesses, nonprofits, and individuals.',
+
     'feature': [
       {
         'title': 'kit: Keep In Touch',
@@ -176,14 +177,17 @@ export default {
       {
         'title': 'FrontPage',
         'description': 'A Tinder-style newsreader that allows you to swipe right on the news that interests you.',
-        'demo': 'https://friendlier-staging.netlify.app/login',
-        'github': 'https://github.com/band-m/friendlier-fe',
+        'demo': 'https://front-pagenews.herokuapp.com',
+        'github': 'https://github.com/Alchemy-Frontpage/Frontpage',
         'tech': [
           {
             'name': 'JavaScript',
           },
           {
             'name': 'Node',
+          },
+          {
+            'name': 'Express',
           },
           {
             'name': 'PostgreSQL',
@@ -204,6 +208,46 @@ export default {
         'description': 'A mobile-responsive vanilla JavaScript implementation of the popular Qwixx dice game that speeds gameplay and doesn\'t waste scorecards. Developed with face-to-face multiplayer in mind with each player\'s device acting as their scorecard.',
         'demo': 'https://i-16.github.io/qwixx/',
         'github': 'https://github.com/I-16/qwixx',
+        'tech': [
+          {
+            'name': 'JavaScript',
+          },
+          {
+            'name': 'HTML',
+          },
+          {
+            'name': 'CSS',
+          },
+          {
+            'name': 'GitHub'
+          }
+        ],
+      },
+      {
+        'title': 'Erskine Solar Art',
+        'description': 'This was one of many Wordpress-based sites I developed for a client who wanted to be able to maintain it on his own.',
+        'demo': 'https://erskinesolarart.net',
+        'github': '',
+        'tech': [
+          {
+            'name': 'JavaScript',
+          },
+          {
+            'name': 'HTML',
+          },
+          {
+            'name': 'CSS',
+          },
+          {
+            'name': 'GitHub'
+          }
+        ],
+      },
+      {
+        'title': 'Digital Planet',
+        'description': 'I developed this Wordpress-based site to accompany a college textbook that  I co-authored one of many Wordpress-based sites I developed for a client who wanted to be able to maintain it on his own.',
+        'demo': 'https://digital-pla.net',
+        'github': '',
         'tech': [
           {
             'name': 'JavaScript',
