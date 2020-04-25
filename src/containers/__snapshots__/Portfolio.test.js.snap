@@ -264,7 +264,7 @@ exports[`Portfolio component matches snapshot 1`] = `
           Object {
             "demo": "https://digital-pla.net",
             "description": "I developed this Wordpress-based site to accompany a college textbook that  I co-authored one of many Wordpress-based sites I developed for a client who wanted to be able to maintain it on his own.",
-            "github": "#",
+            "github": "",
             "tech": Array [
               Object {
                 "name": "JavaScript",
@@ -288,7 +288,7 @@ exports[`Portfolio component matches snapshot 1`] = `
     contact={
       Object {
         "city": "Portland",
-        "email": "ben@benbeekman.com",
+        "email": "ben@benbeekman.dev",
         "githubURL": "https://github.com/beekman",
         "heading": "Let's Connect!",
         "hiringStatus": "Please reach out to me using any of the contact options below.",

@@ -10,7 +10,7 @@ export default {
     'hiringStatus': 'Please reach out to me using any of the contact options below.',
     'name': 'Ben Beekman',
     'occupation': 'Software Developer',
-    'email': 'ben@benbeekman.com',
+    'email': 'ben@benbeekman.dev',
     'phone': '(503)708-0478',
     'city': 'Portland',
     'state': 'OR',
@@ -268,7 +268,7 @@ export default {
         'title': 'Digital Planet',
         'description': 'I developed this Wordpress-based site to accompany a college textbook that  I co-authored one of many Wordpress-based sites I developed for a client who wanted to be able to maintain it on his own.',
         'demo': 'https://digital-pla.net',
-        'github': '#',
+        'github': '',
         'tech': [
           {
             'name': 'JavaScript',
