@@ -177,14 +177,17 @@ export default {
       {
         'title': 'FrontPage',
         'description': 'A Tinder-style newsreader that allows you to swipe right on the news that interests you.',
-        'demo': 'https://friendlier-staging.netlify.app/login',
-        'github': 'https://github.com/band-m/friendlier-fe',
+        'demo': 'https://front-pagenews.herokuapp.com',
+        'github': 'https://github.com/Alchemy-Frontpage/Frontpage',
         'tech': [
           {
             'name': 'JavaScript',
           },
           {
             'name': 'Node',
+          },
+          {
+            'name': 'Express',
           },
           {
             'name': 'PostgreSQL',
@@ -205,6 +208,46 @@ export default {
         'description': 'A mobile-responsive vanilla JavaScript implementation of the popular Qwixx dice game that speeds gameplay and doesn\'t waste scorecards. Developed with face-to-face multiplayer in mind with each player\'s device acting as their scorecard.',
         'demo': 'https://i-16.github.io/qwixx/',
         'github': 'https://github.com/I-16/qwixx',
+        'tech': [
+          {
+            'name': 'JavaScript',
+          },
+          {
+            'name': 'HTML',
+          },
+          {
+            'name': 'CSS',
+          },
+          {
+            'name': 'GitHub'
+          }
+        ],
+      },
+      {
+        'title': 'Erskine Solar Art',
+        'description': 'This was one of many Wordpress-based sites I developed for a client who wanted to be able to maintain it on his own.',
+        'demo': 'https://erskinesolarart.net',
+        'github': '',
+        'tech': [
+          {
+            'name': 'JavaScript',
+          },
+          {
+            'name': 'HTML',
+          },
+          {
+            'name': 'CSS',
+          },
+          {
+            'name': 'GitHub'
+          }
+        ],
+      },
+      {
+        'title': 'Digital Planet',
+        'description': 'I developed this Wordpress-based site to accompany a college textbook that  I co-authored one of many Wordpress-based sites I developed for a client who wanted to be able to maintain it on his own.',
+        'demo': 'https://digital-pla.net',
+        'github': '',
         'tech': [
           {
             'name': 'JavaScript',
