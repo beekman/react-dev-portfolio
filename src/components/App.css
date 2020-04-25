@@ -14,7 +14,7 @@ body {
   padding: 0;
 
   > div > header{
-    display:contents;
+    position: fixed;
   }
 
   a {

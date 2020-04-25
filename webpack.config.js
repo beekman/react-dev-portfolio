@@ -58,7 +58,9 @@ module.exports = {
                 require('postcss-import')(),
                 require('autoprefixer')(),
                 require('postcss-nested')(),
-                require('postcss-simple-vars')()
+                require('postcss-simple-vars')(),
+                require('postcss-focus'),
+                require('postcss-color-function'),
               ]
             }
           }

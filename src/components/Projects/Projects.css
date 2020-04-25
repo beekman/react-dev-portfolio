@@ -12,11 +12,13 @@
 
   header{
     display: block;
+    padding: 1rem 0;
   }
+
   .Project {
     padding: 0;
     margin: 0.5rem 0;
-    background-color: #232323;
+  
     border-radius: 0.75rem;
 
     .feature {
@@ -27,8 +29,8 @@
 
       .summary {
         padding: 3rem;
-        width: 100%;
       }
+
       .mediaBox{
         border-radius: 1rem;
       }
@@ -84,5 +86,19 @@
         }
      }
    }
+  }
+}
+
+@media screen and (max-width: 640px){
+  .Projects {
+    header {
+      .Project {
+        .feature {
+          display: block;
+          padding: 0;
+          width: 100%;
+        }
+      }
+    }
   }
 }

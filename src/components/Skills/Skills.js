@@ -39,7 +39,7 @@ const Skills = ({ skills }) => {
           <h2 className={styles.skillsHeading}>I&apos;m learning these</h2>
 
           <ScrollAnimation animateIn='fadeIn' animateOut='fadeIn'>
-            <ul>
+            <ul className={styles.SkillList}>
               {LearningList}
             </ul>
           </ScrollAnimation>
