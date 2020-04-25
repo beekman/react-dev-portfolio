@@ -1,10 +1,12 @@
 @value colors: '../colors.css';
 @value lightblue, yellow, offwhite, white from colors;
+@media screen and (max-width: 600px){
 .About {
   display: flex;
   flex-direction: column;
   position: relative;
-  top: 160px;
+  top: 220px;
+
 
   p {
     color: offwhite;
@@ -21,7 +23,7 @@
 
   main{
     display: block;
-
+    margin-bottom: 5rem;
     section{
     display: flex;
     flex-direction: column;
@@ -32,6 +34,7 @@
 
     figure {
       padding: 1rem;
+      display: block;
       img {
         border-radius: 50%;
         max-width: 50px;
@@ -39,21 +42,19 @@
     }
   }
 }
-
-@media screen and (min-width: 900px){
+}
+@media screen and (min-width: 600px){
   .About {
-    top: 0;
-    display: flex;
+    display: block;
     justify-content: space-evenly;
     align-items: center;
     flex-direction: column;
-    background-color: black;
     color: white;
+    background: black;
     min-height: 100vh;
     height: auto;
-    padding: 4rem 0.5rem;
     min-height: 100vh;
-    margin: auto;
+    top: 80px;
 
     header {
 
@@ -78,9 +79,10 @@
 
       figure {
         padding: 1rem;
+
         img {
           border-radius: 50%;
-          max-width: 100%;
+          max-width: 150px;
         }
       }
     }

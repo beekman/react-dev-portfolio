@@ -1,13 +1,20 @@
 @value colors: '../colors.css';
 @value lightblue, yellow, offwhite, white, darkgray from colors;
 
+.App > div > header{
+  position: fixed;
+}
+
 .Header{
-  display: contents;
   flex-wrap: wrap;
   align-items: flex-start;
   position: fixed;
   background-color: RGBA(0,0,0,0.4);
   width: 100%;
+
+  h1{
+    display: inline-block;
+  }
 
   .Logo {
     font-family: 'Play', sans-serif;
@@ -15,6 +22,7 @@
     color: white;
     margin: 0;
     padding: 0.5rem 0.75rem;
+    display: inline-block;
 
     strong {
     font-size: 2rem;
@@ -27,13 +35,13 @@
     transition-property: color;
     text-transform: lowercase;
     color: #37e8fd;
-    }
 
-    strong:hover {
+    &:hover {
       color: #d7ffff;
     }
+  }
 
-    b {
+    > b {
     font-size: 2rem;
     font-weight: 700;
     position: relative;
@@ -54,6 +62,8 @@
   }
 
   .Nav{
+    display: inline-block;
+
     ul{
       display: flex;
       flex-wrap: wrap;

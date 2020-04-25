@@ -1,3 +1,6 @@
+@value colors: '../colors.css';
+@value lightblue, yellow, offwhite, white, darkgray, lightyellow, whiteblue from colors;
+
 .Skills {
   background-color: white;
   color: black;
@@ -21,21 +24,33 @@
     flex-direction: row;
     flex-wrap: wrap;
     list-style-type: none;
+    background-color: whiteblue;
+    justify-content: center;
+    padding: 1rem;
+    border-radius: 1rem;
+
+    ul{
+      list-style-type: none;
+      display: inline;
+      justify-content: center;
+
+    }
 
     li {
-      display:flex;
+      display: flex;
       text-align: center;
       flex-direction: column;
       padding: 10px;
+      justify-content: center;
+      color: darkgray;
 
-      div {
+      > div {
         width: 100%;
         height: 100%;
         display: block;
         margin: 0;
         justify-content: center;
-        background-color: offwhite;
-        color: darkgray;
+        color: offwhite;
         border-radius: 0.75rem;
 
         img{
