@@ -28,17 +28,7 @@ Projects.propTypes = {
   projects: PropTypes.shape({
     summary: PropTypes.string.isRequired,
     history: PropTypes.string,
-    feature: PropTypes.shape([{
-      title: PropTypes.string.isRequired,
-      description: PropTypes.string,
-      image: PropTypes.string,
-      github: PropTypes.string,
-      demo: PropTypes.string,
-      tech: PropTypes.shape([{
-        name: PropTypes.string.isRequired,
-        logo: PropTypes.string,
-      }]).isRequired,
-    }]),
+    feature: PropTypes.array,
   })
 };
 
