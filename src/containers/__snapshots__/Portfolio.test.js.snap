@@ -23,8 +23,11 @@ exports[`Portfolio component matches snapshot 1`] = `
           Object {
             "name": "GraphQL",
           },
+          Object {
+            "name": "D3",
+          },
         ],
-        "learningCopy": "I'm new tools to my utility belt. Here's what I'm getting to know right now.",
+        "learningCopy": "I'm always adding new technologies to my utility belt. Here's what I'm getting to know right now.",
         "resumeLink": "https://www.canva.com/design/DADxzQOaReM/zmkBwZHsYHDKVeaHyVzBoA/view?utm_content=DADxzQOaReM&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton",
         "tech": Array [
           Object {
@@ -73,9 +76,6 @@ exports[`Portfolio component matches snapshot 1`] = `
             "name": "PHP",
           },
           Object {
-            "name": "Raspberry Pi",
-          },
-          Object {
             "name": "SASS",
           },
           Object {
@@ -86,7 +86,7 @@ exports[`Portfolio component matches snapshot 1`] = `
           },
         ],
         "techCopy": "I create digital solutions with a modern tech stack, and I'm always excited to add new tools to that stack.",
-        "techHeading": "I use these:",
+        "techHeading": "I use these",
       }
     }
   />
@@ -264,7 +264,7 @@ exports[`Portfolio component matches snapshot 1`] = `
           Object {
             "demo": "https://digital-pla.net",
             "description": "I developed this Wordpress-based site to accompany a college textbook that  I co-authored one of many Wordpress-based sites I developed for a client who wanted to be able to maintain it on his own.",
-            "github": "",
+            "github": "#",
             "tech": Array [
               Object {
                 "name": "JavaScript",
@@ -274,9 +274,6 @@ exports[`Portfolio component matches snapshot 1`] = `
               },
               Object {
                 "name": "CSS",
-              },
-              Object {
-                "name": "GitHub",
               },
             ],
             "title": "Digital Planet",

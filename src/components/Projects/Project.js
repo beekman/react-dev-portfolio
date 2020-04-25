@@ -24,6 +24,7 @@ import python from '../../assets/tech/thumbs/python-logo-60px.png';
 import ts from '../../assets/tech/thumbs/typescript-logo-60px.png';
 import sass from '../../assets/tech/thumbs/sass-logo-60px.png';
 import socket from '../../assets/tech/thumbs/socket-logo-60px.png';
+import d3 from '../../assets/tech/thumbs/d3-logo-60.png';
 import kit from '../../assets/portfolio/kit.png';
 import qwixx from '../../assets/portfolio/qwixx.png';
 import frontpage from '../../assets/portfolio/frontpage.png';
@@ -55,7 +56,8 @@ const Project = ({ feature }) => {
       'SASS': sass,
       'SocketIO': socket,
       'Shell': shell,
-      'Raspberry Pi': raspberryPi
+      'Raspberry Pi': raspberryPi,
+      'D3': d3,
     };
 
     return <li key={i} className={styles.Tech}>
@@ -75,15 +77,15 @@ const Project = ({ feature }) => {
   return (
     <>
       <div className={styles.feature}>
-        <div><h2>{feature.title}</h2>
+        <div className={styles.summary}><h2>{feature.title}</h2>
           <p>{feature.description}</p>
 
           <div className={styles.links}>
-            <a href={feature.github} target='_blank' rel='noopener noreferrer'>Github Repo</a>
+            <a href={feature.github} target='_blank' rel='noopener noreferrer'>View on Github</a>
             <a href={feature.demo} target='_blank' rel='noopener noreferrer'>Live Demo</a>
           </div>
         </div>
-        <div>
+        <div className={styles.mediaBox}>
           <ScrollAnimation animateIn="fadeInUp">
             <img src={screenObj[feature.title]} alt={feature.title} title={feature.title} />
           </ScrollAnimation>
