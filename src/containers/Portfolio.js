@@ -9,13 +9,13 @@ export default class Portfolio extends Component {
 
   render() {
     return (
-      <div>
+      <>
         <Nav />
         <About about={data.about} />
         <Skills skills={data.skills} learning={data.learning} />
         <Projects projects={data.projects} />
         <Contact contact={data.contact} />
-      </div>
+      </>
     );
   }
 }

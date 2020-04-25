@@ -1,8 +1,9 @@
 @value colors: '../colors.css';
 @value lightblue, yellow, offwhite, white, darkgray from colors;
 
-.App > div > header{
+.App > .Header{
   position: fixed;
+  z-index: 999999999;
 }
 
 .Header{
