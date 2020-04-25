@@ -1,7 +1,7 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import styles from './Projects.css';
 import Project from './Project';
+import PropTypes from 'prop-types';
 import { Element } from 'react-scroll';
 
 const Projects = ({ projects }) => {
