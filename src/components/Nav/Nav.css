@@ -2,7 +2,7 @@
 @value lightblue, yellow, offwhite, white, darkgray from colors;
 
 .Header{
-  display: flex;
+  display: contents;
   flex-wrap: wrap;
   align-items: flex-start;
   position: fixed;
@@ -62,13 +62,14 @@
       justify-content: center;
 
       li {
-
+        color: #FFFFFF;
+        background: #232323;
 
         a {
           text-decoration: none;
           color: lightblue;
           padding: 0 1rem;
-          
+
           &:active, &:hover {
             color: yellow;
             cursor: pointer;
@@ -77,6 +78,7 @@
           &.active {
             color: black;
             background-color: offwhite;
+            text-shadow: 0 0 5px offwhite, 0 0 10px offwhite, 0 0 15px offwhite, 0 0 20px yellow, 0 0 30px yellow, 0 0 40px yellow, 0 0 55px yellow, 0 0 75px yellow;
           }
 
 

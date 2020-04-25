@@ -36,7 +36,7 @@ const Skills = ({ skills }) => {
             </ul>
           </ScrollAnimation>
 
-          <h2>I&apos;m learning these:</h2>
+          <h2 className={styles.skillsHeading}>I&apos;m learning these</h2>
 
           <ScrollAnimation animateIn='fadeIn' animateOut='fadeIn'>
             <ul>

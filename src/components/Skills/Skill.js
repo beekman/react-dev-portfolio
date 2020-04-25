@@ -22,6 +22,7 @@ import sass from '../../assets/tech/thumbs/sass-logo-60px.png';
 import socket from '../../assets/tech/thumbs/socket-logo-60px.png';
 import shell from '../../assets/tech/thumbs/shell-logo-60.png';
 import raspberryPi from '../../assets/tech/thumbs/raspberry-pi-logo-60px.png';
+import d3 from '../../assets/tech/thumbs/d3-logo-60.png';
 
 const Skill = ({ skill }) => {
   const iconObj = {
@@ -47,6 +48,7 @@ const Skill = ({ skill }) => {
     'SocketIO': socket,
     'Shell': shell,
     'Raspberry Pi': raspberryPi,
+    'D3': d3,
   };
   return (
     <>

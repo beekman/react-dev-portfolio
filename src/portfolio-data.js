@@ -85,6 +85,9 @@ export default {
       },
       {
         'name': 'GraphQL',
+      },
+      {
+        'name': 'D3',
       }
     ],
     'resumeLink': 'https://www.canva.com/design/DADxzQOaReM/zmkBwZHsYHDKVeaHyVzBoA/view?utm_content=DADxzQOaReM&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton',
