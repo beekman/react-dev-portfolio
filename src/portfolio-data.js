@@ -54,6 +54,9 @@ export default {
         'name': 'Git',
       },
       {
+        'name': 'Shell'
+      },
+      {
         'name': 'Netlify',
       },
       {
@@ -64,6 +67,9 @@ export default {
       },
       {
         'name': 'PHP',
+      },
+      {
+        'name': 'Raspberry Pi',
       },
       {
         'name': 'SASS',
@@ -123,6 +129,9 @@ export default {
             'name': 'GitHub'
           },
           {
+            'name': 'Shell'
+          },
+          {
             'name': 'Netlify',
           },
           {
@@ -161,6 +170,9 @@ export default {
             'name': 'GitHub'
           },
           {
+            'name': 'Shell'
+          },
+          {
             'name': 'HTML',
           },
           {
@@ -168,6 +180,9 @@ export default {
           },
           {
             'name': 'Python'
+          },
+          {
+            'name': 'Raspberry Pi',
           },
           {
             'name': 'Heroku'
@@ -196,6 +211,9 @@ export default {
             'name': 'GitHub'
           },
           {
+            'name': 'Shell'
+          },
+          {
             'name': 'HTML',
           },
           {
@@ -220,7 +238,10 @@ export default {
           },
           {
             'name': 'GitHub'
-          }
+          },
+          {
+            'name': 'Shell'
+          },
         ],
       },
       {

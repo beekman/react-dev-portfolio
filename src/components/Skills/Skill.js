@@ -20,6 +20,8 @@ import python from '../../assets/tech/thumbs/python-logo-60px.png';
 import ts from '../../assets/tech/thumbs/typescript-logo-60px.png';
 import sass from '../../assets/tech/thumbs/sass-logo-60px.png';
 import socket from '../../assets/tech/thumbs/socket-logo-60px.png';
+import shell from '../../assets/tech/thumbs/shell-logo-60.png';
+import raspberryPi from '../../assets/tech/thumbs/raspberry-pi-logo-60px.png';
 
 const Skill = ({ skill }) => {
   const iconObj = {
@@ -42,7 +44,9 @@ const Skill = ({ skill }) => {
     'Python': python,
     'TypeScript': ts,
     'SASS': sass,
-    'SocketIO': socket
+    'SocketIO': socket,
+    'Shell': shell,
+    'Raspberry Pi': raspberryPi,
   };
   return (
     <>

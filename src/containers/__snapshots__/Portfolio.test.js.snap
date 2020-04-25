@@ -58,6 +58,9 @@ exports[`Portfolio component matches snapshot 1`] = `
             "name": "Git",
           },
           Object {
+            "name": "Shell",
+          },
+          Object {
             "name": "Netlify",
           },
           Object {
@@ -68,6 +71,9 @@ exports[`Portfolio component matches snapshot 1`] = `
           },
           Object {
             "name": "PHP",
+          },
+          Object {
+            "name": "Raspberry Pi",
           },
           Object {
             "name": "SASS",
@@ -119,6 +125,9 @@ exports[`Portfolio component matches snapshot 1`] = `
                 "name": "GitHub",
               },
               Object {
+                "name": "Shell",
+              },
+              Object {
                 "name": "Netlify",
               },
               Object {
@@ -157,6 +166,9 @@ exports[`Portfolio component matches snapshot 1`] = `
                 "name": "GitHub",
               },
               Object {
+                "name": "Shell",
+              },
+              Object {
                 "name": "HTML",
               },
               Object {
@@ -164,6 +176,9 @@ exports[`Portfolio component matches snapshot 1`] = `
               },
               Object {
                 "name": "Python",
+              },
+              Object {
+                "name": "Raspberry Pi",
               },
               Object {
                 "name": "Heroku",
@@ -192,6 +207,9 @@ exports[`Portfolio component matches snapshot 1`] = `
                 "name": "GitHub",
               },
               Object {
+                "name": "Shell",
+              },
+              Object {
                 "name": "HTML",
               },
               Object {
@@ -216,6 +234,9 @@ exports[`Portfolio component matches snapshot 1`] = `
               },
               Object {
                 "name": "GitHub",
+              },
+              Object {
+                "name": "Shell",
               },
             ],
             "title": "Qwixx",

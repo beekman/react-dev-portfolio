@@ -12,6 +12,8 @@ import express from '../../assets/tech/thumbs/express-logo-60px-square.png';
 import mongoose from '../../assets/tech/thumbs/mongoose-logo-60px-square.png';
 import netlify from '../../assets/tech/thumbs/netlify-logo-60px.png';
 import heroku from '../../assets/tech/thumbs/heroku-logo-60px.png';
+import raspberryPi from '../../assets/tech/thumbs/raspberry-pi-logo-60px.png';
+import shell from '../../assets/tech/thumbs/shell-logo-60.png';
 import css from '../../assets/tech/thumbs/css-logo-60px.png';
 import html from '../../assets/tech/thumbs/html-logo-60px.png';
 import github from '../../assets/tech/thumbs/github-logo-60px.png';
@@ -51,7 +53,9 @@ const Project = ({ feature }) => {
       'Python': python,
       'TypeScript': ts,
       'SASS': sass,
-      'SocketIO': socket
+      'SocketIO': socket,
+      'Shell': shell,
+      'Raspberry Pi': raspberryPi
     };
 
     return <li key={i} className={styles.Tech}>
