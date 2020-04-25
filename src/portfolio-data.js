@@ -20,7 +20,7 @@ export default {
   },
   'skills': {
     'heading': 'Tools of My Trade',
-    'techHeading': 'I use these:',
+    'techHeading': 'I use these',
     'techCopy': 'I create digital solutions with a modern tech stack, and I\'m always excited to add new tools to that stack.',
     'tech': [
       {
@@ -69,9 +69,6 @@ export default {
         'name': 'PHP',
       },
       {
-        'name': 'Raspberry Pi',
-      },
-      {
         'name': 'SASS',
       },
       {
@@ -81,7 +78,7 @@ export default {
         'name': 'CSS',
       },
     ],
-    'learningCopy': 'I\'m new tools to my utility belt. Here\'s what I\'m getting to know right now.',
+    'learningCopy': 'I\'m always adding new technologies to my utility belt. Here\'s what I\'m getting to know right now.',
     'learning': [
       {
         'name': 'TypeScript',
@@ -268,7 +265,7 @@ export default {
         'title': 'Digital Planet',
         'description': 'I developed this Wordpress-based site to accompany a college textbook that  I co-authored one of many Wordpress-based sites I developed for a client who wanted to be able to maintain it on his own.',
         'demo': 'https://digital-pla.net',
-        'github': '',
+        'github': '#',
         'tech': [
           {
             'name': 'JavaScript',
@@ -279,9 +276,6 @@ export default {
           {
             'name': 'CSS',
           },
-          {
-            'name': 'GitHub'
-          }
         ],
       },
     ]

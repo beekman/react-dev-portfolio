@@ -28,10 +28,10 @@ const Skills = ({ skills }) => {
           <p>{skills.techCopy} <a href={skills.resumeLink} target='_blank' rel='noopener noreferrer'>View my resume.</a></p>
 
 
-          <h2>{skills.techHeading}</h2>
+          <h2 className={styles.skillsHeading}>{skills.techHeading}</h2>
           <ScrollAnimation animateIn='fadeIn'
             animateOut='fadeOut'>
-            <ul>
+            <ul className={styles.SkillList}>
               {SkillList}
             </ul>
           </ScrollAnimation>

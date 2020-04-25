@@ -51,7 +51,7 @@ const Skill = ({ skill }) => {
   return (
     <>
       <div><img src={iconObj[skill.name]} alt={skill.name} title={skill.name} /></div>
-      {skill.name}
+      <p>{skill.name}</p>
     </>
   );
 };
