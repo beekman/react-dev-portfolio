@@ -1,12 +1,17 @@
 @value colors: '../colors.css';
 @value lightblue, yellow, offwhite, white from colors;
-@media screen and (max-width: 600px){
 .About {
+  position: relative;
+  height: auto;
+  min-height: 100vh;
+  padding: 1rem 2rem;
+}
+
+@media screen and (max-width: 600px){
+  .About {
   display: flex;
   flex-direction: column;
-  position: relative;
-  top: 220px;
-
+  top: 140px;
 
   p {
     color: offwhite;
@@ -18,6 +23,7 @@
       text-align: center;
       font-size: 1.5rem;
       position: relative;
+      padding-top: 1rem;
     }
   }
 
@@ -52,9 +58,7 @@
     color: white;
     background: black;
     min-height: 100vh;
-    height: auto;
-    min-height: 100vh;
-    top: 80px;
+    top: 4.25rem;
 
     header {
 
@@ -62,6 +66,7 @@
         margin: auto;
         text-align: center;
         font-size: 3rem;
+        padding-top: 2rem;
       }
     }
 
