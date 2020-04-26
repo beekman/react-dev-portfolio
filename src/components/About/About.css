@@ -5,15 +5,17 @@
   position: relative;
   height: auto;
   min-height: 100vh;
-  padding: 1rem 2rem;
   color: white;
   display: flex;
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 720px){
   .About {
     flex-direction: column;
-    top: 140px;
+    top: 180px;
+    padding: 10px;
+    position: relative;
+    margin-bottom: 180px;
 
     p {
       color: offwhite;
@@ -33,6 +35,8 @@
     main{
       display: flex;
       flex-direction: column-reverse;
+      width: 100%;
+
 
       section{
       justify-content: center;
@@ -51,15 +55,14 @@
     }
   }
 }
-@media screen and (min-width: 600px){
+@media screen and (min-width: 721px){
   .About {
-
     justify-content: space-evenly;
     align-items: center;
     flex-direction: column;
     min-height: 100vh;
     top: 4.25rem;
-
+    padding: 1rem 2rem;
     header {
 
       h1 {
