@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Portfolio component matches snapshot 1`] = `
-<div>
+<Fragment>
   <Nav />
   <About
     about={
@@ -302,5 +302,5 @@ exports[`Portfolio component matches snapshot 1`] = `
       }
     }
   />
-</div>
+</Fragment>
 `;
