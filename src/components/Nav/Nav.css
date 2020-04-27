@@ -1,7 +1,7 @@
 @value colors: '../colors.css';
-@value lightblue, yellow, offwhite, white, darkgray from colors;
+@value lightblue, yellow, offwhite, white, darkgray, lightyellow, whiteblue from colors;
 
-.App > .Header{
+.Header{
   position: fixed;
   z-index: 999999999;
 }
@@ -82,17 +82,16 @@
           padding: 0 1rem;
 
           &:active, &:hover {
-            color: yellow;
+            color: whiteblue;
+            text-shadow: 0 0 5px yellow, 0 0 10px yellow, 0 0 15px yellow, 0 0 20px yellow, 0 0 30px yellow, 0 0 40px yellow, 0 0 55px yellow, 0 0 75px yellow;
             cursor: pointer;
           }
 
           &.active {
-            color: black;
-            background-color: offwhite;
-            text-shadow: 0 0 5px offwhite, 0 0 10px offwhite, 0 0 15px offwhite, 0 0 20px yellow, 0 0 30px yellow, 0 0 40px yellow, 0 0 55px yellow, 0 0 75px yellow;
+            color: lightyellow;
+            background-color: darkgray;
+            text-shadow: 0 -1px 4px whiteblue, 0 -2px 10px lightyellow, 0 -10px 20px yellow;
           }
-
-
         }
       }
     }
