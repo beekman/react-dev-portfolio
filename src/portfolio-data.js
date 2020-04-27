@@ -246,7 +246,7 @@ export default {
       },
       {
         'title': 'Erskine Solar Art',
-        'description': 'This was one of many Wordpress-based sites I developed for a client who wanted to be able to maintain it on his own.',
+        'description': 'This was one of many Wordpress themes I developed for a client who wanted to be able to maintain it on his own.',
         'demo': 'https://erskinesolarart.net',
         'github': '',
         'tech': [
@@ -266,7 +266,7 @@ export default {
       },
       {
         'title': 'Digital Planet',
-        'description': 'I developed this Wordpress-based site to accompany a college textbook that  I co-authored one of many Wordpress-based sites I developed for a client who wanted to be able to maintain it on his own.',
+        'description': 'I developed this Wordpress-based site to accompany a college textbook that I co-authored.',
         'demo': 'https://digital-pla.net',
         'github': '',
         'tech': [
