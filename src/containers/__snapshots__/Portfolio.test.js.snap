@@ -243,7 +243,7 @@ exports[`Portfolio component matches snapshot 1`] = `
           },
           Object {
             "demo": "https://erskinesolarart.net",
-            "description": "This was one of many Wordpress-based sites I developed for a client who wanted to be able to maintain it on his own.",
+            "description": "This was one of many Wordpress themes I developed for a client who wanted to be able to maintain it on his own.",
             "github": "",
             "tech": Array [
               Object {
@@ -263,7 +263,7 @@ exports[`Portfolio component matches snapshot 1`] = `
           },
           Object {
             "demo": "https://digital-pla.net",
-            "description": "I developed this Wordpress-based site to accompany a college textbook that  I co-authored one of many Wordpress-based sites I developed for a client who wanted to be able to maintain it on his own.",
+            "description": "I developed this Wordpress-based site to accompany a college textbook that I co-authored.",
             "github": "",
             "tech": Array [
               Object {

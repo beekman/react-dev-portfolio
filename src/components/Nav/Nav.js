@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './Nav.css';
-import { Link } from 'react-scroll';
+import { Link, Element } from 'react-scroll';
 
 export default function Nav() {
   return (
@@ -17,6 +17,7 @@ export default function Nav() {
               to='About'
               spy={true}
               smooth={true}
+              offset={-200}
               duration={600}
               className={styles.link}
               activeClass={styles.active}>
@@ -62,5 +63,6 @@ export default function Nav() {
         </ul>
       </nav>
     </header>
+
   );
 }
