@@ -11,6 +11,11 @@
   align-items: center;
   font-size: 1.5rem;
 
+  h1 {
+    text-shadow: 2px 2px 0 lightblue, 2px -2px 0 lightblue, -2px 2px 0 lightblue, -2px -2px 0 lightblue, 2px 0px 0 lightblue, 0px 2px 0 lightblue, -2px 0px 0 lightblue, 0px -2px 0 lightblue;
+    color: darkgray;
+  }
+
   .hiringStatus {
     max-width: 60%;
   }

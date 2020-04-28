@@ -1,5 +1,5 @@
 @value colors: '../colors.css';
-@value lightblue, yellow, offwhite, white, darkgray, whiteblue from colors;
+@value lightblue, yellow, offwhite, white, darkgray, whiteblue, lightyellow from colors;
 
 .Projects {
   background-color: black;
@@ -10,6 +10,11 @@
   padding: 1rem 2rem;
   border-radius: 0.75rem;
 
+  h1 {
+    text-shadow: 2px 2px 0 lightblue, 2px -2px 0 lightblue, -2px 2px 0 lightblue, -2px -2px 0 lightblue, 2px 0px 0 lightblue, 0px 2px 0 lightblue, -2px 0px 0 lightblue, 0px -2px 0 lightblue;
+    color: darkgray;
+  }
+  
   header{
     display: block;
     padding: 1rem 0;
@@ -23,7 +28,7 @@
 
     .feature {
       display: grid;
-      grid-template-columns: 4fr 5fr;
+      grid-template-columns: 3fr 2fr;
       padding: 0;
       width: 100%;
 
