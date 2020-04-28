@@ -23,6 +23,7 @@ import socket from '../../assets/tech/thumbs/socket-logo-60px.png';
 import shell from '../../assets/tech/thumbs/shell-logo-60.png';
 import raspberryPi from '../../assets/tech/thumbs/raspberry-pi-logo-60px.png';
 import d3 from '../../assets/tech/thumbs/d3-logo-60.png';
+import flask from '../../assets/tech/thumbs/flask-logo-60px.png';
 
 const Skill = ({ skill }) => {
   const iconObj = {
@@ -49,6 +50,7 @@ const Skill = ({ skill }) => {
     'Shell': shell,
     'Raspberry Pi': raspberryPi,
     'D3': d3,
+    'Flask': flask
   };
   return (
     <>

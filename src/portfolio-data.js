@@ -182,6 +182,9 @@ export default {
             'name': 'Python'
           },
           {
+            'name': 'Flask'
+          },
+          {
             'name': 'Raspberry Pi',
           },
           {
@@ -191,7 +194,7 @@ export default {
       },
       {
         'title': 'FrontPage',
-        'description': 'A Tinder-style newsreader that allows you to swipe right on the news that interests you.',
+        'description': 'A Tinder-style newsreader that allows you to swipe right on the news that interests you, and filter out news sources that you don\'t want to see.',
         'demo': 'https://front-pagenews.herokuapp.com',
         'github': 'https://github.com/Alchemy-Frontpage/Frontpage',
         'tech': [

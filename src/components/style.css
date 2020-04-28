@@ -1,0 +1,46 @@
+body {
+margin: 0;
+padding: 0;
+background-color: darkgray;
+font-family: 'Poppins', sans-serif;
+font-size: 1.1rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Fira Code', serif;
+}
+h1 {
+  font-size: 2.4rem;
+  color: lightblue;
+}
+h2 {
+  font-size: 1.8rem;
+}
+
+p {
+  font-family: 'Proza Libre', sans-serif;
+  text-shadow: -1px -1px 1px rgba(255,255,255,.1), 1px 1px 1px rgba(0,0,0,.5);
+}
+
+a {
+  text-decoration: none;
+  color: lightblue;
+  transition-timing-function: ease;
+  transition-duration: 1s;
+  transition-property: all;
+
+  .active {
+    color: offwhite;
+  }
+
+  &:active, &:hover {
+    color: yellow;
+    cursor: pointer;
+  }
+}
+
+.section {
+  min-height: 100vh;
+  height: auto;
+  padding: 0 0.5rem;
+}
