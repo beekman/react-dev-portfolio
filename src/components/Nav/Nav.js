@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './Nav.css';
-import { Link, Element } from 'react-scroll';
+import { Link } from 'react-scroll';
 
 export default function Nav() {
   return (

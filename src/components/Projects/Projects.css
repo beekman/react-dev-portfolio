@@ -8,13 +8,12 @@
   height: auto;
   color: offwhite;
   padding: 1rem 2rem;
-  border-radius: 0.75rem;
 
   h1 {
-    text-shadow: 2px 2px 0 lightblue, 2px -2px 0 lightblue, -2px 2px 0 lightblue, -2px -2px 0 lightblue, 2px 0px 0 lightblue, 0px 2px 0 lightblue, -2px 0px 0 lightblue, 0px -2px 0 lightblue;
+    text-shadow: .0125rem .0125rem 0 lightblue, .0125rem -.0125rem 0 lightblue, -.0125rem .0125rem 0 lightblue, -.0125rem -.0125rem 0 lightblue, .0125rem 0px 0 lightblue, 0px .0125rem 0 lightblue, -.0125rem 0px 0 lightblue, 0px -.0125rem 0 lightblue;
     color: darkgray;
   }
-  
+
   header{
     display: block;
     padding: 1rem 0;
@@ -31,6 +30,11 @@
       grid-template-columns: 3fr 2fr;
       padding: 0;
       width: 100%;
+
+      h2 {
+        color: offwhite;
+        text-shadow: 0 0 0.075rem offwhite, 0 0 0.125rem offwhite, 0 0 0.15rem offwhite, 0 0 0.25rem #45E8FC, 0 0 0.4rem #45E8FC, 0 0 0.5rem #45E8FC, 0 0 .75rem #45E8FC, 0 0 1rem #45E8FC;
+      }
 
       .summary {
         padding: 3rem;

@@ -10,9 +10,10 @@
   min-height: 100vh;
   align-items: center;
   font-size: 1.5rem;
+  padding: 2rem;
 
   h1 {
-    text-shadow: 2px 2px 0 lightblue, 2px -2px 0 lightblue, -2px 2px 0 lightblue, -2px -2px 0 lightblue, 2px 0px 0 lightblue, 0px 2px 0 lightblue, -2px 0px 0 lightblue, 0px -2px 0 lightblue;
+    text-shadow: .025rem 0.025rem 0 lightblue, 0.025rem -0.025rem 0 lightblue, -0.025rem 0.025rem 0 lightblue, -0.025rem -0.025rem 0 lightblue, 0.025rem 0px 0 lightblue, 0px 0.025rem 0 lightblue, -0.025rem 0px 0 lightblue, 0px -0.025rem 0 lightblue;
     color: darkgray;
   }
 
