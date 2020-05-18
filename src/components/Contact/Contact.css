@@ -1,5 +1,5 @@
 @value colors: '../colors.css';
-@value lightblue, yellow, offwhite, white, darkgray from colors;
+@value offwhite, white, whiteblue, lightblue, yellow, brightyellow, lightyellow, yellowgreen,  pink, bubblegum, green, darkyellow, darkgray, darkblue from colors;
 
 .Contact{
   background-color: black;
@@ -13,8 +13,8 @@
   padding: 2rem;
 
   h1 {
-    text-shadow: .025rem 0.025rem 0 lightblue, 0.025rem -0.025rem 0 lightblue, -0.025rem 0.025rem 0 lightblue, -0.025rem -0.025rem 0 lightblue, 0.025rem 0px 0 lightblue, 0px 0.025rem 0 lightblue, -0.025rem 0px 0 lightblue, 0px -0.025rem 0 lightblue;
-    color: darkgray;
+    text-shadow: 0 0 0.075rem offwhite, 0 0 0.125rem offwhite, 0 0 0.15rem whiteblue, 0 0 0.25rem lightblue, 0 0 0.4rem lightblue, 0 0 0.5rem lightblue, 0 0 0.75rem lightblue, 0 0 1rem green;
+    color: rgb(130, 134, 136)134, 136);
   }
 
   .hiringStatus {
