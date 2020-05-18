@@ -11,7 +11,7 @@
 
   h1 {
     text-shadow: .0125rem .0125rem 0 lightblue, .0125rem -.0125rem 0 lightblue, -.0125rem .0125rem 0 lightblue, -.0125rem -.0125rem 0 lightblue, .0125rem 0px 0 lightblue, 0px .0125rem 0 lightblue, -.0125rem 0px 0 lightblue, 0px -.0125rem 0 lightblue;
-    color: darkgray;
+    color: yellow;
   }
 
   header{
