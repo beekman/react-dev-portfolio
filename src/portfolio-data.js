@@ -94,10 +94,42 @@ export default {
   },
   'projects': {
     'history': 'I\'m fascinated by the ways digital technology can engage and empower people. Since earning my U of O degree in Multimedia Design, I\'ve spent more than a decade helping people harness the power of that technology. I\'ve taught classes for young people, tutored older people, consulted for small businesses, co-authored technology textbooks, served as both design and IT department for a small media company, and designed and developed web sites for businesses, nonprofits, and individuals.',
-    'summary': 'I work well on my own, but I thrive in collaborative coding environments. Here\'s a sampling of my team-based projects.',
+    'summary': 'I work well on my own, but I thrive in collaborative coding environments. Here\'s a sampling of both my individual and team-based projects.',
     'design-portfolio-link': 'https://benbeekman.com/web',
 
     'feature': [
+      {
+        'title': 'Live Palette Populator',
+        'description': 'I developed this experimental webapp to aid developers and designers in quickly generating and implementing color palettes for their web projects using the principles of color theory and an original UX concept. Features include real-time feedback about your entire palette as you adjust each parameter, a color overlay mode showing the color values for each swatch, and exportable color styles for use with either CSS or postcss-color-value-variables. I am actively adding new features and capabilities to this labor of love all the time.',
+        'demo': 'https://live-palette-populator.netlify.app/',
+        'github': 'https://github.com/beekman/live-palette-populator',
+        'tech': [
+          {
+            'name': 'JavaScript',
+          },
+          {
+            'name': 'React',
+          },
+          {
+            'name': 'Jest',
+          },
+          {
+            'name': 'GitHub'
+          },
+          {
+            'name': 'Shell'
+          },
+          {
+            'name': 'Netlify',
+          },
+          {
+            'name': 'HTML',
+          },
+          {
+            'name': 'CSS',
+          },
+        ],
+      },
       {
         'title': 'kit: Keep In Touch',
         'description': 'A progressive web app for setting, tracking, and meeting communication goals. Users can input contact details, set flexible communication schedules for those contacts, schedule push notification reminders, and view their communication logs. Contact list is sorted and formatted based on urgency and status of scheduled "hard" and "soft" deadlines.',
