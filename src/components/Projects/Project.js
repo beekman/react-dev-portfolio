@@ -25,6 +25,7 @@ import ts from '../../assets/tech/thumbs/typescript-logo-60px.png';
 import sass from '../../assets/tech/thumbs/sass-logo-60px.png';
 import socket from '../../assets/tech/thumbs/socket-logo-60px.png';
 import d3 from '../../assets/tech/thumbs/d3-logo-60.png';
+import palettePopulator from '../../assets/portfolio/palettePopulator.png';
 import kit from '../../assets/portfolio/kit.png';
 import qwixx from '../../assets/portfolio/qwixx.png';
 import frontpage from '../../assets/portfolio/frontpage.png';
@@ -66,6 +67,7 @@ const Project = ({ feature }) => {
   });
 
   const screenObj = {
+    'Live Palette Populator': palettePopulator,
     'kit: Keep In Touch': kit,
     'Plant Parenthood': plantParenthood,
     'FrontPage': frontpage,
