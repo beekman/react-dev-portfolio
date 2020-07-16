@@ -11,6 +11,7 @@ import mongoose from '../../assets/tech/thumbs/mongoose-logo-60px-square.png';
 import netlify from '../../assets/tech/thumbs/netlify-logo-60px.png';
 import heroku from '../../assets/tech/thumbs/heroku-logo-60px.png';
 import css from '../../assets/tech/thumbs/css-logo-60px.png';
+import travis from '../../assets/tech/thumbs/travis-cl-60px.png';
 import html from '../../assets/tech/thumbs/html-logo-60px.png';
 import github from '../../assets/tech/thumbs/github-logo-60px.png';
 import graphql from '../../assets/tech/thumbs/graphql-logo-60px.png';
@@ -50,7 +51,8 @@ const Skill = ({ skill }) => {
     'Shell': shell,
     'Raspberry Pi': raspberryPi,
     'D3': d3,
-    'Flask': flask
+    'Flask': flask,
+    'TravisCl': travis
   };
   return (
     <>

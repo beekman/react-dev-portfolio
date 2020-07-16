@@ -51,6 +51,9 @@ export default {
         'name': 'Jest',
       },
       {
+        'name': 'TravisCl',
+      },
+      {
         'name': 'Git',
       },
       {
@@ -118,6 +121,38 @@ export default {
           },
           {
             'name': 'Shell'
+          },
+          {
+            'name': 'Netlify',
+          },
+          {
+            'name': 'HTML',
+          },
+          {
+            'name': 'CSS',
+          },
+        ],
+      },
+      {
+        'title': 'whateverSynth',
+        'description': 'A JavaScript-based synthesizer app featuring MIDI and keyboard support, an unlimited effects chain with over 10 audio effects using tuna.js, pitch bend and modulation, instrument selection, and real-time waveform visualization. Developed with a team of three other developers over a few weeks. Though I have made contributions in almost all aspects of the app, I specifically developed and implemented many of the UI-oriented React components and hooks, including creation of a handful of reuseable custom UI components.',
+        'demo': 'https://whateversynthstaging.netlify.app/',
+        'github': 'https://github.com/whateverSynth/whateverSynth-frontend',
+        'tech': [
+          {
+            'name': 'JavaScript',
+          },
+          {
+            'name': 'React',
+          },
+          {
+            'name': 'Jest',
+          },
+          {
+            'name': 'GitHub',
+          },
+          {
+            'name': 'Shell',
           },
           {
             'name': 'Netlify',
