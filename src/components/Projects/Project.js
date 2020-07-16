@@ -33,7 +33,7 @@ import frontpage from '../../assets/portfolio/frontpage.png';
 import plantParenthood from '../../assets/portfolio/plantParenthood.png';
 import digitalPlanet from '../../assets/portfolio/digitalPlanet.png';
 import erskineSolarArt from '../../assets/portfolio/erskineSolarArt.png';
-
+import whateverSynth from '../../assets/portfolio/whateverSynth.png';
 const Project = ({ feature }) => {
   const TechList = feature.tech.map((tech, i) => {
     const iconObj = {
@@ -75,7 +75,8 @@ const Project = ({ feature }) => {
     'FrontPage': frontpage,
     'Qwixx': qwixx,
     'Erskine Solar Art': erskineSolarArt,
-    'Digital Planet': digitalPlanet
+    'Digital Planet': digitalPlanet,
+    'whateverSynth': whateverSynth
   };
 
   return (
