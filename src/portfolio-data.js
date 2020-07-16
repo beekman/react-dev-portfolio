@@ -117,6 +117,9 @@ export default {
             'name': 'Jest',
           },
           {
+            'name': 'TravisCl',
+          },
+          {
             'name': 'GitHub'
           },
           {
@@ -135,7 +138,7 @@ export default {
       },
       {
         'title': 'whateverSynth',
-        'description': 'A JavaScript-based synthesizer app featuring MIDI and keyboard support, an unlimited effects chain with over 10 audio effects using tuna.js, pitch bend and modulation, instrument selection, and real-time waveform visualization. Developed with a team of three other developers over a few weeks. Though I have made contributions in almost all aspects of the app, I specifically developed and implemented many of the UI-oriented React components and hooks, including creation of a handful of reuseable custom UI components.',
+        'description': 'A JavaScript-based synthesizer app featuring MIDI and keyboard support, an unlimited effects chain with over 10 audio effects using tuna.js, pitch bend and modulation, instrument selection, and real-time waveform visualization. Developed with a team of three other developers over a few weeks. I had an active role in writing code that touched on all aspects of the app, but some of my most significant contributions relate to the user interface and UX. I specifically developed and implemented many of the UI-oriented React components and hooks, including creation of a number of reuseable UI components that are used throughout the effects components to solve major UX challenges.',
         'demo': 'https://whateversynthstaging.netlify.app/',
         'github': 'https://github.com/whateverSynth/whateverSynth-frontend',
         'tech': [
@@ -150,6 +153,9 @@ export default {
           },
           {
             'name': 'GitHub',
+          },
+          {
+            'name': 'TravisCl',
           },
           {
             'name': 'Shell',
@@ -234,10 +240,13 @@ export default {
             'name': 'Mongoose',
           },
           {
-            'name': 'GitHub'
+            'name': 'TravisCl',
           },
           {
-            'name': 'Shell'
+            'name': 'GitHub',
+          },
+          {
+            'name': 'Shell',
           },
           {
             'name': 'HTML',
@@ -246,7 +255,7 @@ export default {
             'name': 'CSS',
           },
           {
-            'name': 'Python'
+            'name': 'Python',
           },
           {
             'name': 'Flask'
@@ -278,7 +287,10 @@ export default {
             'name': 'PostgreSQL',
           },
           {
-            'name': 'GitHub'
+            'name': 'GitHub',
+          },
+          {
+            'name': 'TravisCl',
           },
           {
             'name': 'Shell'
@@ -299,6 +311,9 @@ export default {
         'tech': [
           {
             'name': 'JavaScript',
+          },
+          {
+            'name': 'TravisCl',
           },
           {
             'name': 'HTML',
