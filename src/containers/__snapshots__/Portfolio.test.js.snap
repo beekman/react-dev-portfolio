@@ -24,6 +24,9 @@ exports[`Portfolio component matches snapshot 1`] = `
             "name": "GraphQL",
           },
           Object {
+            "name": "P5JS",
+          },
+          Object {
             "name": "D3",
           },
         ],

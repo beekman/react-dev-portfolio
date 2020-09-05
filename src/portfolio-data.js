@@ -100,6 +100,9 @@ export default {
         'name': 'GraphQL',
       },
       {
+        'name': 'P5JS',
+      },
+      {
         'name': 'D3',
       }
     ],
