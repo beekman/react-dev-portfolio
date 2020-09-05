@@ -25,6 +25,10 @@ import shell from '../../assets/tech/thumbs/shell-logo-60.png';
 import raspberryPi from '../../assets/tech/thumbs/raspberry-pi-logo-60px.png';
 import d3 from '../../assets/tech/thumbs/d3-logo-60.png';
 import flask from '../../assets/tech/thumbs/flask-logo-60px.png';
+import magentajs from '../../assets/tech/thumbs/magenta-60px.png';
+import p5 from '../../assets/tech/thumbs/p5-60px.png';
+import ml5 from '../../assets/tech/thumbs/ml5-60px.png';
+import tone from '../../assets/tech/thumbs/tone-60px.png';
 
 const Skill = ({ skill }) => {
   const iconObj = {
@@ -52,7 +56,11 @@ const Skill = ({ skill }) => {
     'Raspberry Pi': raspberryPi,
     'D3': d3,
     'Flask': flask,
-    'TravisCl': travis
+    'TravisCl': travis,
+    'MagentaJS': magentajs,
+    'P5JS': p5,
+    'ToneJS': tone,
+    'ML5': ml5,
   };
   return (
     <>

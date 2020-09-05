@@ -29,8 +29,8 @@ import magentajs from '../../assets/tech/thumbs/magenta-60px.png';
 import p5 from '../../assets/tech/thumbs/p5-60px.png';
 import ml5 from '../../assets/tech/thumbs/ml5-60px.png';
 import tone from '../../assets/tech/thumbs/tone-60px.png';
-import palettePopulator from '../../assets/portfolio/palettePopulator.png';
 import travis from '../../assets/tech/thumbs/travis-cl-60px.png';
+import palettePopulator from '../../assets/portfolio/palettePopulator.png';
 import kit from '../../assets/portfolio/kit.png';
 import qwixx from '../../assets/portfolio/qwixx.png';
 import frontpage from '../../assets/portfolio/frontpage.png';
@@ -68,7 +68,7 @@ const Project = ({ feature }) => {
       'D3': d3,
       'TravisCl': travis,
       'MagentaJS': magentajs,
-      'P5': p5,
+      'P5JS': p5,
       'ToneJS': tone,
       'ML5': ml5,
     };

@@ -32,6 +32,7 @@ export default {
       {
         'name': 'Redux',
       },
+
       {
         'name': 'Node',
       },
@@ -64,6 +65,15 @@ export default {
       },
       {
         'name': 'Heroku',
+      },
+      {
+        'name': 'MagentaJS',
+      },
+      {
+        'name': 'ToneJS',
+      },
+      {
+        'name': 'ML5'
       },
       {
         'name': 'Python',
@@ -112,6 +122,18 @@ export default {
           },
           {
             'name': 'React',
+          },
+          {
+            'name': 'MagentaJS',
+          },
+          {
+            'name': 'P5JS',
+          },
+          {
+            'name': 'ML5',
+          },
+          {
+            'name': 'ToneJS',
           },
           {
             'name': 'Jest',
