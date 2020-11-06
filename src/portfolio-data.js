@@ -163,7 +163,7 @@ export default {
       },
       {
         'title': 'Live Palette Populator',
-        'description': 'I developed this experimental webapp to aid developers and designers in quickly generating and implementing color palettes for their web projects using the principles of color theory and an original UX concept. Features include real-time feedback about your entire palette as you adjust each parameter, a color overlay mode showing the color values for each swatch, and exportable color styles for use with either CSS or postcss-color-value-variables. I am actively adding new features and capabilities to this labor of love all the time.',
+        'description': 'I developed this experimental webapp to aid developers and designers in quickly generating and implementing color palettes for their web projects using the principles of color theory and an original UX concept. Features include real-time feedback about your entire palette as you adjust each parameter, a color overlay mode showing the color values for each swatch, and exportable color styles for use with either CSS or postcss-color-value-variables.',
         'demo': 'https://live-palette-populator.netlify.app/',
         'github': 'https://github.com/beekman/live-palette-populator',
         'tech': [
