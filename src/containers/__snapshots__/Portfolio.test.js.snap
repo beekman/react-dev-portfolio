@@ -24,13 +24,10 @@ exports[`Portfolio component matches snapshot 1`] = `
             "name": "GraphQL",
           },
           Object {
-            "name": "P5JS",
-          },
-          Object {
             "name": "D3",
           },
         ],
-        "learningCopy": "I'm always adding new technologies to my utility belt. Here's what I'm getting to know right now.",
+        "learningCopy": "My tech stack is always growing. Here's what I'm getting to know right now.",
         "resumeLink": "https://www.canva.com/design/DADxzQOaReM/zmkBwZHsYHDKVeaHyVzBoA/view?utm_content=DADxzQOaReM&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton",
         "tech": Array [
           Object {
@@ -80,6 +77,9 @@ exports[`Portfolio component matches snapshot 1`] = `
           },
           Object {
             "name": "ToneJS",
+          },
+          Object {
+            "name": "P5JS",
           },
           Object {
             "name": "ML5",

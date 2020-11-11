@@ -73,6 +73,9 @@ export default {
         'name': 'ToneJS',
       },
       {
+        'name': 'P5JS',
+      },
+      {
         'name': 'ML5'
       },
       {
@@ -90,17 +93,15 @@ export default {
       {
         'name': 'CSS',
       },
+
     ],
-    'learningCopy': 'I\'m always adding new technologies to my utility belt. Here\'s what I\'m getting to know right now.',
+    'learningCopy': 'My tech stack is always growing. Here\'s what I\'m getting to know right now.',
     'learning': [
       {
         'name': 'TypeScript',
       },
       {
         'name': 'GraphQL',
-      },
-      {
-        'name': 'P5JS',
       },
       {
         'name': 'D3',
