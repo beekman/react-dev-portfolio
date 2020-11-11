@@ -116,7 +116,7 @@ export default {
     'feature': [
       {
         'title': 'Shapeways',
-        'description': 'A multimedia sandbox at the bleeding edge of art and technology. It\'s a real-time music and art generator that responds to your movements. It\'s an audiovisual composition shaped by the user, made possible by machine learning. It\'s an exploration of new forms of expression and interaction and new approaches to user interface. I developed Shapeways with a small team for a hackathon. My contributions included engineering React components responsible for translating a user\'s pose information into interactive AI-influenced music, by making API requests to several musical performance machine learning models, and transforming the responses into synthesizer output that plays in the browser, an audio control component, and implementing other UX enhancements like keyboard shortcuts and full-screen output.',
+        'description': 'An audiovisual composition shaped by the user, made possible by machine learning, and an exploration of new forms of expression and interaction and new approaches to user interface. I developed Shapeways with a small team for a Machine Learning for Artists hackathon. My personal contributions included the code responsible for interpreting a user\'s movement to generate musical performance seed data, for making API requests to several musical performance machine learning models using that seed data, and for transforming the API responses into synth output that plays in the browser, as well as improvements to the app\'s UX.',
         'demo': 'https://shapeways.netlify.app/',
         'github': 'https://github.com/whateverSpace/shapeways-frontend',
         'tech': [
