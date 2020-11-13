@@ -164,7 +164,7 @@ export default {
       },
       {
         'title': 'Live Palette Populator',
-        'description': 'I developed this experimental webapp to aid developers and designers in quickly generating and implementing color palettes for their web projects using the principles of color theory and an original UX concept. Features include real-time feedback about your entire palette as you adjust each parameter, a color overlay mode showing the color values for each swatch, and exportable color styles for use with either CSS or postcss-color-value-variables.',
+        'description': 'A React app I built with a uniquely efficient yet flexible UI for quickly creating and exploring flexible color palettes. I engineered it with experimentation and efficiency in mind, as a tool for quickly generating and exporting large or small collections of colors using any combination of color relationships and color modes.',
         'demo': 'https://live-palette-populator.netlify.app/',
         'github': 'https://github.com/beekman/live-palette-populator',
         'tech': [
@@ -199,7 +199,7 @@ export default {
       },
       {
         'title': 'whateverSynth',
-        'description': 'A JavaScript-based synthesizer app featuring MIDI and keyboard support, an unlimited effects chain with over 10 audio effects using tuna.js, pitch bend and modulation, instrument selection, and real-time waveform visualization. Developed with a team of three other developers over a few weeks. I had an active role in writing code that touched on all aspects of the app, but some of my most significant contributions relate to the user interface and UX. I specifically developed and implemented many of the UI-oriented React components and hooks, including creation of a number of reuseable UI components that are used throughout the effects components to solve major UX challenges.',
+        'description': 'A JavaScript-based synthesizer app featuring MIDI and keyboard support, an unlimited effects chain with over 10 audio effects using tuna.js, pitch bend and modulation, instrument selection, and real-time waveform visualization. I built this app with three fellow musicians. Some of my most significant personal contributions relate to the user interface and UX engineering. I wrote and implemented many of the UI-oriented React components and hooks, including UI components used throughout the app that make manipulation of real-time effects more efficient, and most of the audio effects components themselves.',
         'demo': 'https://whateversynthstaging.netlify.app/',
         'github': 'https://github.com/whateverSynth/whateverSynth-frontend',
         'tech': [
