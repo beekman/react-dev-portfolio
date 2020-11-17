@@ -234,7 +234,7 @@ export default {
       },
       {
         'title': 'kit: Keep In Touch',
-        'description': 'A progressive web app for setting, tracking, and meeting communication goals. Users can input contact details, set flexible communication schedules for those contacts, schedule push notification reminders, and view their communication logs. Contact list is sorted and formatted based on urgency and status of scheduled "hard" and "soft" deadlines.',
+        'description': 'A progressive web app for improving communication, with customizable scheduled push notifications and connection logs. Developed in a 5-person team over a 4-day code sprint, my contributions focused mostly on UX/UI engineering and included components for adding and editing contacts and navigation.',
         'demo': 'https://friendlier-staging.netlify.app',
         'github': 'https://github.com/band-m/friendlier-fe',
         'tech': [
