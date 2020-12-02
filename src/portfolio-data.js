@@ -16,7 +16,7 @@ export default {
     'state': 'OR',
     'linkedinURL': 'https://www.linkedin.com/in/beekman/',
     'githubURL': 'https://github.com/beekman',
-    'resumeLink': 'https://www.canva.com/design/DADxzQOaReM/zmkBwZHsYHDKVeaHyVzBoA/view?utm_content=DADxzQOaReM&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton',
+    'resumeLink': 'https://www.canva.com/design/DAEMyW-q7Kw/2QtY4oerkRr8TTz2owsmyQ/view?utm_content=DAEMyW-q7Kw&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton',
   },
   'skills': {
     'heading': 'Tools of My Trade',
