@@ -32,7 +32,6 @@ export default {
       {
         'name': 'Redux',
       },
-
       {
         'name': 'Node',
       },
