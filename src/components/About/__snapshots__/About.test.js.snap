@@ -61,7 +61,7 @@ exports[`About component matches snapshot 1`] = `
         I'm a full-stack developer with an entrepreneurial background in front-end web development, SEO, and education. I'm enthusiastic about creating code that solves human-centered problems and I love learning and teaching new techniques and technologies.
       </p>
       <p>
-        After earning my degree in multimedia design, I spent more than a decade designing and developing websites. During that time I drilled deeper and deeper into full-stack development. My language of choice is JavaScript, but my experience with Python and PHP makes me a more well rounded and flexible developer.
+        After earning my degree in Multimedia Design, I spent more than a decade designing and developing websites. During that time I drilled deeper into full-stack development and JavaScript.
       </p>
     </section>
     <figure
