@@ -18,9 +18,6 @@ exports[`Portfolio component matches snapshot 1`] = `
         "heading": "Tools of My Trade",
         "learning": Array [
           Object {
-            "name": "TypeScript",
-          },
-          Object {
             "name": "GraphQL",
           },
           Object {
@@ -32,6 +29,9 @@ exports[`Portfolio component matches snapshot 1`] = `
         "tech": Array [
           Object {
             "name": "JavaScript",
+          },
+          Object {
+            "name": "TypeScript",
           },
           Object {
             "name": "React",
@@ -100,7 +100,7 @@ exports[`Portfolio component matches snapshot 1`] = `
             "name": "CSS",
           },
         ],
-        "techCopy": "I create digital solutions with a modern tech stack, and I'm always excited to add new tools to that stack.",
+        "techCopy": "I create digital solutions with a modern tech stack centered around functional, declarative JavaScript. I am always excited to add new tools to that stack.",
         "techHeading": "I use these",
       }
     }
