@@ -21,10 +21,13 @@ export default {
   'skills': {
     'heading': 'Tools of My Trade',
     'techHeading': 'I use these',
-    'techCopy': 'I create digital solutions with a modern tech stack, and I\'m always excited to add new tools to that stack.',
+    'techCopy': 'I create digital solutions with a modern tech stack centered around functional, declarative JavaScript. I am always excited to add new tools to that stack.',
     'tech': [
       {
         'name': 'JavaScript',
+      },
+      {
+        'name': 'TypeScript',
       },
       {
         'name': 'React',
@@ -97,14 +100,12 @@ export default {
     'learningCopy': 'My tech stack is always growing. Here\'s what I\'m getting to know right now.',
     'learning': [
       {
-        'name': 'TypeScript',
-      },
-      {
         'name': 'GraphQL',
       },
       {
         'name': 'D3',
       }
+
     ],
     'resumeLink': 'https://www.canva.com/design/DADxzQOaReM/zmkBwZHsYHDKVeaHyVzBoA/view?utm_content=DADxzQOaReM&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton',
   },
