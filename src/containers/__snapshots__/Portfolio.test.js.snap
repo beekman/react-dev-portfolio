@@ -229,7 +229,7 @@ exports[`Portfolio component matches snapshot 1`] = `
           },
           Object {
             "demo": "https://friendlier-staging.netlify.app",
-            "description": "A progressive web app for improving communication, with customizable scheduled push notifications and connection logs. Developed in a 5-person team over a 4-day code sprint, my contributions focused mostly on UX/UI engineering and included components for adding and editing contacts and navigation.",
+            "description": "A progressive web app for improving communication, with customizable scheduled push notifications and connection logs. Developed in a 5-person team over a 4-day code sprint, my contributions focused mostly on UX/UI engineering and included components for adding and editing contacts and a responsive navigation menu system.",
             "github": "https://github.com/band-m/friendlier-fe",
             "tech": Array [
               Object {
@@ -386,26 +386,6 @@ exports[`Portfolio component matches snapshot 1`] = `
             "title": "Qwixx",
           },
           Object {
-            "demo": "https://erskinesolarart.net",
-            "description": "This was one of many Wordpress themes I developed for a client who wanted to be able to maintain it on his own.",
-            "github": "",
-            "tech": Array [
-              Object {
-                "name": "JavaScript",
-              },
-              Object {
-                "name": "HTML",
-              },
-              Object {
-                "name": "CSS",
-              },
-              Object {
-                "name": "GitHub",
-              },
-            ],
-            "title": "Erskine Solar Art",
-          },
-          Object {
             "demo": "https://digital-pla.net",
             "description": "I developed this Wordpress-based site to accompany a college textbook that I co-authored.",
             "github": "",
@@ -440,7 +420,7 @@ exports[`Portfolio component matches snapshot 1`] = `
         "name": "Ben Beekman",
         "occupation": "Software Developer",
         "phone": "(503)708-0478",
-        "resumeLink": "https://www.canva.com/design/DAEMyW-q7Kw/2QtY4oerkRr8TTz2owsmyQ/view?utm_content=DAEMyW-q7Kw&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton",
+        "resumeLink": "https://www.canva.com/design/DAEMyW-q7Kw/2QtY4oerkRr8TTz2owsmyQ/view?utm_content=DAEMyW-q7Kw&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink",
         "state": "OR",
         "tagline": "import SoftwareDeveloper from 'benbeekman.dev';",
       }
