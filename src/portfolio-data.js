@@ -234,7 +234,7 @@ export default {
       },
       {
         'title': 'kit: Keep In Touch',
-        'description': 'A progressive web app for improving communication, with customizable scheduled push notifications and connection logs. Developed in a 5-person team over a 4-day code sprint, my contributions focused mostly on UX/UI engineering and included components for adding and editing contacts and navigation.',
+        'description': 'A progressive web app for improving communication, with customizable scheduled push notifications and connection logs. Developed in a 5-person team over a 4-day code sprint, my contributions focused mostly on UX/UI engineering and included components for adding and editing contacts and a responsive navigation menu system.',
         'demo': 'https://friendlier-staging.netlify.app',
         'github': 'https://github.com/band-m/friendlier-fe',
         'tech': [
@@ -388,26 +388,6 @@ export default {
           {
             'name': 'Shell'
           },
-        ],
-      },
-      {
-        'title': 'Erskine Solar Art',
-        'description': 'This was one of many Wordpress themes I developed for a client who wanted to be able to maintain it on his own.',
-        'demo': 'https://erskinesolarart.net',
-        'github': '',
-        'tech': [
-          {
-            'name': 'JavaScript',
-          },
-          {
-            'name': 'HTML',
-          },
-          {
-            'name': 'CSS',
-          },
-          {
-            'name': 'GitHub'
-          }
         ],
       },
       {
