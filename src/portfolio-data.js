@@ -2,7 +2,7 @@ export default {
   'about': {
     'title': 'Creative Software Developer',
     'summary': 'I\'m a full-stack developer with an entrepreneurial background in front-end web development, SEO, and education. I\'m enthusiastic about creating code that solves human-centered problems and I love learning and teaching new techniques and technologies.',
-    'pitch': 'After earning my degree in Multimedia Design, I spent more than a decade designing and developing websites. During that time I drilled deeper into full-stack development and JavaScript.',
+    'pitch': 'After earning my degree in Multimedia Design at the University of Oregon, I spent more than a decade designing and developing websites. During that time I drilled deeper into full-stack development and JavaScript.',
   },
   'contact': {
     'heading': 'Let\'s Connect!',
