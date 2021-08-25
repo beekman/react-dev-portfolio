@@ -6,7 +6,6 @@ import Projects from '../components/Projects/Projects';
 import Contact from '../components/Contact/Contact';
 import data from '../portfolio-data.js';
 export default class Portfolio extends Component {
-
   render() {
     return (
       <>
