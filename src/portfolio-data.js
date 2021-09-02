@@ -366,7 +366,7 @@ export default {
       },
       {
         'title': 'Qwixx',
-        'description': 'A mobile-responsive vanilla JavaScript implementation of the popular Qwixx dice game that speeds gameplay and doesn\'t waste scorecards. Developed with face-to-face multiplayer in mind with each player\'s device acting as their scorecard.',
+        'description': 'A mobile-responsive vanilla JavaScript implementation of the dice game Qwixx that speeds gameplay and doesn\'t waste scorecards. Developed with face-to-face multiplayer in mind, with each player\'s device acting as their scorecard.',
         'demo': 'https://i-16.github.io/qwixx/',
         'github': 'https://github.com/I-16/qwixx',
         'tech': [
