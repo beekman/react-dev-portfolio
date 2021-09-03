@@ -6,7 +6,7 @@ exports[`Portfolio component matches snapshot 1`] = `
   <About
     about={
       Object {
-        "pitch": "After earning my degree in Multimedia Design, I spent more than a decade designing and developing websites. During that time I drilled deeper into full-stack development and JavaScript.",
+        "pitch": "After earning my degree in Multimedia Design at the University of Oregon, I spent more than a decade designing and developing websites. During that time I drilled deeper into full-stack development and JavaScript.",
         "summary": "I'm a full-stack developer with an entrepreneurial background in front-end web development, SEO, and education. I'm enthusiastic about creating code that solves human-centered problems and I love learning and teaching new techniques and technologies.",
         "title": "Creative Software Developer",
       }
@@ -229,7 +229,7 @@ exports[`Portfolio component matches snapshot 1`] = `
           },
           Object {
             "demo": "https://friendlier-staging.netlify.app",
-            "description": "A progressive web app for improving communication, with customizable scheduled push notifications and connection logs. Developed in a 5-person team over a 4-day code sprint, my contributions focused mostly on UX/UI engineering and included components for adding and editing contacts and a responsive navigation menu system.",
+            "description": "A progressive web app for improving communication, with customizable scheduled push notifications and connection logs. Developed in a five person team over a four-day code sprint, my contributions focused on UX/UI engineering as well as the creation of React components for adding and editing contacts and a responsive navigation menu system.",
             "github": "https://github.com/band-m/friendlier-fe",
             "tech": Array [
               Object {
@@ -361,7 +361,7 @@ exports[`Portfolio component matches snapshot 1`] = `
           },
           Object {
             "demo": "https://i-16.github.io/qwixx/",
-            "description": "A mobile-responsive vanilla JavaScript implementation of the popular Qwixx dice game that speeds gameplay and doesn't waste scorecards. Developed with face-to-face multiplayer in mind with each player's device acting as their scorecard.",
+            "description": "A mobile-responsive vanilla JavaScript implementation of the dice game Qwixx that speeds gameplay and doesn't waste scorecards. Developed with face-to-face multiplayer in mind, with each player's device acting as their scorecard.",
             "github": "https://github.com/I-16/qwixx",
             "tech": Array [
               Object {
