@@ -1,15 +1,15 @@
 export default {
   'about': {
-    'title': 'Creative Software Developer',
-    'summary': 'I\'m a full-stack developer with an entrepreneurial background in front-end web development, SEO, and education. I\'m enthusiastic about creating code that solves human-centered problems and I love learning and teaching new techniques and technologies.',
+    'title': 'Creative Software Engineer',
+    'summary': 'I\'m a full-stack software engiuneer with an entrepreneurial background in front-end web development, SEO, and education. I\'m enthusiastic about creating code that solves human-centered problems and I love learning and teaching new techniques and technologies.',
     'pitch': 'After earning my degree in Multimedia Design at the University of Oregon, I spent more than a decade designing and developing websites. During that time I drilled deeper into full-stack development and JavaScript.',
   },
   'contact': {
     'heading': 'Let\'s Connect!',
-    'tagline': 'import SoftwareDeveloper from \'benbeekman.dev\';',
+    'tagline': 'import SoftwareEngineer from \'benbeekman.dev\';',
     'hiringStatus': 'Please reach out to me using any of the contact options below.',
     'name': 'Ben Beekman',
-    'occupation': 'Software Developer',
+    'occupation': 'Software Engineer',
     'email': 'ben@benbeekman.dev',
     'phone': '(503)708-0478',
     'city': 'Portland',
@@ -164,7 +164,7 @@ export default {
       },
       {
         'title': 'Live Palette Populator',
-        'description': 'A React app I built with a uniquely efficient yet flexible UI for quickly creating and exploring flexible color palettes. I engineered it with experimentation and efficiency in mind, as a tool for quickly generating and exporting large or small collections of colors using any combination of color relationships and color modes.',
+        'description': 'A React app I designed and engineered with a uniquely efficient yet flexible UI for quickly creating and exploring flexible color palettes. I engineered it with experimentation and efficiency in mind, as a tool for quickly generating and exporting large or small collections of colors using any combination of color relationships and color modes.',
         'demo': 'https://live-palette-populator.netlify.app/',
         'github': 'https://github.com/beekman/live-palette-populator',
         'tech': [
