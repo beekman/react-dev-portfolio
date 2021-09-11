@@ -7,8 +7,8 @@ exports[`Portfolio component matches snapshot 1`] = `
     about={
       Object {
         "pitch": "After earning my degree in Multimedia Design at the University of Oregon, I spent more than a decade designing and developing websites. During that time I drilled deeper into full-stack development and JavaScript.",
-        "summary": "I'm a full-stack developer with an entrepreneurial background in front-end web development, SEO, and education. I'm enthusiastic about creating code that solves human-centered problems and I love learning and teaching new techniques and technologies.",
-        "title": "Creative Software Developer",
+        "summary": "I'm a full-stack software engiuneer with an entrepreneurial background in front-end web development, SEO, and education. I'm enthusiastic about creating code that solves human-centered problems and I love learning and teaching new techniques and technologies.",
+        "title": "Creative Software Engineer",
       }
     }
   />
@@ -159,7 +159,7 @@ exports[`Portfolio component matches snapshot 1`] = `
           },
           Object {
             "demo": "https://live-palette-populator.netlify.app/",
-            "description": "A React app I built with a uniquely efficient yet flexible UI for quickly creating and exploring flexible color palettes. I engineered it with experimentation and efficiency in mind, as a tool for quickly generating and exporting large or small collections of colors using any combination of color relationships and color modes.",
+            "description": "A React app I designed and engineered with a uniquely efficient yet flexible UI for quickly creating and exploring flexible color palettes. I engineered it with experimentation and efficiency in mind, as a tool for quickly generating and exporting large or small collections of colors using any combination of color relationships and color modes.",
             "github": "https://github.com/beekman/live-palette-populator",
             "tech": Array [
               Object {
@@ -418,11 +418,11 @@ exports[`Portfolio component matches snapshot 1`] = `
         "hiringStatus": "Please reach out to me using any of the contact options below.",
         "linkedinURL": "https://www.linkedin.com/in/beekman/",
         "name": "Ben Beekman",
-        "occupation": "Software Developer",
+        "occupation": "Software Engineer",
         "phone": "(503)708-0478",
         "resumeLink": "https://www.canva.com/design/DAEMyW-q7Kw/2QtY4oerkRr8TTz2owsmyQ/view?utm_content=DAEMyW-q7Kw&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink",
         "state": "OR",
-        "tagline": "import SoftwareDeveloper from 'benbeekman.dev';",
+        "tagline": "import SoftwareEngineer from 'benbeekman.dev';",
       }
     }
   />
