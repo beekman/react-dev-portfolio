@@ -44,7 +44,7 @@ exports[`Contact component matches snapshot 1`] = `
       <h2
         className="tagline"
       >
-        import SoftwareDeveloper from 'benbeekman.dev';
+        import SoftwareEngineer from 'benbeekman.dev';
       </h2>
     </Typist>
     <section
