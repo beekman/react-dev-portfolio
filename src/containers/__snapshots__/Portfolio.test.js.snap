@@ -159,7 +159,7 @@ exports[`Portfolio component matches snapshot 1`] = `
           },
           Object {
             "demo": "https://live-palette-populator.netlify.app/",
-            "description": "A React app I designed and engineered with a uniquely efficient yet flexible UI for quickly creating and exploring flexible color palettes. I engineered it with experimentation and efficiency in mind, as a tool for quickly generating and exporting large or small collections of colors using any combination of color relationships and color modes.",
+            "description": "A React app I designed and engineered with an uniquely efficient and intuitive UI for quickly creating and exploring flexible color palettes. I engineered it with experimentation and efficiency in mind, as a tool for quickly generating and exporting large or small collections of colors using any combination of color relationships and color modes.",
             "github": "https://github.com/beekman/live-palette-populator",
             "tech": Array [
               Object {
@@ -384,23 +384,6 @@ exports[`Portfolio component matches snapshot 1`] = `
               },
             ],
             "title": "Qwixx",
-          },
-          Object {
-            "demo": "https://digital-pla.net",
-            "description": "I developed this Wordpress-based site to accompany a college textbook that I co-authored.",
-            "github": "",
-            "tech": Array [
-              Object {
-                "name": "JavaScript",
-              },
-              Object {
-                "name": "HTML",
-              },
-              Object {
-                "name": "CSS",
-              },
-            ],
-            "title": "Digital Planet",
           },
         ],
         "history": "I'm fascinated by the ways digital technology can engage and empower people. Since earning my U of O degree in Multimedia Design, I've spent more than a decade helping people harness the power of that technology. I've taught classes for young people, tutored older people, consulted for small businesses, co-authored technology textbooks, served as both design and IT department for a small media company, and designed and developed web sites for businesses, nonprofits, and individuals.",

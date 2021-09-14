@@ -164,7 +164,7 @@ export default {
       },
       {
         'title': 'Live Palette Populator',
-        'description': 'A React app I designed and engineered with a uniquely efficient yet flexible UI for quickly creating and exploring flexible color palettes. I engineered it with experimentation and efficiency in mind, as a tool for quickly generating and exporting large or small collections of colors using any combination of color relationships and color modes.',
+        'description': 'A React app I designed and engineered with an uniquely efficient and intuitive UI for quickly creating and exploring flexible color palettes. I engineered it with experimentation and efficiency in mind, as a tool for quickly generating and exporting large or small collections of colors using any combination of color relationships and color modes.',
         'demo': 'https://live-palette-populator.netlify.app/',
         'github': 'https://github.com/beekman/live-palette-populator',
         'tech': [
@@ -389,24 +389,7 @@ export default {
             'name': 'Shell'
           },
         ],
-      },
-      {
-        'title': 'Digital Planet',
-        'description': 'I developed this Wordpress-based site to accompany a college textbook that I co-authored.',
-        'demo': 'https://digital-pla.net',
-        'github': '',
-        'tech': [
-          {
-            'name': 'JavaScript',
-          },
-          {
-            'name': 'HTML',
-          },
-          {
-            'name': 'CSS',
-          },
-        ],
-      },
+      }
     ]
   }
 };
