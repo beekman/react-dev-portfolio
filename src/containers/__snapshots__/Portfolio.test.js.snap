@@ -6,7 +6,7 @@ exports[`Portfolio component matches snapshot 1`] = `
   <About
     about={
       Object {
-        "pitch": "After earning my degree in Multimedia Design at the University of Oregon, I spent more than a decade designing and developing websites. During that time I drilled deeper into full-stack development and JavaScript.",
+        "pitch": "After earning my degree in Multimedia Design at the University of Oregon, I spent more than a decade designing and developing websites. During that time I drilled deeper into full-stack programming and JavaScript.",
         "summary": "I'm a full-stack software engiuneer with an entrepreneurial background in front-end web development, SEO, and education. I'm enthusiastic about creating code that solves human-centered problems and I love learning and teaching new techniques and technologies.",
         "title": "Creative Software Engineer",
       }
@@ -398,7 +398,7 @@ exports[`Portfolio component matches snapshot 1`] = `
         "email": "ben@benbeekman.dev",
         "githubURL": "https://github.com/beekman",
         "heading": "Let's Connect!",
-        "hiringStatus": "Please reach out to me using any of the contact options below.",
+        "hiringStatus": "You can reach me using any of the contact options below.",
         "linkedinURL": "https://www.linkedin.com/in/beekman/",
         "name": "Ben Beekman",
         "occupation": "Software Engineer",

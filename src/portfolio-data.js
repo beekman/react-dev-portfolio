@@ -2,12 +2,12 @@ export default {
   'about': {
     'title': 'Creative Software Engineer',
     'summary': 'I\'m a full-stack software engiuneer with an entrepreneurial background in front-end web development, SEO, and education. I\'m enthusiastic about creating code that solves human-centered problems and I love learning and teaching new techniques and technologies.',
-    'pitch': 'After earning my degree in Multimedia Design at the University of Oregon, I spent more than a decade designing and developing websites. During that time I drilled deeper into full-stack development and JavaScript.',
+    'pitch': 'After earning my degree in Multimedia Design at the University of Oregon, I spent more than a decade designing and developing websites. During that time I drilled deeper into full-stack programming and JavaScript.',
   },
   'contact': {
     'heading': 'Let\'s Connect!',
     'tagline': 'import SoftwareEngineer from \'benbeekman.dev\';',
-    'hiringStatus': 'Please reach out to me using any of the contact options below.',
+    'hiringStatus': 'You can reach me using any of the contact options below.',
     'name': 'Ben Beekman',
     'occupation': 'Software Engineer',
     'email': 'ben@benbeekman.dev',
