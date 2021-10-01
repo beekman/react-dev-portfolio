@@ -117,7 +117,7 @@ export default {
     'feature': [
       {
         'title': 'Shapeways',
-        'description': 'An interactive audiovisual composition, made possible by machine learning, and an exploration of new forms of expression and interaction. I developed Shapeways using React with a team of 5 people for a Machine Learning for Artists hackathon. My personal contributions included functions for interpreting a user\'s movement to generate musical performance seed data, for making API requests to several musical performance machine learning models using that seed data, and for transforming the API responses into synth output, as well as improvements to the app\'s UX.',
+        'description': 'An interactive audiovisual composition, made possible by machine learning, and an exploration of new forms of expression and interaction. I developed Shapeways using React with a team of 5 people for a Machine Learning for Artists hackathon. My personal contributions included functions for real-time interpretation of a user\'s movement to generate dynamic musical performance seed data, for making API requests to several Magenta.JS musical performance machine learning models using that seed data, and for transforming the API responses into synth output, as well as improvements to the app\'s UX.',
         'demo': 'https://shapeways.netlify.app/',
         'github': 'https://github.com/whateverSpace/shapeways-frontend',
         'tech': [
