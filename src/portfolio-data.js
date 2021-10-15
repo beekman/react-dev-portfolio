@@ -1,6 +1,6 @@
 export default {
   'about': {
-    'title': 'Creative Software Engineer',
+    'title': 'Full-Stack Software Engineer',
     'summary': 'I\'m a full-stack software engineer with an entrepreneurial background in front-end web development, SEO, and education. I\'m enthusiastic about creating code that solves human-centered problems and I love learning and teaching new techniques and technologies.',
     'pitch': 'After earning my degree in Multimedia Design at the University of Oregon, I spent more than a decade designing and developing websites. During that time I drilled deeper into full-stack programming and JavaScript.',
   },
@@ -16,7 +16,7 @@ export default {
     'state': 'OR',
     'linkedinURL': 'https://www.linkedin.com/in/beekman/',
     'githubURL': 'https://github.com/beekman',
-    'resumeLink': 'https://www.canva.com/design/DAEMyW-q7Kw/2QtY4oerkRr8TTz2owsmyQ/view?utm_content=DAEMyW-q7Kw&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink',
+    'resumeLink': 'https://www.canva.com/design/DAEozknJ6_4/Qo0YEtC-NQgQJcGeVsp7nA/view?utm_content=DAEozknJ6_4&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton',
   },
   'skills': {
     'heading': 'Tools of My Trade',
