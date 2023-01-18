@@ -56,12 +56,6 @@ exports[`Contact component matches snapshot 1`] = `
       , 
       OR
       <br />
-      <a
-        href="!tel:5417405681"
-      >
-        <FaPhone />
-        (503)708-0478
-      </a>
       <br />
       <a
         href="!mailto:{contact.email}"

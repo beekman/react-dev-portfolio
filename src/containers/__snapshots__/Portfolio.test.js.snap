@@ -6,8 +6,8 @@ exports[`Portfolio component matches snapshot 1`] = `
   <About
     about={
       Object {
-        "pitch": "After earning my degree in Multimedia Design at the University of Oregon, I spent more than a decade designing and developing websites. During that time I drilled deeper into full-stack programming and JavaScript.",
-        "summary": "I'm a full-stack software engineer with an entrepreneurial background in front-end web development, SEO, and education. I'm enthusiastic about creating code that solves human-centered problems and I love learning and teaching new techniques and technologies.",
+        "pitch": "As a full-stack web engineer role at a startup, I spent the past fifteen months working on a wide variety of web-based software and plugins to aid with editorial, marketing, and administrative challenges. Before that, I spent more than a decade developing and designing websites.",
+        "summary": "I'm a full-stack web and software engineer with an entrepreneurial background in front-end web development, SEO, and education. I'm enthusiastic about creating code that solves human-centered problems and I love learning and teaching new techniques and technologies.",
         "title": "Full-Stack Software Engineer",
       }
     }
