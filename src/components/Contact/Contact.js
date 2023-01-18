@@ -21,9 +21,7 @@ const Contact = ({ contact }) => {
         <section className={styles.social}>
           {contact.name}<br />
           {contact.city}, {contact.state}<br />
-          <a href='!tel:5417405681'>
-            <FaPhone />{contact.phone}
-          </a><br />
+          <br />
           <a href='!mailto:{contact.email}'><AiOutlineMail />{contact.email}</a><br />
           <a href={contact.linkedinURL}><FaLinkedin />/in/beekman</a><br />
           <a href={contact.githubURL}><FaGithub />/beekman</a><br />
