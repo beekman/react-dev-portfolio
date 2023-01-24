@@ -403,7 +403,7 @@ exports[`Portfolio component matches snapshot 1`] = `
         "name": "Ben Beekman",
         "occupation": "Software Engineer",
         "phone": "(503)708-0478",
-        "resumeLink": "https://www.canva.com/design/DAEozknJ6_4/Qo0YEtC-NQgQJcGeVsp7nA/view?utm_content=DAEozknJ6_4&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton",
+        "resumeLink": "https://www.canva.com/design/DAFYjYgRh2U/-dWbni-s5-Vx3sctCYxPIA/view?utm_content=DAFYjYgRh2U&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink",
         "state": "OR",
         "tagline": "import SoftwareEngineer from 'benbeekman.dev';",
       }
