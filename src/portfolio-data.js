@@ -2,7 +2,7 @@ export default {
   'about': {
     'title': 'Full-Stack Software Engineer',
     'summary': 'I\'m a full-stack web and software engineer with an entrepreneurial background in front-end web development, SEO, and education. I\'m enthusiastic about creating code that solves human-centered problems and I love learning and teaching new techniques and technologies.',
-    'pitch': 'As a full-stack web engineer role at a startup, I spent the past fifteen months working on a wide variety of web-based software and plugins to aid with editorial, marketing, and administrative challenges. Before that, I spent more than a decade developing and designing websites.',
+    'pitch': 'As a full-stack web engineer role at a startup, I spent the past fifteen months working on a wide variety of web-based software and plugins to aid with internal multi-departmental processes. Before that, I spent more than a decade developing and designing websites.',
   },
   'contact': {
     'heading': 'Let\'s Connect!',
