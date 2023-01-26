@@ -1,5 +1,5 @@
 @value colors: '../colors.css';
-@value lightblue, yellow, offwhite, white, darkgray, whiteblue from colors;
+@value lightblue, yellow, offwhite, white, darkgray from colors;
 
 .About {
   position: relative;
@@ -18,10 +18,9 @@
 @media screen and (max-width: 720px){
   .About {
     flex-direction: column;
-    top: 380px;
+    top: 120px;
     padding: 10px;
     position: relative;
-    margin-bottom: 180px;
 
 
     header {
@@ -52,7 +51,7 @@
       }
 
       figure {
-        margin: 1.5rem auto 0;
+        margin: 4.5rem auto 0;
 
         img {
           border-radius: 50%;
@@ -68,7 +67,7 @@
     align-items: center;
     flex-direction: column;
     min-height: 100vh;
-    top: 4.25rem;
+    top: 3.2rem;
     padding: 1rem 2rem;
     header {
 

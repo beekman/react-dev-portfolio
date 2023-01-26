@@ -10,7 +10,6 @@
   flex-direction: column;
   justify-content: center;
   position: relative;
-  top: 1.5rem;
   h1 {
     text-shadow: 0.025rem 0.025rem 0 darkgray, 0.025rem -0.025rem 0 darkgray, -0.025rem 0.025rem 0 darkgray, -0.025rem -0.025rem 0 darkgray, 0.025rem 0px 0 darkgray, 0px 0.025rem 0 darkgray, -0.025rem 0px 0 darkgray, 0px -0.025rem 0 darkgray;
     color:lightblue;

@@ -2,13 +2,15 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import styles from './Contact.css';
 import ScrollAnimation from 'react-animate-on-scroll';
-import { FaGithub, FaLinkedin, FaPhone } from 'react-icons/fa';
+import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import { AiOutlineMail } from 'react-icons/ai';
 import { Element } from 'react-scroll';
 import Typist from 'react-typist';
 
+
 const Contact = ({ contact }) => {
 
+  const emailURL = '!mailto' + contact.email;
   return (
     <Element name="Contact" className="Contact">
       <div className={styles.Contact}>
@@ -22,7 +24,7 @@ const Contact = ({ contact }) => {
           {contact.name}<br />
           {contact.city}, {contact.state}<br />
           <br />
-          <a href='!mailto:{contact.email}'><AiOutlineMail />{contact.email}</a><br />
+          <a href={emailURL}><AiOutlineMail />{contact.email}</a><br />
           <a href={contact.linkedinURL}><FaLinkedin />/in/beekman</a><br />
           <a href={contact.githubURL}><FaGithub />/beekman</a><br />
           <a href={contact.resumeLink} target='_blank' rel='noopener noreferrer'>View my resume</a>
