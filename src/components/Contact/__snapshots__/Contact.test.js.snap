@@ -58,7 +58,7 @@ exports[`Contact component matches snapshot 1`] = `
       <br />
       <br />
       <a
-        href="!mailto:{contact.email}"
+        href="!mailtoben@benbeekman.dev"
       >
         <AiOutlineMail />
         ben@benbeekman.dev

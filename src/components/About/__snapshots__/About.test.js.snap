@@ -22,18 +22,26 @@ exports[`About component matches snapshot 1`] = `
         startDelay={0}
         stdTypingDelay={25}
       >
-        Hi, I'm Ben. I'm a Creative Software Developer
+        Hi, I'm Ben. I'm a Full Stack Web Engineer
         <Backspace
-          count={18}
+          count={12}
           delay={750}
         />
         <Delay
           ms={800}
         />
-        Front End Developer
+        Software Engineer
         <Backspace
-          count={19}
+          count={28}
           delay={750}
+        />
+        <Delay
+          ms={850}
+        />
+        Front End Engineer
+        <Backspace
+          count={18}
+          delay={500}
         />
         <Delay
           ms={850}
@@ -46,12 +54,7 @@ exports[`About component matches snapshot 1`] = `
         <Delay
           ms={1150}
         />
-        Full Stack Developer
-        <Backspace
-          count={29}
-          delay={500}
-        />
-        lot of things.
+        Full Stack Engineer.
       </Typist>
     </h1>
   </header>
