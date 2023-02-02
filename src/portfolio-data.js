@@ -107,7 +107,7 @@ export default {
       }
 
     ],
-    'resumeLink': 'https://www.canva.com/design/DADxzQOaReM/zmkBwZHsYHDKVeaHyVzBoA/view?utm_content=DADxzQOaReM&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton',
+    'resumeLink': 'https://www.canva.com/design/DAFYjYgRh2U/-dWbni-s5-Vx3sctCYxPIA/view?utm_content=DAFYjYgRh2U&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink',
   },
   'projects': {
     'history': 'I\'m fascinated by the ways digital technology can engage and empower people. Since earning my U of O degree in Multimedia Design, I\'ve spent more than a decade helping people harness the power of that technology. I\'ve taught classes for young people, tutored older people, consulted for small businesses, co-authored technology textbooks, served as both design and IT department for a small media company, and designed and developed websites and software for businesses, nonprofits, and individuals.',
