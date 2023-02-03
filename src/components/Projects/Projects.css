@@ -9,6 +9,11 @@
   color: offwhite;
   padding: 1rem 2rem;
 
+  header, section, summary {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
   h1 {
     text-shadow: .0125rem .0125rem 0 lightblue, .0125rem -.0125rem 0 lightblue, -.0125rem .0125rem 0 lightblue, -.0125rem -.0125rem 0 lightblue, .0125rem 0px 0 lightblue, 0px .0125rem 0 lightblue, -.0125rem 0px 0 lightblue, 0px -.0125rem 0 lightblue;
     color: yellow;
@@ -21,7 +26,7 @@
 
   .Project {
     padding: 0;
-    margin: 0.5rem 0;
+    margin: 0.5rem auto;
 
     border-radius: 0.75rem;
 

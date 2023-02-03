@@ -25,7 +25,7 @@ exports[`Portfolio component matches snapshot 1`] = `
           },
         ],
         "learningCopy": "My tech stack is always growing. Here's what I'm getting to know right now.",
-        "resumeLink": "https://www.canva.com/design/DADxzQOaReM/zmkBwZHsYHDKVeaHyVzBoA/view?utm_content=DADxzQOaReM&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton",
+        "resumeLink": "https://www.canva.com/design/DAFYjYgRh2U/-dWbni-s5-Vx3sctCYxPIA/view?utm_content=DAFYjYgRh2U&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink",
         "tech": Array [
           Object {
             "name": "JavaScript",
