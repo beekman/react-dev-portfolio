@@ -30,7 +30,7 @@ exports[`Contact component matches snapshot 1`] = `
       avgTypingDelay={70}
       className=""
       cursor={
-        Object {
+        {
           "show": false,
         }
       }

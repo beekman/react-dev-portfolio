@@ -11,7 +11,7 @@ exports[`About component matches snapshot 1`] = `
         avgTypingDelay={70}
         className=""
         cursor={
-          Object {
+          {
             "hideWhenDone": true,
           }
         }
