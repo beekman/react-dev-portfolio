@@ -1,8 +1,8 @@
 export default {
   'about': {
-    'title': 'Creative Software Engineer',
-    'summary': 'I\'m a full-stack software engineer with an entrepreneurial background in front-end web development, SEO, and education. I\'m enthusiastic about creating code that solves human-centered problems and I love learning and teaching new techniques and technologies.',
-    'pitch': 'After earning my degree in Multimedia Design at the University of Oregon, I spent more than a decade designing and developing websites. During that time I drilled deeper into full-stack programming and JavaScript.',
+    'title': 'Full-Stack Software Engineer',
+    'summary': 'I\'m a full-stack web and software engineer with an entrepreneurial background in front-end web development, SEO, and education. I\'m enthusiastic about creating code that solves human-centered problems and I love learning and teaching new techniques and technologies.',
+    'pitch': 'As a full-stack web engineer role at a startup, I spent the past fifteen months working on a wide variety of web-based software and plugins to aid with internal multi-departmental processes. Before that, I spent more than a decade developing and designing websites.',
   },
   'contact': {
     'heading': 'Let\'s Connect!',
@@ -16,7 +16,7 @@ export default {
     'state': 'OR',
     'linkedinURL': 'https://www.linkedin.com/in/beekman/',
     'githubURL': 'https://github.com/beekman',
-    'resumeLink': 'https://www.canva.com/design/DAEMyW-q7Kw/2QtY4oerkRr8TTz2owsmyQ/view?utm_content=DAEMyW-q7Kw&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink',
+    'resumeLink': 'https://www.canva.com/design/DAFYjYgRh2U/-dWbni-s5-Vx3sctCYxPIA/view?utm_content=DAFYjYgRh2U&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink',
   },
   'skills': {
     'heading': 'Tools of My Trade',
@@ -107,11 +107,11 @@ export default {
       }
 
     ],
-    'resumeLink': 'https://www.canva.com/design/DADxzQOaReM/zmkBwZHsYHDKVeaHyVzBoA/view?utm_content=DADxzQOaReM&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton',
+    'resumeLink': 'https://www.canva.com/design/DAFYjYgRh2U/-dWbni-s5-Vx3sctCYxPIA/view?utm_content=DAFYjYgRh2U&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink',
   },
   'projects': {
-    'history': 'I\'m fascinated by the ways digital technology can engage and empower people. Since earning my U of O degree in Multimedia Design, I\'ve spent more than a decade helping people harness the power of that technology. I\'ve taught classes for young people, tutored older people, consulted for small businesses, co-authored technology textbooks, served as both design and IT department for a small media company, and designed and developed web sites for businesses, nonprofits, and individuals.',
-    'summary': 'I work well on my own, but I thrive in collaborative coding environments. Here\'s a sampling of both my individual and team-based projects.',
+    'history': 'I\'m fascinated by the ways digital technology can engage and empower people. Since earning my U of O degree in Multimedia Design, I\'ve spent more than a decade helping people harness the power of that technology. I\'ve taught classes for young people, tutored older people, consulted for small businesses, co-authored technology textbooks, served as both design and IT department for a small media company, and designed and developed websites and software for businesses, nonprofits, and individuals.',
+    'summary': 'I work well on my own, but I thrive in collaborative coding environments. Here\'s a showcase of both my personal and collaborative projects.',
     'design-portfolio-link': 'https://benbeekman.com/web',
 
     'feature': [

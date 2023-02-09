@@ -10,7 +10,7 @@
   flex-wrap: wrap;
   align-items: flex-start;
   position: fixed;
-  background-color: RGBA(0,0,0,0.8);
+  background-color: RGBA(0,0,0,1);
   width: 100%;
 
   h1{

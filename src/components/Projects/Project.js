@@ -123,9 +123,7 @@ Project.propTypes = {
     description: PropTypes.string,
     github: PropTypes.string,
     demo: PropTypes.string,
-    tech: PropTypes.shape([{
-      name: PropTypes.string
-    }]).isRequired,
+    tech: PropTypes.array.isRequired
   }),
 };
 

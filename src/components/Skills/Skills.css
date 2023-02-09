@@ -10,7 +10,17 @@
   flex-direction: column;
   justify-content: center;
   position: relative;
-  top: 1.5rem;
+  align-items: center;
+
+  h1, h2, section, p {
+    max-width: 1200px;
+  }
+
+  >section >p {
+    text-align: left;
+  }
+
+
   h1 {
     text-shadow: 0.025rem 0.025rem 0 darkgray, 0.025rem -0.025rem 0 darkgray, -0.025rem 0.025rem 0 darkgray, -0.025rem -0.025rem 0 darkgray, 0.025rem 0px 0 darkgray, 0px 0.025rem 0 darkgray, -0.025rem 0px 0 darkgray, 0px -0.025rem 0 darkgray;
     color:lightblue;
@@ -41,8 +51,7 @@
     ul{
       list-style-type: none;
       display: inline;
-      justify-content: center;
-
+      justify-content: flex-start;
     }
 
     li {

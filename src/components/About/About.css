@@ -1,5 +1,5 @@
 @value colors: '../colors.css';
-@value lightblue, yellow, offwhite, white, darkgray, whiteblue from colors;
+@value lightblue, yellow, offwhite, white, darkgray from colors;
 
 .About {
   position: relative;
@@ -9,19 +9,23 @@
   background-color: darkgray;
   display: flex;
   top: 3rem;
+
+  header, main {
+    max-width: 1200px;
+  }
+
+  p {
+    color: offwhite;
+  }
 }
 
 @media screen and (max-width: 720px){
   .About {
     flex-direction: column;
-    top: 380px;
+    top: 120px;
     padding: 10px;
     position: relative;
-    margin-bottom: 180px;
 
-    p {
-      color: offwhite;
-    }
 
     header {
 
@@ -45,13 +49,13 @@
 
 
       section{
-      justify-content: center;
-      align-items: center;
-      padding: 1rem;
+        justify-content: center;
+        align-items: center;
+        padding: 1rem;
       }
 
       figure {
-        margin: 1.5rem auto 0;
+        margin: 4.5rem auto 0;
 
         img {
           border-radius: 50%;
@@ -67,7 +71,7 @@
     align-items: center;
     flex-direction: column;
     min-height: 100vh;
-    top: 4.25rem;
+    top: 3.2rem;
     padding: 1rem 2rem;
     header {
 
@@ -85,11 +89,11 @@
       grid-template-columns: 3fr 1fr;
 
       section{
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      padding: 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 1rem;
       }
 
       figure {

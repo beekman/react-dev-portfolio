@@ -30,7 +30,7 @@ exports[`Contact component matches snapshot 1`] = `
       avgTypingDelay={70}
       className=""
       cursor={
-        Object {
+        {
           "show": false,
         }
       }
@@ -53,18 +53,12 @@ exports[`Contact component matches snapshot 1`] = `
       Ben Beekman
       <br />
       Portland
-      , 
+      ,
       OR
       <br />
-      <a
-        href="!tel:5417405681"
-      >
-        <FaPhone />
-        (503)708-0478
-      </a>
       <br />
       <a
-        href="!mailto:{contact.email}"
+        href="!mailtoben@benbeekman.dev"
       >
         <AiOutlineMail />
         ben@benbeekman.dev
@@ -85,7 +79,7 @@ exports[`Contact component matches snapshot 1`] = `
       </a>
       <br />
       <a
-        href="https://www.canva.com/design/DAEMyW-q7Kw/2QtY4oerkRr8TTz2owsmyQ/view?utm_content=DAEMyW-q7Kw&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink"
+        href="https://www.canva.com/design/DAFYjYgRh2U/-dWbni-s5-Vx3sctCYxPIA/view?utm_content=DAFYjYgRh2U&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink"
         rel="noopener noreferrer"
         target="_blank"
       >

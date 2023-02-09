@@ -11,7 +11,7 @@ exports[`About component matches snapshot 1`] = `
         avgTypingDelay={70}
         className=""
         cursor={
-          Object {
+          {
             "hideWhenDone": true,
           }
         }
@@ -22,18 +22,26 @@ exports[`About component matches snapshot 1`] = `
         startDelay={0}
         stdTypingDelay={25}
       >
-        Hi, I'm Ben. I'm a Creative Software Developer
+        Hi, I'm Ben. I'm a Full Stack Web Engineer
         <Backspace
-          count={18}
+          count={12}
           delay={750}
         />
         <Delay
           ms={800}
         />
-        Front End Developer
+        Software Engineer
         <Backspace
-          count={19}
+          count={28}
           delay={750}
+        />
+        <Delay
+          ms={850}
+        />
+        Front End Engineer
+        <Backspace
+          count={18}
+          delay={500}
         />
         <Delay
           ms={850}
@@ -46,22 +54,17 @@ exports[`About component matches snapshot 1`] = `
         <Delay
           ms={1150}
         />
-        Full Stack Developer
-        <Backspace
-          count={29}
-          delay={500}
-        />
-        lot of things.
+        Full Stack Engineer.
       </Typist>
     </h1>
   </header>
   <main>
     <section>
       <p>
-        I'm a full-stack software engineer with an entrepreneurial background in front-end web development, SEO, and education. I'm enthusiastic about creating code that solves human-centered problems and I love learning and teaching new techniques and technologies.
+        I'm a full-stack web and software engineer with an entrepreneurial background in front-end web development, SEO, and education. I'm enthusiastic about creating code that solves human-centered problems and I love learning and teaching new techniques and technologies.
       </p>
       <p>
-        After earning my degree in Multimedia Design at the University of Oregon, I spent more than a decade designing and developing websites. During that time I drilled deeper into full-stack programming and JavaScript.
+        As a full-stack web engineer role at a startup, I spent the past fifteen months working on a wide variety of web-based software and plugins to aid with internal multi-departmental processes. Before that, I spent more than a decade developing and designing websites.
       </p>
     </section>
     <figure
