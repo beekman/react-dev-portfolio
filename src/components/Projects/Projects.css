@@ -24,10 +24,9 @@
   }
 
   .Project {
-    padding: 0;
-    margin: 0.5rem 0;
-
     border-radius: 0.75rem;
+    margin: 0.5rem auto;
+    padding: 0;
 
     .feature {
       display: grid;
@@ -97,8 +96,8 @@
           width: auto;
           padding: 0 0.5rem;
         }
-     }
-   }
+      }
+    }
   }
 }
 

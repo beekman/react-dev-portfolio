@@ -50,7 +50,7 @@
     ul{
       list-style-type: none;
       display: inline;
-      justify-content: center;
+      justify-content: flex-start;
 
     }
 
