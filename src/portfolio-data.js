@@ -235,7 +235,6 @@ export default {
       {
         'title': 'kit: Keep In Touch',
         'description': 'A progressive web app for improving communication, with customizable scheduled push notifications and connection logs. Developed in a five person team over a four-day code sprint. My contributions centered around UX/UI engineering, the creation of React components for adding and editing contacts and a responsive navigation menu system.',
-        'demo': 'https://friendlier-staging.netlify.app',
         'github': 'https://github.com/band-m/friendlier-fe',
         'tech': [
           {
