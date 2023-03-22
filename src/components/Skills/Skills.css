@@ -18,6 +18,7 @@
 
   >section >p {
     text-align: left;
+    padding: 0 3rem;
   }
 
   h1 {
@@ -44,7 +45,7 @@
     list-style-type: none;
     background-color: whiteblue;
     justify-content: center;
-    padding: 1rem;
+    padding: 1rem 3rem 0;
     border-radius: 1rem;
 
     ul{

@@ -282,7 +282,6 @@ export default {
       {
         'title': 'Plant Parenthood',
         'description': 'A secure server-side IoT plant sensor application that allows users to remotely gather and post data collected from a variety of sensors (light, temperature, humidity) via a Raspberry Pi. Two-factor authentication ensures the integrity of data. Data can be interpreted to make recommendations of common house plants that may thrive under matching environmental conditions.',
-        'demo': 'https://plantonomous.herokuapp.com',
         'github': 'https://github.com/piParty/pi-party',
         'tech': [
           {

@@ -97,8 +97,13 @@ const Project = ({ feature }) => {
           <p>{feature.description}</p>
 
           <div className={styles.links}>
+
             <a href={feature.github} target='_blank' rel='noopener noreferrer'>View on Github</a>
-            <a href={feature.demo} target='_blank' rel='noopener noreferrer'>Live Demo</a>
+            {feature.demo ?
+              <a href={feature.demo} target='_blank' rel='noopener noreferrer'>Live Demo</a>
+              :
+              null
+            }
           </div>
         </div>
         <div className={styles.mediaBox}>
@@ -128,3 +133,4 @@ Project.propTypes = {
 };
 
 export default Project;
+
