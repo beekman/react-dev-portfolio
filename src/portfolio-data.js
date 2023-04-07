@@ -16,7 +16,7 @@ export default {
     'state': 'OR',
     'linkedinURL': 'https://www.linkedin.com/in/beekman/',
     'githubURL': 'https://github.com/beekman',
-    'resumeLink': 'https://www.canva.com/design/DAFYjYgRh2U/-dWbni-s5-Vx3sctCYxPIA/view?utm_content=DAFYjYgRh2U&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink',
+    'resumeLink': 'https://www.dropbox.com/s/u1hqql6vkwtlo3r/Ben%20Beekman%20Full-Stack%20Software%20Engineer%204-07-23.pdf?dl=0',
   },
   'skills': {
     'heading': 'Tools of My Trade',
@@ -234,7 +234,7 @@ export default {
       },
       {
         'title': 'kit: Keep In Touch',
-        'description': 'A progressive web app for improving communication, with customizable scheduled push notifications and connection logs. Developed in a five person team over a four-day code sprint. My contributions centered around UX/UI engineering, the creation of React components for adding and editing contacts and a responsive navigation menu system.',
+        'description': 'A progressive web app for improving communication, with customizable scheduled push notifications and connection logs. Developed in a five person team over a four-day code sprint. My contributions centered around UX/UI engineering, the creation of React components for adding and editing contacts, and a responsive navigation menu system.',
         'github': 'https://github.com/band-m/friendlier-fe',
         'tech': [
           {
@@ -280,7 +280,7 @@ export default {
       },
       {
         'title': 'Plant Parenthood',
-        'description': 'A secure server-side IoT plant sensor application that allows users to remotely gather and post data collected from a variety of sensors (light, temperature, humidity) via a Raspberry Pi. Two-factor authentication ensures the integrity of data. Data can be interpreted to make recommendations of common house plants that may thrive under matching environmental conditions.',
+        'description': 'A secure server-side IoT plant sensor application that allows users to remotely gather and post data collected from a variety of sensors (light, temperature, humidity) connected to a Raspberry Pi. Two-factor authentication ensures the integrity of data. Data can be interpreted to make recommendations of common house plants that may thrive under matching environmental conditions.',
         'github': 'https://github.com/piParty/pi-party',
         'tech': [
           {
