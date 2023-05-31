@@ -2,12 +2,12 @@ export default {
   'about': {
     'title': 'Full-Stack Software Engineer',
     'summary': 'I\'m a full-stack web and software engineer with an entrepreneurial background in front-end web development, SEO, and education. I\'m enthusiastic about creating code that solves human-centered problems and I love learning and teaching new techniques and technologies.',
-    'pitch': 'As a full-stack web engineer role at a startup, I spent the past fifteen months working on a wide variety of web-based software and plugins to aid with internal multi-departmental processes. Before that, I spent more than a decade developing and designing websites.',
+    'pitch': 'As a full-stack web engineer role at a startup, I spent the past fifteen months working on all kinds of web-based software and plugins to aid with and automate multi-departmental processes. Before that, I spent more than a decade developing and designing websites.',
   },
   'contact': {
     'heading': 'Let\'s Connect!',
     'tagline': 'import SoftwareEngineer from \'benbeekman.dev\';',
-    'hiringStatus': 'You can reach me using any of the contact options below.',
+    'hiringStatus': 'Contact me using any of the options below.',
     'name': 'Ben Beekman',
     'occupation': 'Software Engineer',
     'email': 'ben@benbeekman.dev',
@@ -199,7 +199,7 @@ export default {
       },
       {
         'title': 'whateverSynth',
-        'description': 'A JavaScript-based synthesizer app featuring MIDI and keyboard support, an unlimited effects chain with over 10 audio effects using tuna.js, pitch bend and modulation, instrument selection, and real-time waveform visualization. I built this app with three fellow musicians. Some of my most significant personal contributions relate to the user interface and UX engineering. I wrote and implemented many of the UI-oriented React components and hooks, including UI components used throughout the app that make manipulation of real-time effects more efficient, and most of the audio effects components themselves.',
+        'description': 'A JavaScript-based synthesizer app featuring MIDI and keyboard support, an unlimited effects chain with over 10 audio effects using tuna.js, pitch bend and modulation, instrument selection, and real-time waveform visualization. I built this app with three fellow musicians. Some of my most significant personal contributions relate to the user interface and UX engineering. I wrote and implemented many of the UI-oriented React components and hooks, including UI components used throughout the app that make manipulation of real-time effects more efficient, and most of the audio effects components.',
         'demo': 'https://whateversynthstaging.netlify.app/',
         'github': 'https://github.com/whateverSynth/whateverSynth-frontend',
         'tech': [
