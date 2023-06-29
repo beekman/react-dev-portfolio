@@ -69,6 +69,9 @@ export default {
         'name': 'Heroku',
       },
       {
+        'name': 'D3',
+      },
+      {
         'name': 'MagentaJS',
       },
       {
@@ -102,9 +105,7 @@ export default {
       {
         'name': 'GraphQL',
       },
-      {
-        'name': 'D3',
-      }
+
 
     ],
     'resumeLink': 'https://www.canva.com/design/DAFYjYgRh2U/-dWbni-s5-Vx3sctCYxPIA/view?utm_content=DAFYjYgRh2U&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink',

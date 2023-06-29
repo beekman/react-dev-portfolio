@@ -6,7 +6,7 @@ exports[`Portfolio component matches snapshot 1`] = `
   <About
     about={
       Object {
-        "pitch": "As a full-stack web engineer role at a startup, I spent the past fifteen months working on a wide variety of web-based software and plugins to aid with internal multi-departmental processes. Before that, I spent more than a decade developing and designing websites.",
+        "pitch": "As a full-stack web engineer role at a startup, I spent the past fifteen months working on all kinds of web-based software and plugins to aid with and automate multi-departmental processes. Before that, I spent more than a decade developing and designing websites.",
         "summary": "I'm a full-stack web and software engineer with an entrepreneurial background in front-end web development, SEO, and education. I'm enthusiastic about creating code that solves human-centered problems and I love learning and teaching new techniques and technologies.",
         "title": "Full-Stack Software Engineer",
       }
@@ -19,9 +19,6 @@ exports[`Portfolio component matches snapshot 1`] = `
         "learning": Array [
           Object {
             "name": "GraphQL",
-          },
-          Object {
-            "name": "D3",
           },
         ],
         "learningCopy": "My tech stack is always growing. Here's what I'm getting to know right now.",
@@ -71,6 +68,9 @@ exports[`Portfolio component matches snapshot 1`] = `
           },
           Object {
             "name": "Heroku",
+          },
+          Object {
+            "name": "D3",
           },
           Object {
             "name": "MagentaJS",
@@ -194,7 +194,7 @@ exports[`Portfolio component matches snapshot 1`] = `
           },
           Object {
             "demo": "https://whateversynthstaging.netlify.app/",
-            "description": "A JavaScript-based synthesizer app featuring MIDI and keyboard support, an unlimited effects chain with over 10 audio effects using tuna.js, pitch bend and modulation, instrument selection, and real-time waveform visualization. I built this app with three fellow musicians. Some of my most significant personal contributions relate to the user interface and UX engineering. I wrote and implemented many of the UI-oriented React components and hooks, including UI components used throughout the app that make manipulation of real-time effects more efficient, and most of the audio effects components themselves.",
+            "description": "A JavaScript-based synthesizer app featuring MIDI and keyboard support, an unlimited effects chain with over 10 audio effects using tuna.js, pitch bend and modulation, instrument selection, and real-time waveform visualization. I built this app with three fellow musicians. Some of my most significant personal contributions relate to the user interface and UX engineering. I wrote and implemented many of the UI-oriented React components and hooks, including UI components used throughout the app that make manipulation of real-time effects more efficient, and most of the audio effects components.",
             "github": "https://github.com/whateverSynth/whateverSynth-frontend",
             "tech": Array [
               Object {
@@ -395,12 +395,12 @@ exports[`Portfolio component matches snapshot 1`] = `
         "email": "ben@benbeekman.dev",
         "githubURL": "https://github.com/beekman",
         "heading": "Let's Connect!",
-        "hiringStatus": "You can reach me using any of the contact options below.",
+        "hiringStatus": "Contact me using any of the options below.",
         "linkedinURL": "https://www.linkedin.com/in/beekman/",
         "name": "Ben Beekman",
         "occupation": "Software Engineer",
         "phone": "(503)708-0478",
-        "resumeLink": "https://www.dropbox.com/s/u1hqql6vkwtlo3r/Ben%20Beekman%20Full-Stack%20Software%20Engineer%204-07-23.pdf?dl=0",
+        "resumeLink": "https://www.dropbox.com/s/adagnyz0sil0tjn/Ben_Beekman_Software_Engineer-05-24-23.pdf?dl=0",
         "state": "OR",
         "tagline": "import SoftwareEngineer from 'benbeekman.dev';",
       }

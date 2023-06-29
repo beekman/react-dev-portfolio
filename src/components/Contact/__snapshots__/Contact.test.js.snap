@@ -24,7 +24,7 @@ exports[`Contact component matches snapshot 1`] = `
     <p
       className="hiringStatus"
     >
-      You can reach me using any of the contact options below.
+      Contact me using any of the options below.
     </p>
     <Typist
       avgTypingDelay={70}
@@ -79,7 +79,7 @@ exports[`Contact component matches snapshot 1`] = `
       </a>
       <br />
       <a
-        href="https://www.dropbox.com/s/u1hqql6vkwtlo3r/Ben%20Beekman%20Full-Stack%20Software%20Engineer%204-07-23.pdf?dl=0"
+        href="https://www.dropbox.com/s/adagnyz0sil0tjn/Ben_Beekman_Software_Engineer-05-24-23.pdf?dl=0"
         rel="noopener noreferrer"
         target="_blank"
       >
