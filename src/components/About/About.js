@@ -21,6 +21,7 @@ const About = ({ about }) => {
         <section>
           <p>{about.summary}</p>
           <p>{about.pitch}</p>
+          <p>{about.history}</p>
         </section>
         <figure className={styles.profile}>
           <img src={photo} />
