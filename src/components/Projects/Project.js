@@ -30,15 +30,17 @@ import p5 from '../../assets/tech/thumbs/p5-60px.png';
 import ml5 from '../../assets/tech/thumbs/ml5-60px.png';
 import tone from '../../assets/tech/thumbs/tone-60px.png';
 import travis from '../../assets/tech/thumbs/travis-cl-60px.png';
+import threejs from '../../assets/tech/thumbs/threejs-60px.png';
+import rapier from '../../assets/tech/thumbs/rapier-60px.png';
 import palettePopulator from '../../assets/portfolio/palettePopulator.png';
 import kit from '../../assets/portfolio/kit.png';
 import qwixx from '../../assets/portfolio/qwixx.png';
 import frontpage from '../../assets/portfolio/frontpage.png';
 import plantParenthood from '../../assets/portfolio/plantParenthood.png';
-import digitalPlanet from '../../assets/portfolio/digitalPlanet.png';
-import erskineSolarArt from '../../assets/portfolio/erskineSolarArt.png';
 import whateverSynth from '../../assets/portfolio/whateverSynth.png';
 import shapeways from '../../assets/portfolio/shapeways.png';
+import virtualFishtank from '../../assets/portfolio/virtualFishtank.png';
+
 
 const Project = ({ feature }) => {
   const TechList = feature.tech.map((tech, i) => {
@@ -71,6 +73,8 @@ const Project = ({ feature }) => {
       'P5JS': p5,
       'ToneJS': tone,
       'ML5': ml5,
+      'ThreeJS': threejs,
+      'Rapier': rapier
     };
 
     return <li key={i} className={styles.Tech}>
@@ -84,10 +88,9 @@ const Project = ({ feature }) => {
     'Plant Parenthood': plantParenthood,
     'FrontPage': frontpage,
     'Qwixx': qwixx,
-    'Erskine Solar Art': erskineSolarArt,
-    'Digital Planet': digitalPlanet,
     'whateverSynth': whateverSynth,
     'Shapeways': shapeways,
+    'Virtual Fishtank': virtualFishtank,
   };
 
   return (
@@ -116,7 +119,6 @@ const Project = ({ feature }) => {
             </div>
           </section>
         </div>
-
       </div>
     </>
   );

@@ -112,7 +112,6 @@ export default {
     'resumeLink': 'https://www.canva.com/design/DAFYjYgRh2U/-dWbni-s5-Vx3sctCYxPIA/view?utm_content=DAFYjYgRh2U&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink',
   },
   'projects': {
-    'history': '',
     'summary': 'I work well on my own, but I thrive in collaborative coding environments. Here\'s a showcase of both my personal and collaborative projects.',
     'design-portfolio-link': 'https://benbeekman.com/web',
 
@@ -146,6 +145,38 @@ export default {
           },
           {
             'name': 'TravisCl',
+          },
+          {
+            'name': 'GitHub'
+          },
+          {
+            'name': 'Shell'
+          },
+          {
+            'name': 'Netlify',
+          },
+          {
+            'name': 'HTML',
+          },
+          {
+            'name': 'CSS',
+          },
+        ],
+      },
+      {
+        'title': 'Virtual Fishtank',
+        'description': 'A 3D fishtank simulator with dynamic animated fish movement, procedurally generated coral, collision detection and a 4K HDRI background. Developed in a 5-person team over two half-day code sprints for the Empathetech March Fo(u)rth Hackathon. My contributions included the programmatic fish decision-making, behavior variation, and animation.',
+        'demo': 'https://virtual-fishtank.netlify.app/',
+        'github': 'https://github.com/Empathetech-Fish-Game/fish-game',
+        'tech': [
+          {
+            'name': 'JavaScript',
+          },
+          {
+            'name': 'React',
+          },
+          {
+            'name': 'ThreeJS',
           },
           {
             'name': 'GitHub'
@@ -389,6 +420,34 @@ export default {
           },
         ],
       }
+    ],
+    'sitesTitle': 'Websites',
+    'sitesSummary': 'I\'ve designed and developed websites for a variety of clients, including small businesses, nonprofits, and individuals. Here are a few of my favorites.',
+    'site': [
+      {
+        'title': 'Erskine Solar Art',
+        'image': 'erskineSolarArt',
+      },
+      {
+        'title': 'Freshops',
+        'image': 'freshops',
+      },
+      {
+        'title': 'RSB Law',
+        'image': 'rsbLaw',
+      },
+      {
+        'title': 'Johanna',
+        'image': 'johanna',
+      },
+      {
+        'title': 'Digital Planet',
+        'image': 'digitalPlanet',
+      },
+      {
+        'title': 'Oasis Life Design',
+        'image': 'oasis',
+      },
     ]
   }
 };

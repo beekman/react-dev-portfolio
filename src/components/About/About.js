@@ -35,7 +35,8 @@ About.propTypes = {
   about: PropTypes.shape({
     title: PropTypes.string.isRequired,
     summary: PropTypes.string.isRequired,
-    pitch: PropTypes.string.isRequired
+    pitch: PropTypes.string.isRequired,
+    history: PropTypes.string.isRequired
   })
 };
 
