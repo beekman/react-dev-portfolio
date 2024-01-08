@@ -17,7 +17,7 @@ export default {
     'state': 'OR',
     'linkedinURL': 'https://www.linkedin.com/in/beekman/',
     'githubURL': 'https://github.com/beekman',
-    'resumeLink': 'https://www.dropbox.com/scl/fi/tozbwnif0bls24rf6kktu/Ben-Beekman-Full-Stack-Engineer.pdf?rlkey=86x9yhizw38ei6upeqe1mpc21',
+    'resumeLink': 'https://www.dropbox.com/scl/fi/cdit7mem2vpeor1yeynoi/Ben_Beekman_CV.pdf?rlkey=declt330cokkgdpstuo6zx3ap&dl=0',
   },
   'skills': {
     'heading': 'Tools of My Trade',
