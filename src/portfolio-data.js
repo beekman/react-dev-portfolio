@@ -112,10 +112,51 @@ export default {
     'resumeLink': 'https://www.canva.com/design/DAFYjYgRh2U/-dWbni-s5-Vx3sctCYxPIA/view?utm_content=DAFYjYgRh2U&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink',
   },
   'projects': {
-    'summary': 'I work well on my own, but I thrive in collaborative coding environments. Here\'s a showcase of both my personal and collaborative projects.',
+    'summary': 'I work very well on my own, and I thrive in collaborative coding environments. Here\'s a showcase of both my personal and collaborative projects.',
     'design-portfolio-link': 'https://benbeekman.com/web',
 
     'feature': [
+      {
+        'title': 'Paint Mixer',
+        'description': 'I single-handedly designed and programmed this tool for natural media painters to help them build virtual palettes and experiment with "color recipes" using an accurate paint mixing engine and intuitive UI. Paint Mixer uses a combination of custom hooks, libraries, and custom utility functions to simulate paint mixing. I designed the architecture around reusable and self-contained components with full testing coverage that keep business logic and UI concerns separated.',
+        'demo': 'https://paint-mixer.netlify.app/',
+        'github': 'https://github.com/Palette-Pickers/paint-mixer',
+        'tech': [
+          {
+            'name': 'JavaScript',
+          },
+          {
+            'name': 'TypeScript',
+          },
+          {
+            'name': 'React',
+          },
+          {
+            'name': 'SASS',
+          },
+          {
+            'name': 'Jest',
+          },
+          {
+            'name': 'TravisCl',
+          },
+          {
+            'name': 'GitHub'
+          },
+          {
+            'name': 'Shell'
+          },
+          {
+            'name': 'Netlify',
+          },
+          {
+            'name': 'HTML',
+          },
+          {
+            'name': 'CSS',
+          },
+        ],
+      },
       {
         'title': 'Shapeways',
         'description': 'An interactive audiovisual composition, made possible by machine learning, and an exploration of new forms of expression and interaction. I developed Shapeways using React with a team of 5 people for a Machine Learning for Artists hackathon. My personal contributions included functions for real-time interpretation of a user\'s movement to generate dynamic musical performance seed data, for making API requests to several Magenta.JS musical performance machine learning models using that seed data, and for transforming the API responses into synth output, as well as improvements to the app\'s UX.',

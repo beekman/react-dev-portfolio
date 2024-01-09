@@ -40,6 +40,7 @@ import plantParenthood from '../../assets/portfolio/plantParenthood.png';
 import whateverSynth from '../../assets/portfolio/whateverSynth.png';
 import shapeways from '../../assets/portfolio/shapeways.png';
 import virtualFishtank from '../../assets/portfolio/virtualFishtank.png';
+import paintMixer from '../../assets/portfolio/paintMixer.png';
 
 
 const Project = ({ feature }) => {
@@ -91,6 +92,7 @@ const Project = ({ feature }) => {
     'whateverSynth': whateverSynth,
     'Shapeways': shapeways,
     'Virtual Fishtank': virtualFishtank,
+    'Paint Mixer': paintMixer
   };
 
   return (
