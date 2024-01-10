@@ -118,7 +118,7 @@ export default {
     'feature': [
       {
         'title': 'Paint Mixer',
-        'description': '"I developed Paint Mixer, a tool for natural media artists, enabling them to create virtual palettes and explore color combinations through a precise paint mixing engine and user-friendly interface. This tool uses a blend of custom hooks, libraries, and utility functions for realistic paint simulation. I designed the architecture around reusable and self-contained components with full testing coverage that keep business logic and UI concerns separated.',
+        'description': '"I developed Paint Mixer, a tool for natural media artists, enabling them to create virtual palettes and explore color combinations through a precise paint mixing engine and user-friendly interface. This tool uses a blend of custom hooks, libraries, and utility functions for realistic paint simulation. I designed the architecture around reusable and self-contained components with full testing coverage that that segregate business logic from UI design.',
         'demo': 'https://paint-mixer.netlify.app/',
         'github': 'https://github.com/Palette-Pickers/paint-mixer',
         'tech': [
