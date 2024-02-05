@@ -80,6 +80,7 @@ const Project = ({ feature }) => {
 
     return <li key={i} className={styles.Tech}>
       <img src={iconObj[tech.name]} alt={tech.name} title={tech.name} />
+      <p>{tech.name}</p>
     </li >;
   });
 
